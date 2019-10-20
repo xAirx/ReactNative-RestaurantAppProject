@@ -59,32 +59,98 @@
      Support for a user to manage their own comments, delete functionality.
      API supporting various objects of which contains members of the “company” 
      A React Native app, supporting the same features working with the same backend and API.
-
      Immidiate Architechture (Subject to change)
 
- ### Frontend 
+
+
+ # Frontend 
                 
+  #### Notes: 
+  
+  https://onedrive.live.com/view.aspx?resid=897203C158E872F%2184124&id=documents&wd=target%28MERN%20stack%2FReact%29
+onenote:https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/MERN%20stack/React/
+
+  
      Frontend built in React.js, supporting react router based on Redux.
      Introduced new action types and action creators to support the fetching of the information from the server and update the Redux store.
+   
+   
+   
+  #### Part 1 & 2 :
+      
+      Setting up the project &. Creating components needed
+      
+      Created a new DishdetailComponent and added it to your React application.
 
-     Updated the Home and the About component to render the information using the downloaded data from the server
+      Updated the view of the DishdetailComponent to display the details of the selected dish using an reactstrap card component.
 
-      Add simple animations to the About component where the information is displayed.
-     Provide a form to enable users to submit their comments
+      Updated the view of the DishdetailComponent to display the list of comments about the dish using the Bootstrap unstyled      list component.
 
-     Validate the information entered by the users in the form
+      Integrated the AboutComponent given above into the single page application.
 
-     Enabled the users to submit feedback through the feedback form by creating a new feedback service that accepts the form data and uses Restangular to record their feedback on the server.
-     Includes UI design and prototyping 
+      Added a new functional component named <RenderLeader> through the RenderLeader() function to AboutComponent.js that    renders the details of a given leader using the reactstrap <Media> component.
+      
+      Construct and render the list of leaders in the About Us page using the <RenderLeader> component implemented above.
+      
+ #### Part 3:
+      
+      Configure The React application to make use of Redux
+      
+      Provide a form to enable users to submit their comments
+      
+      Validate the information entered by the users in the form
 
+      Set up the form as a local form using the react-redux-form 
+      
+           import { DISHES } from '../shared/dishes';
+           import { COMMENTS } from '../shared/comments';
+           import { PROMOTIONS } from '../shared/promotions';
+           import { LEADERS } from '../shared/leaders';
+
+           export const initialState = {
+               dishes: DISHES,
+               comments: COMMENTS,
+               promotions: PROMOTIONS,
+               leaders: LEADERS
+           };
+
+           export const Reducer = (state = initialState, action) => {
+               return state;
+           };
+
+      
+ #### Part 4 : 
+ 
+       Introduced new action types and action creators to support the fetching of the leaders information from the server and update the Redux store.
+
+        Updated the Home and the About component to render the information about the leaders using the downloaded data from the server
+
+        Add simple animations to the About component where the leaders information is displayed.
+
+        Enabled the users to submit feedback through the feedback form by creating a new feedback service that accepts the form data and uses Restangular to record their feedback on the server.
 
  
- 
- 
+     Appropriate action types and action creators have been added.
+    The Home component is correctly using the leader data, and handling any errors that might arise.
+    The About component is correctly using the leader data, and handling any errors that might arise.
+
+
+    A new postFeedback() action creator is correctly implemented to post the feedback data to the server.
+    The Contact component has been correctly updated to use postFeedback() to post the form data to the server.
+
+
+    Appropriate animation has been added to stagger the rendering of the leaders in the AboutComponent.
 
 
 
-### Backend: 
+# Backend: 
+
+#### Notes: 
+
+https://onedrive.live.com/view.aspx?resid=897203C158E872F%2184124&id=documents&wd=target%28MERN%20stack%2FSQL%2FExpress%20Router%29
+onenote:https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/MERN%20stack/SQL/Express%20Router/
+
+
 
    #### Express and Routing
 

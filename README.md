@@ -98,19 +98,19 @@ onenote:https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/MER
    
   #### Part 1 & 2 :
       
-      Setting up the project &. Creating components needed
+      Setting up the project &. Creating components needed - done
       
-      Created a new DishdetailComponent and added it to React application.
+      Created a new DishdetailComponent and added it to React application. - done
 
-      Updated the view of the DishdetailComponent to display the details of the selected dish using an reactstrap card component.
+      Updated the view of the DishdetailComponent to display the details of the selected dish using an reactstrap card component. - done
 
-      Updated the view of the DishdetailComponent to display the list of comments about the dish using the Bootstrap unstyled      list component.
+      Updated the view of the DishdetailComponent to display the list of comments about the dish using the Bootstrap unstyled list component. - done
 
-      Integrated the AboutComponent given above into the single page application.
+      Integrated the AboutComponent given above into the single page application. - done
 
-      Added a new functional component named <RenderLeader> through the RenderLeader() function to AboutComponent.js that    renders the details of a given leader using the reactstrap <Media> component.
+      Added a new functional component named <RenderLeader> through the RenderLeader() function to AboutComponent.js that    renders the details of a given leader using the reactstrap <Media> component. - done
       
-      Construct and render the list of leaders in the About Us page using the <RenderLeader> component implemented above.
+    Construct and render the list of leaders in the About Us page using the <RenderLeader> component implemented above. - done
       
  #### Part 3:
       
@@ -176,22 +176,21 @@ onenote:https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/MER
 
    #####  Part 1 :
 
-    * Created a Node module using Express router to support the routes for the dishes REST API.
-    * Created a Node module using Express router to support the routes for the promotions REST API.
-    * Created a Node module using Express router to support the routes for the leaders REST API.
+    * Created a Node module using Express router to support the routes for the dishes REST API. 
+    * Created a Node module using Express router to support the routes for the promotions REST API. 
+    * Created a Node module using Express router to support the routes for the leaders REST API. 
 
+    Objective 1 
 
-    Objective 1
+    * The REST API supports GET, PUT, POST and DELETE operations on /dishes/:dishId end point. 
 
-    * The REST API supports GET, PUT, POST and DELETE operations on /dishes/:dishId end point.
-
-    Objective 2
+    Objective 2 
 
     * The new Node module, promoRouter is implemented and used to support the /promotions end point.
     * The REST API supports GET, PUT, POST and DELETE operations on /promotions and GET, PUT, POST and DELETE operations on /promotions/:promoId end points.
 
 
-    Objective 3
+    Objective 3 
 
     * The new Node module, leaderRouter is implemented and used to support the /leaders end point.
     * The REST API supports GET, PUT, POST and DELETE operations on /leadership and GET, PUT, POST and DELETE operations on /leaders/:leaderId end points.
@@ -290,16 +289,16 @@ The Native app will also be using the API and Backend created.
 The app also includes table reservation, with integration with the users calendar.
 
 
-#### Part 1 : Navigators and Components.
+#### Part 1 : Navigators and Components. - done
 
-    The Contact Us page is showing the address of the restaurant in the card format as shown above.
+    The Contact Us page is showing the address of the restaurant in the card format as shown above. - done
 
-       The history information about the restaurant is displayed in a card format as shown above using a functional component named History().
+       The history information about the restaurant is displayed in a card format as shown above using a functional component named History(). - done
        
-       The corporate leadership information is shown in the About Us page in the format as shown above. The leader information is renedered inside a Card.
+       The corporate leadership information is shown in the About Us page in the format as shown above. The leader information is renedered inside a Card. - done
 
-       The AboutComponent is a included using the Stack Navigator and in the Drawer Navigator.
-       The ContactComponent is a included using the Stack Navigator and in the Drawer Navigator.
+       The AboutComponent is a included using the Stack Navigator and in the Drawer Navigator. - done
+       The ContactComponent is a included using the Stack Navigator and in the Drawer Navigator. - done
 
  
 #### Part 2 : UI elements and Redux

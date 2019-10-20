@@ -56,16 +56,30 @@
     
  ### Introduction
                 
-     A website + native app “Restaurant project” 
+     A website + Backend Express,Mongo API + native app “Restaurant project” 
 
+     
      User login and authentication
+     
      Authentication based on being an admin or not.
+     
      Admin based management, being able to see a user list, and the entire API.
+     
      Comment and form support for the users to interact with the content.
+     
      Support for a user to manage their own comments, delete functionality.
+     
      API supporting various objects of which contains members of the “company” 
+     
+     
+    
      A React Native app, supporting the same features working with the same backend and API.
-     Immidiate Architechture (Subject to change)
+     
+     The Native app is a mini version of the above React Frontend.
+     
+     The Native app will also be using the API and Backend created.
+     
+     The app also includes table reservation, with integration with the users calendar.
 
 
 

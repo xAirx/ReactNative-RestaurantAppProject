@@ -273,6 +273,8 @@ The Native app is a mini version of the above React Frontend.
 
 The Native app will also be using the API and Backend created.
 
+The app also includes table reservation, with integration with the users calendar.
+
 
 #### Part 1 : Navigators and Components.
 

@@ -12,27 +12,31 @@
 
 ### Repo links: 
     
+    The Repo's have commits that reflects the parts in this document you should be able to find your way around.
+    
+    https://github.com/xAirx/Coursera-UniversityofHK-ReactNative
+    
+    https://github.com/xAirx/Coursera-UniversityofHK-React
+    
+    https://github.com/xAirx/Coursera-UniversyofHK-ServerSideNode
     
     
-    
-## Project report (subject to change):
-    
-    https://1drv.ms/w/s!Ai-HjhU8IJcIhZwN7QqKalO1yxmCpw?e=5cN1ao
- 
-
- 
    
 ## Stacklist: 
     
     React.js
+    __________________________________
     React router
     Redux
     ReactStrap
+    And more****
     
     React Native 
+    __________________________________
     Redux
     Native navigation
     ReactStrap
+    And more****
     
     
     Backend and API + Authentication.
@@ -40,7 +44,10 @@
     Mongoose
     MongoDB
     Express ( REST API )
-    
+    Bodyparser
+    Morgan
+    Express Router
+    And more****
     
     
 ## Architecture (subject to change): 
@@ -49,8 +56,7 @@
     
  ### Introduction
                 
-     A website + native app “Boilerplate” 
-     with a backend and Native app that serves as a platform for showing any content you would like could be petstore, a f   football club, anything you would like.
+     A website + native app “Restaurant project” 
 
      User login and authentication
      Authentication based on being an admin or not.
@@ -80,7 +86,7 @@ onenote:https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/MER
       
       Setting up the project &. Creating components needed
       
-      Created a new DishdetailComponent and added it to your React application.
+      Created a new DishdetailComponent and added it to React application.
 
       Updated the view of the DishdetailComponent to display the details of the selected dish using an reactstrap card component.
 
@@ -167,13 +173,13 @@ onenote:https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/MER
 
     Objective 2
 
-    * The new Node module, promoRouter is implemented and used within your server to support the /promotions end point.
+    * The new Node module, promoRouter is implemented and used to support the /promotions end point.
     * The REST API supports GET, PUT, POST and DELETE operations on /promotions and GET, PUT, POST and DELETE operations on /promotions/:promoId end points.
 
 
     Objective 3
 
-    * The new Node module, leaderRouter is implemented and used within your server to support the /leaders end point.
+    * The new Node module, leaderRouter is implemented and used to support the /leaders end point.
     * The REST API supports GET, PUT, POST and DELETE operations on /leadership and GET, PUT, POST and DELETE operations on /leaders/:leaderId end points.
 
 
@@ -184,11 +190,11 @@ onenote:https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/MER
 
     Objectives:
 
-    * Designing the overall architecture of your application, from the front-end to the back-end. You should have apportioned the responsibilities to the front-end and back-end.
+    * Designing the overall architecture of application, from the front-end to the back-end.  apportioned the responsibilities to the front-end and back-end.
 
-    * Design an appropriate REST API that should be supported by your server-side. A good design would enable ease of implementation of both the front-end and the back-end and facilitate seamless communication.
+    * Design an appropriate REST API that should be supported by server-side. A good design would enable ease of implementation of both the front-end and the back-end and facilitate seamless communication.
 
-    * Decide on the database schemas (if you are using Mongoose) and the structure of the data, depending upon the database technology that you choose to implement the persistence of server-side data
+    * Decide on the database schemas and the structure of the data, depending upon the database technology to implement the persistence of server-side data
 
     * Design the business logic to be implemented on the server-side to support the needs of the front-end.
 
@@ -247,11 +253,11 @@ onenote:https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/MER
     * Delete one or all of their favorite dishes from their favorites list on the server.
 
 
-    * When the user does a GET operation on '/favorites', you will populate the user information and the dishes information before returning the favorites to the user.
-    * When the user does a POST operation on '/favorites' by including [{"_id":"dish ObjectId"}, . . ., {"_id":"dish ObjectId"}] in the body of the message, you will (a) create a favorite document if such a document corresponding to this user does not already exist in the system, (b) add the dishes specified in the body of the message to the list of favorite dishes for the user, if the dishes do not already exists in the list of favorites.
-    * When the user performs a DELETE operation on '/favorites', you will delete the list of favorites corresponding to the user, by deleting the favorite document corresponding to this user from the collection.
-    * When the user performs a POST operation on '/favorites/:dishId', then you will add the specified dish to the list of the user's list of favorite dishes, if the dish is not already in the list of favorite dishes.
-    * When the user performs a DELETE operation on '/favorites/:dishId', then you will remove the specified dish from the list of the user's list of favorite dishes.
+    * When the user does a GET operation on '/favorites',   populate the user information and the dishes information before returning the favorites to the user.
+    * When the user does a POST operation on '/favorites' by including [{"_id":"dish ObjectId"}, . . ., {"_id":"dish ObjectId"}] in the body of the message,   (a) create a favorite document if such a document corresponding to this user does not already exist in the system, (b) add the dishes specified in the body of the message to the list of favorite dishes for the user, if the dishes do not already exists in the list of favorites.
+    * When the user performs a DELETE operation on '/favorites',  delete the list of favorites corresponding to the user, by deleting the favorite document corresponding to this user from the collection.
+    * When the user performs a POST operation on '/favorites/:dishId', then   add the specified dish to the list of the user's list of favorite dishes, if the dish is not already in the list of favorite dishes.
+    * When the user performs a DELETE operation on '/favorites/:dishId', then  remove the specified dish from the list of the user's list of favorite dishes.
 
 
     * A new favoriteSchema and Favorites model has been correctly implemented to take advantage of Mongoose Population support to track the users and the list of favorite dishes using their ObjectIds in the favoriteSchema and Favorites model.
@@ -261,4 +267,91 @@ onenote:https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/MER
 
 
 
+# React Native 
 
+The Native app is a mini version of the above React Frontend. 
+
+The Native app will also be using the API and Backend created.
+
+
+#### Part 1 : Navigators and Components.
+
+    The Contact Us page is showing the address of the restaurant in the card format as shown above.
+
+       The history information about the restaurant is displayed in a card format as shown above using a functional component named History().
+       
+       The corporate leadership information is shown in the About Us page in the format as shown above. The leader information is renedered inside a Card.
+
+       The AboutComponent is a included using the Stack Navigator and in the Drawer Navigator.
+       The ContactComponent is a included using the Stack Navigator and in the Drawer Navigator.
+
+ 
+#### Part 2 : UI elements and Redux
+
+      Add an Action named ADD_COMMENT to the ActionTypes.js.
+      
+      Add two action creators named postComment() and addComment(). The postComment() creator will receive the dishId, rating, author and comment as the four parameters. 
+      
+      Update the comments reducer function to handle the new ADD_COMMENT action and add the comment to the list of comments. The handling of the action should also ensure that appropriate ID will be added to the comment.
+
+
+      The modal containing the form is correctly added to the DIshdetail component
+      The form is correctly configured with the rating, author and comment fields.
+      An Icon is added to the RenderDish Card that will trigger the showing of the modal.
+
+      The ADD_COMMENT action is correctly added
+      The postComment() action creator is correctly added
+      The addComment() action creator is correctly added and will be dispatched by postComment() after a 2 sec delay
+      The comment reducer is updated to handle the ADD_COMMENT action
+
+    
+#### Part 3: Animations, gestures and redux persist.
+
+     The reservation form zooms in when the user navigates to the reservation view
+
+
+    An alert containing the information from the reservation form is shown when the user submits the filled reservation form.
+    If the user clicks on Cancel, then the form is cleared.
+    If the user clicks on OK, then the form is cleared.
+
+
+    When the user does a left to right gesture on the Dish details card in the Dishdetail component, toggle the comment form modal.
+
+      
+      
+#### part 4:  Calendar event API, Image Picker API Reservation Functionality with users calendar.
+
+   In this task will make use of the Expo SDK ImagePicker API to enable application to fetch an image from the photo library.
+
+       Update LoginComponent.js to set up a function named getImageFromGallery() that fetches the image from the photo library on the device using the ImagePicker API support. Details of setting up the source to be the Photo Library can be found in the API documentation.
+       Add a new button named Gallery that when clicked will initiate the process to enable the user to select a picture from the photo library using the ImagePicker API.
+       Once the image is picked, it must be processed through the ImageManipulator to obtain a resized PNG version of the image as we did in the exercise.
+
+   
+   In this task will insert a new Calendar event into the default calendar on the mobile device for the table reservation.  will use the Calendar API from Expo SDK for this.  will implement this in the ReservationComponent.js file.
+
+       When the user submits the reservation form,  will obtain the details of the reservation in the handleReservation() function.
+       Implement a new function named obtainCalendarPermission() that will ask for permission to access the calendar on the device. The corresponding permission is Permission.CALENDAR.
+       Implement another function named addReservationToCalendar() that receives the date information as a parameter. This function is invoked from the handleReservation() function.
+
+      should use the createEventAsync() function from the Calendar API to insert the event into the default calendar (Calendar.DEFAULT). This function takes a title, the start and end time, timezone and location as the parameters.
+       Use 'Con Fusion Table Reservation' as the title of the inserted event
+
+       To specify the start Date and end Date,  can convert the Date ISO string into a Date object by using new Date(Date.parse(date)). Furthermore, the Date.parse() gives  the date value in milliseconds.  can set up the end time by adding 2 hours (2*60*60*1000) to the milliseconds and use it to generate the Date object corresponding to the end time of the event.
+
+       For time zone use 'Asia/Hong_Kong', and the location as '121, Clear Water Bay Road, Clear Water Bay, Kowloon, Hong Kong'
+
+
+       The LoginComponent.js is updated to implement the getImageFromGallery() function that uses the ImagePicker API to enable the fetching of the image from the photo library.
+
+       The LoginComponent.js file is updated to include a button named Gallery that will initiate the procedure to enable the user to select a picture from the photo gallery.
+
+
+       The image selected by the user is processed using the ImageManipulator to generate a PNG image
+
+
+       The ReservationComponent.js file is modified to implement the obtainCalendarPermission() function that obtains permission to access the calendar
+
+       The ReservationComponent.js file is modified to implement the addReservationToCalendar() function that inserts the event into the default calendar using the Calendar API.
+
+       The details of the event are correctly inserted setting the title, start and end time and the location correctly.

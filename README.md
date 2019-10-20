@@ -36,7 +36,7 @@
     Redux
     Native navigation
     ReactStrap
-    And more****
+    And more*****
     
     
     Backend and API + Authentication.
@@ -160,6 +160,8 @@ onenote:https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/MER
 
 
     Appropriate animation has been added to stagger the rendering of the leaders in the AboutComponent.
+
+
 
 # Backend: 
 

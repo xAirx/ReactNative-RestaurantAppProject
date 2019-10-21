@@ -176,24 +176,24 @@ onenote:https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/MER
 
    #####  Part 1 :
 
-    * Created a Node module using Express router to support the routes for the dishes REST API. 
-    * Created a Node module using Express router to support the routes for the promotions REST API. 
-    * Created a Node module using Express router to support the routes for the leaders REST API. 
+    * Created a Node module using Express router to support the routes for the dishes REST API. - done
+    * Created a Node module using Express router to support the routes for the promotions REST API. -done 
+    * Created a Node module using Express router to support the routes for the leaders REST API. -done 
 
     Objective 1 
 
-    * The REST API supports GET, PUT, POST and DELETE operations on /dishes/:dishId end point. 
+    * The REST API supports GET, PUT, POST and DELETE operations on /dishes/:dishId end point. -done 
 
     Objective 2 
 
-    * The new Node module, promoRouter is implemented and used to support the /promotions end point.
-    * The REST API supports GET, PUT, POST and DELETE operations on /promotions and GET, PUT, POST and DELETE operations on /promotions/:promoId end points.
+    * The new Node module, promoRouter is implemented and used to support the /promotions end point. -done 
+    * The REST API supports GET, PUT, POST and DELETE operations on /promotions and GET, PUT, POST and DELETE operations on /promotions/:promoId end points. -done 
 
 
     Objective 3 
 
-    * The new Node module, leaderRouter is implemented and used to support the /leaders end point.
-    * The REST API supports GET, PUT, POST and DELETE operations on /leadership and GET, PUT, POST and DELETE operations on /leaders/:leaderId end points.
+    * The new Node module, leaderRouter is implemented and used to support the /leaders end point. -done 
+    * The REST API supports GET, PUT, POST and DELETE operations on /leadership and GET, PUT, POST and DELETE operations on /leaders/:leaderId end points. -done
 
 
 

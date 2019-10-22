@@ -113,7 +113,8 @@ onenote:https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/MER
       
     Construct and render the list of leaders in the About Us page using the <RenderLeader> component implemented above. - done
       
- #### Part 3:
+
+#### Part 3:
       
       Configure The React application to make use of Redux
       

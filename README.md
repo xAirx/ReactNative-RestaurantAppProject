@@ -1,5 +1,6 @@
 # My Portfolio FullStack Project 
  
+
 # Project created as part of the honors programme at the hong kong universty of science and technology.
 ## The notes below is the project requirements for the final project as part of the "Fullstack Certification"
  
@@ -370,3 +371,48 @@ The app also includes table reservation, with integration with the users calenda
        The ReservationComponent.js file is modified to implement the addReservationToCalendar() function that inserts the event into the default calendar using the Calendar API.
 
        The details of the event are correctly inserted setting the title, start and end time and the location correctly.
+
+
+
+
+
+
+# The future 
+
+
+Styled Components
+
+     Cant cache css, only load the css that the page needs 
+
+     Faster initial load.
+
+     Same load the rest of the time since you cant cache styled component.
+
+     Seperation of concerns - All in one, Styled Components. 
+
+
+
+Express api -> Apollo // GraphQL
+
+     Context API -> Redux Light
+
+     API -> Redux Light
+
+
+GraphQL 
+
+      REST // different routes -> one endpoint always POST 
+
+      Query -> Data response.
+
+      ELI5 Pull data ONE TIME, everything you want.
+
+      Express and REST API ( how big is your scope ) 
+
+      Whatever you want on DEMAND. 
+
+      Be able to load Dishes,Commentaries,Images,Username and dates for comments in one go. in one route. 
+
+      And another page I only need the dishes  so we only grab the dishes.
+
+ 

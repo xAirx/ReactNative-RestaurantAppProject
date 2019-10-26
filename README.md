@@ -1,4 +1,132 @@
 # My Portfolio FullStack Project 
+
+
+# Coursera
+
+# Portfolio projekt. 
+
+
+## Roadmap Learning && "The future updates"
+
+______________________________________________________________
+
+### Styled Components
+
+
+      Cant cache css, only load the css that the page needs 
+
+      Faster initial load.
+
+      Same load the rest of the time since you cant cache styled component.
+
+      Seperation of concerns - All in one, Styled Components. 
+      
+
+
+### LINUX virtual machine
+______________________________________
+
+
+      MONGODB
+
+           https://bitnami.com/stack/mongodb/virtual-machine
+
+           https://www.mysoftkey.com/mongodb/how-to-set-up-vagrant-and-virtualbox-for-mongodb-security-in-window/
+
+           https://codehangar.io/mongodb-image-instance-with-docker-toolbox-tutorial/
+
+
+_____________________________________________________
+
+ 
+###  GRAPHQL APOLLO, WEBSockets - TODO
+
+     https://www.tutorialkart.com/nodejs/nodejs-tutorial
+
+     https://blog.apollographql.com/full-stack-react-graphql-tutorial-582ac8d24e3b
+
+      Read book 
+
+      https://www.fullstackreact.com/
+
+
+         ## Ekstra Tutorials.... 
+
+           https://react.rocks/tag/FullStack
+
+
+           https://graphql.org/@
+
+
+           https://hackernoon.com/building-a-dashboard-with-react-graphql-de4203eee6c9
+
+
+           https://medium.com/@nabendu82/build-a-complete-app-with-react-and-graphql-1-f8aff5f1ecc1
+
+           https://www.packtpub.com/web-development/hands-full-stack-web-development-graphql-and-react
+
+           https://hashnode.com/post/react-tutorial-using-mern-stack-ciiyus9m700qqge53mer0isxz
+
+           https://levelup.gitconnected.com/using-graphql-api-with-node-js-and-react-forms-8b13f4b26361
+
+           https://www.sitepoint.com/explore-graphql-with-apollo-react/
+
+           https://levelup.gitconnected.com/the-rise-of-the-nrg-stack-node-js-react-and-graphql-6dfba468ba8a
+
+           https://medium.com/reactbrasil/build-a-chat-with-graphql-react-and-new-stuff-75ee4ffd2f2e
+
+
+____________________________________________________________________________________
+
+## Freecodecamp ( HARDCORE JS TIME )
+
+- Finish all relevant certifications
+
+    Responsive web design certification
+
+    Javascript Algorithms and Data structures certification
+
+    Front end Libraries Certification
+
+    Apis and Microservices Certification
+
+
+    Information security and Quality Assurance Certification
+
+
+
+###-> Nodeschool
+
+     Node School (Re-readup and new learning about node etc). - TODO
+     Node.js streams
+
+     https://www.guru99.com/node-js-streams-filestream-pipes.html
+
+     https://www.quora.com/What-are-the-best-resources-for-learning-Node-js
+
+     https://www.w3schools.com/nodejs/nodejs_intro.asp
+
+     Finish these:
+
+     https://github.com/maxogden/art-of-node/#the-art-of-node
+
+     https://nodeschool.io/#workshoppers
+
+     https://www.vskills.in/practice/nodejs
+
+
+
+## AFSLAPNINGS fase og cooldown.
+____________________________________________________________________________________
+
+     - Freecodecamp Interview Questions Prep.
+
+     - JS  ( screeps)
+
+     -  Lav eget Swift Spil ($$$$$$ ????)
+
+
+
  
 
 # Project created as part of the honors programme at the hong kong universty of science and technology.
@@ -374,46 +502,3 @@ The app also includes table reservation, with integration with the users calenda
        The details of the event are correctly inserted setting the title, start and end time and the location correctly.
 
 
-
-
-
-
-# The future 
-
-
-Styled Components
-
-     Cant cache css, only load the css that the page needs 
-
-     Faster initial load.
-
-     Same load the rest of the time since you cant cache styled component.
-
-     Seperation of concerns - All in one, Styled Components. 
-
-
-
-Express api -> Apollo // GraphQL
-
-     Context API -> Redux Light
-
-     API -> Redux Light
-
-
-GraphQL 
-
-      REST // different routes -> one endpoint always POST 
-
-      Query -> Data response.
-
-      ELI5 Pull data ONE TIME, everything you want.
-
-      Express and REST API ( how big is your scope ) 
-
-      Whatever you want on DEMAND. 
-
-      Be able to load Dishes,Commentaries,Images,Username and dates for comments in one go. in one route. 
-
-      And another page I only need the dishes  so we only grab the dishes.
-
- 

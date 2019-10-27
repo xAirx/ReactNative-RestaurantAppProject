@@ -66,9 +66,9 @@
          Redux integration to create a "Loading Component" using the activity indicator component
          Trigger showing of message when data is fetched from server.
 
-         Redux integration to "Star dishes" and rate them
+         Redux integration to "Star products" and rate them
 
-         Redux integration to handle the customers favorite dishes
+         Redux integration to handle the customers favorite products
          
          Secure storage - handling user login etc.
          
@@ -153,13 +153,13 @@ onenote:https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/MER
 
       Set up the form as a local form using the react-redux-form 
       
-           import { DISHES } from '../shared/dishes';
+           import { PRODUCTS } from '../shared/products';
            import { COMMENTS } from '../shared/comments';
            import { PROMOTIONS } from '../shared/promotions';
            import { LEADERS } from '../shared/leaders';
 
            export const initialState = {
-               dishes: DISHES,
+               products: PRODUCTS,
                comments: COMMENTS,
                promotions: PROMOTIONS,
                leaders: LEADERS
@@ -207,13 +207,13 @@ onenote:https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/MER
 
    #####  Part 1 :
 
-    * Created a Node module using Express router to support the routes for the dishes REST API. - done
+    * Created a Node module using Express router to support the routes for the products REST API. - done
     * Created a Node module using Express router to support the routes for the promotions REST API. -done 
     * Created a Node module using Express router to support the routes for the leaders REST API. -done 
 
     Objective 1 
 
-    * The REST API supports GET, PUT, POST and DELETE operations on /dishes/:dishId end point. -done 
+    * The REST API supports GET, PUT, POST and DELETE operations on /products/:dishId end point. -done 
 
     Objective 2 
 
@@ -279,8 +279,8 @@ onenote:https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/MER
      update all the routes in the REST API to ensure that only the Admins can perform POST, PUT and DELETE operations. Update the code for all the    routers to support this. These operations should be supported for the following end points:
 
 
-    * POST, PUT and DELETE operations on /dishes and /dishes/:dishId
-    * DELETE operation on /dishes/:dishId/comments
+    * POST, PUT and DELETE operations on /products and /products/:dishId
+    * DELETE operation on /products/:dishId/comments
     * POST, PUT and DELETE operations on /promotions and /promotions/:promoId
     * POST, PUT and DELETE operations on /leaders and /leaders/:leaderId
 
@@ -293,18 +293,18 @@ onenote:https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/MER
 
 
     * Allowed users to select a dish as their favorite, and add it to the list of favorites that are saved on the server.
-    * Allowed users to retrieve the list of their favorite dishes from the server
-    * Delete one or all of their favorite dishes from their favorites list on the server.
+    * Allowed users to retrieve the list of their favorite products from the server
+    * Delete one or all of their favorite products from their favorites list on the server.
 
 
-    * When the user does a GET operation on '/favorites',   populate the user information and the dishes information before returning the favorites to the user.
-    * When the user does a POST operation on '/favorites' by including [{"_id":"dish ObjectId"}, . . ., {"_id":"dish ObjectId"}] in the body of the message,   (a) create a favorite document if such a document corresponding to this user does not already exist in the system, (b) add the dishes specified in the body of the message to the list of favorite dishes for the user, if the dishes do not already exists in the list of favorites.
+    * When the user does a GET operation on '/favorites',   populate the user information and the products information before returning the favorites to the user.
+    * When the user does a POST operation on '/favorites' by including [{"_id":"dish ObjectId"}, . . ., {"_id":"dish ObjectId"}] in the body of the message,   (a) create a favorite document if such a document corresponding to this user does not already exist in the system, (b) add the products specified in the body of the message to the list of favorite products for the user, if the products do not already exists in the list of favorites.
     * When the user performs a DELETE operation on '/favorites',  delete the list of favorites corresponding to the user, by deleting the favorite document corresponding to this user from the collection.
-    * When the user performs a POST operation on '/favorites/:dishId', then   add the specified dish to the list of the user's list of favorite dishes, if the dish is not already in the list of favorite dishes.
-    * When the user performs a DELETE operation on '/favorites/:dishId', then  remove the specified dish from the list of the user's list of favorite dishes.
+    * When the user performs a POST operation on '/favorites/:dishId', then   add the specified dish to the list of the user's list of favorite products, if the dish is not already in the list of favorite products.
+    * When the user performs a DELETE operation on '/favorites/:dishId', then  remove the specified dish from the list of the user's list of favorite products.
 
 
-    * A new favoriteSchema and Favorites model has been correctly implemented to take advantage of Mongoose Population support to track the users and the list of favorite dishes using their ObjectIds in the favoriteSchema and Favorites model.
+    * A new favoriteSchema and Favorites model has been correctly implemented to take advantage of Mongoose Population support to track the users and the list of favorite products using their ObjectIds in the favoriteSchema and Favorites model.
     * The GET, POST and DELETE operations are well supported as per the specifications above
     * The app.js has been updated to support the new route.
 

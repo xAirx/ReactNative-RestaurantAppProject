@@ -28,22 +28,62 @@
     https://github.com/xAirx/Coursera-UniversyofHK-ServerSideNode
     
     
+## Architecture (subject to change): 
+
    
-## Stacklist: 
+   Expected List of Features & Architecture
+### Stacklist: 
     
-    React.js
+    Website made in React.js
     __________________________________
     React router
     Redux
     ReactStrap
     And more****
     
-    React Native 
+    
+    
+   #### App made in React Native 
     __________________________________
-    Redux
-    Native navigation
-    ReactStrap
-    And more*****
+
+     A React Native app, supporting the same features working with the same backend and API.
+     
+     The Native app is a mini version of the above React Frontend.
+     
+     The Native app will also be using the API and Backend created.
+     
+     The app also includes table reservation, with integration with the users calendar.
+    
+    
+   ##### Features:
+         
+         React native Navigation & Components.
+     
+         Integrated font awesome "fonts and buttons"
+        
+         Form handling &  Redux integration for form handling 
+         
+         Redux integration to create a "Loading Component" using the activity indicator component
+         Trigger showing of message when data is fetched from server.
+
+         Redux integration to "Star dishes" and rate them
+
+         Redux integration to handle the customers favorite dishes
+         
+         Secure storage - handling user login etc.
+         
+         Local notifications - Notification handling for reserving tables and based on calendar dates and integration with phone calendar.
+         
+        Social Sharing - Sharing of information to social media sites using the React Native Share API
+        
+        Email Integration for contact page.
+        
+        Interaction with users camera to obtain images for the user profile 
+        
+        NetInfo() and Network info, to check if device is offline or not.
+          connectiontype, effectiveconnectiontype
+          connectchange even fires when netwwork status changes etc.
+    
     
     
     Backend and API + Authentication.
@@ -54,17 +94,7 @@
     Bodyparser
     Morgan
     Express Router
-    And more****
     
-    
-## Architecture (subject to change): 
-
-    Expected List of Features & Architecture
-    
- ### Introduction
-                
-     A website + Backend Express,Mongo API + native app “Restaurant project” 
-
      
      User login and authentication
      
@@ -78,26 +108,8 @@
      
      API supporting various objects of which contains members of the “company” 
      
-     
     
-     A React Native app, supporting the same features working with the same backend and API.
-     
-     The Native app is a mini version of the above React Frontend.
-     
-     The Native app will also be using the API and Backend created.
-     
-     The app also includes table reservation, with integration with the users calendar.
-     
-     
-         Redux integration for form handling 
-
-         Redux integration to create a "Loading Component" using the activity indicator component
-         Trigger showing of message when data is fetched from server.
-
-         Redux integration to "Star dishes" and rate them
-
-         Redux integration to handle the customers favorite dishes
-
+   
      
 
 

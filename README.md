@@ -6,6 +6,8 @@
     The notes below is the project requirements for the final project as part of the "Fullstack Certification"
 
     The project will combine all three courses:
+    
+            https://github.com/xAirx/Certifications
 
             Front-End Web Development with React 
             Server-side Development with NodeJS, Express and MongoDB
@@ -69,18 +71,9 @@
   ## Site and app now communicates with the backend - ENJOY.  
 
 
- ## Repo links: 
 
-         The Repo's have commits that reflects the parts in this document you should be able to find your way around.
-         
-         https://github.com/xAirx/Certifications
-
-         https://github.com/xAirx/Coursera-UniversityofHK-ReactNative
-
-         https://github.com/xAirx/Coursera-UniversityofHK-React
-
-         https://github.com/xAirx/Coursera-UniversyofHK-ServerSideNode
-         
+ &nbsp;&nbsp;&nbsp;&nbsp;      
+ 
          
  ## The "Future Section" 
   

@@ -28,11 +28,11 @@
 
    
    Expected List of Features & Architecture
-### Stacklist: 
+## Stacklist: 
     
-  #### Website made in React.js
+  ### Website made in React.js
   
-  #####Goals: 
+  #### Goals: 
 
       Express the general characteristics of JavaScript frameworks and libraries
       Create a new project using React
@@ -59,7 +59,7 @@
     Redux
     ReactStrap
     
-   ###### Features:
+   #### Features:
     
     Website made to support any type of business.
     
@@ -83,7 +83,7 @@
          Feedback through the feedback form by creating a new feedback service that accepts the form data and uses Restangular to record their feedback on the server.
     
     
-   #### App made in React Native 
+   ## App made in React Native 
     __________________________________
 
      A React Native app, supporting the same features working with the same backend and API.
@@ -95,7 +95,7 @@
      The app also includes table reservation, with integration with the users calendar.
      
      
-   ##### Goals: 
+   ### Goals: 
      
      Summarize the salient features of hybrid mobile application development frameworks
      Create a React Native application
@@ -119,7 +119,7 @@
      
      
     
-   ####### Features:   
+   #### Features:   
    
          React native Navigation & Components.
      
@@ -153,7 +153,7 @@
   &nbsp;&nbsp;&nbsp;&nbsp;
     
     
-  #### Backend and API + Authentication.
+  ## Backend and API + Authentication.
   
     __________________________________
     Mongoose

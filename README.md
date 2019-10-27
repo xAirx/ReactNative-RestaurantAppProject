@@ -22,7 +22,9 @@
          https://github.com/xAirx/Coursera-UniversyofHK-ServerSideNode
          
          
- ## The "Future Section" -> Node School // Styled components and GraphQL
+ ## The "Future Section" 
+  
+  -> NODE SCHOOL // Styled components and GraphQL
   
   In the bottom you will find a FUTURE section with extra development including styled components, graphql and more!
     

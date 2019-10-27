@@ -89,11 +89,14 @@
      The app also includes table reservation, with integration with the users calendar.
      
      
-     
-     Redux integration for form handling 
-     
-     Redux integration to create a "Loading Component" using the activity indicator component
-     Trigger showing of message when data is fetched from server.
+         Redux integration for form handling 
+
+         Redux integration to create a "Loading Component" using the activity indicator component
+         Trigger showing of message when data is fetched from server.
+
+         Redux integration to "Star dishes" and rate them
+
+         Redux integration to handle the customers favorite dishes
 
      
 

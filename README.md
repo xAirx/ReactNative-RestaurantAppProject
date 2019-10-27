@@ -20,6 +20,9 @@
          https://github.com/xAirx/Coursera-UniversityofHK-React
 
          https://github.com/xAirx/Coursera-UniversyofHK-ServerSideNode
+         
+         
+     ### In the bottom you will find a FUTURE section with extra development including styled components, graphql and more!
     
    
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -508,3 +511,78 @@ onenote:https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/MER
        The details of the event are correctly inserted setting the title, start and end time and the location correctly.
 
 
+
+
+
+
+# Roadmap Learning && "The future updates for the Fullstack Portfolio Project"
+
+______________________________________________________________
+
+## Styled Components
+
+
+      Cant cache css, only load the css that the page needs 
+
+      Faster initial load.
+
+      Same load the rest of the time since you cant cache styled component.
+
+      Seperation of concerns - All in one, Styled Components. 
+      
+
+
+## LINUX virtual machine
+______________________________________
+
+
+      MONGODB
+
+           https://bitnami.com/stack/mongodb/virtual-machine
+
+           https://www.mysoftkey.com/mongodb/how-to-set-up-vagrant-and-virtualbox-for-mongodb-security-in-window/
+
+           https://codehangar.io/mongodb-image-instance-with-docker-toolbox-tutorial/
+
+
+_____________________________________________________
+
+ 
+##  GRAPHQL APOLLO, WEBSockets
+
+     https://www.tutorialkart.com/nodejs/nodejs-tutorial
+
+     https://blog.apollographql.com/full-stack-react-graphql-tutorial-582ac8d24e3b
+
+      Read book 
+
+      https://www.fullstackreact.com/
+
+
+         ## Ekstra Tutorials.... 
+
+           https://react.rocks/tag/FullStack
+
+
+           https://graphql.org/@
+
+
+           https://hackernoon.com/building-a-dashboard-with-react-graphql-de4203eee6c9
+
+
+           https://medium.com/@nabendu82/build-a-complete-app-with-react-and-graphql-1-f8aff5f1ecc1
+
+           https://www.packtpub.com/web-development/hands-full-stack-web-development-graphql-and-react
+
+           https://hashnode.com/post/react-tutorial-using-mern-stack-ciiyus9m700qqge53mer0isxz
+
+           https://levelup.gitconnected.com/using-graphql-api-with-node-js-and-react-forms-8b13f4b26361
+
+           https://www.sitepoint.com/explore-graphql-with-apollo-react/
+
+           https://levelup.gitconnected.com/the-rise-of-the-nrg-stack-node-js-react-and-graphql-6dfba468ba8a
+
+           https://medium.com/reactbrasil/build-a-chat-with-graphql-react-and-new-stuff-75ee4ffd2f2e
+
+
+____________________________________________________________________________________

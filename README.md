@@ -35,12 +35,35 @@
 ### Stacklist: 
     
   #### Website made in React.js
+  
+    Goals: 
+
+      Express the general characteristics of JavaScript frameworks and libraries
+      Create a new project using React
+      Create React components within a React application
+      Express what is meant by full-stack web development
+
+      Develop a React router based navigation to various views in a React application
+      Develop a single page application using the React router support
+      Give examples of various types of React components
+
+      Create uncontrolled React forms
+      Create controlled forms and perform form validation
+      Discuss the features of the Flux architecture
+      Explain the Redux approach to implementing a variant of the Flow architecture
+
+      Create Redux Actions
+      Develop Redux actions using Redux Thunk
+      Develop client-server communication using Fetch
+      Develop Fetch-based communication with a REST API server
+
+  
     __________________________________
     React router
     Redux
     ReactStrap
     
-    ##### Features:
+    ############################## Features:################################################
     
     Website made to support any type of business.
     
@@ -74,9 +97,33 @@
      The Native app will also be using the API and Backend created.
      
      The app also includes table reservation, with integration with the users calendar.
+     
+     
+     Goals: 
+     
+     Summarize the salient features of hybrid mobile application development frameworks
+     Create a React Native application
+     Develop a React Native application using various React Native components and Layouts
+     Build navigation within your application using React Native Navigation support
+     
+     Design the UI for the app using various React Native UI elements
+     Express the Redux approach to implementing a variant of the Flow architecture in React Native
+     Design forms within the application for data entry
+     Employ alerts and Modals to present information to the user
+     
+     Build storage support within the application for persisting Redux state
+     Employ animations to provide enhanced user experience
+     Employ gesture-based interaction within the app
+     Develop a way of alerting users
+     
+     Develop applications to use the native capabilities of the devices
+     Employ the Expo SDK to access native device capabilities
+     Develop applications that use sharing features of mobile devices
+     Develop applications that can do user notifications
+     
+     
     
-    
-     ##### Features:
+     ######################## Features:   ################################################
          
          React native Navigation & Components.
      
@@ -142,17 +189,11 @@
      
 
 
- # Frontend 
+ # React website
                 
-  #### Notes: 
-  
-  https://onedrive.live.com/view.aspx?resid=897203C158E872F%2184124&id=documents&wd=target%28MERN%20stack%2FReact%29
-onenote:https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/MERN%20stack/React/
-
   
      Frontend built in React.js, supporting react router based on Redux.
      Introduced new action types and action creators to support the fetching of the information from the server and update the Redux store.
-   
    
    
   #### Part 1 & 2 :
@@ -173,31 +214,15 @@ onenote:https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/MER
       
 
 #### Part 3:
+       
+      Configure The React application to make use of Redux   - done
+       
+      Provide a form to enable users to submit their comments   - done
       
-      Configure The React application to make use of Redux
+      Validate the information entered by the users in the form   - done
+
+      Set up the form as a local form using the react-redux-form    - done
       
-      Provide a form to enable users to submit their comments
-      
-      Validate the information entered by the users in the form
-
-      Set up the form as a local form using the react-redux-form 
-      
-           import { PRODUCTS } from '../shared/products';
-           import { COMMENTS } from '../shared/comments';
-           import { PROMOTIONS } from '../shared/promotions';
-           import { LEADERS } from '../shared/leaders';
-
-           export const initialState = {
-               products: PRODUCTS,
-               comments: COMMENTS,
-               promotions: PROMOTIONS,
-               leaders: LEADERS
-           };
-
-           export const Reducer = (state = initialState, action) => {
-               return state;
-           };
-
       
  #### Part 4 : 
  
@@ -361,9 +386,9 @@ The app also includes table reservation, with integration with the users calenda
        The ContactComponent is a included using the Stack Navigator and in the Drawer Navigator. - done
 
  
-#### Part 2 : UI elements and Redux
+#### Part 2 : UI elements and Redux 
 
-      Add an Action named ADD_COMMENT to the ActionTypes.js.
+      Add an Action named ADD_COMMENT to the ActionTypes.js. 
       
       Add two action creators named postComment() and addComment(). The postComment() creator will receive the dishId, rating, author and comment as the four parameters. 
       

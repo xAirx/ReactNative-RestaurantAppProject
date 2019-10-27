@@ -24,7 +24,7 @@
 
 # How to use this project.
 
-  *************The repos require contacting me so I can give you access.***************
+  *************The repos require contacting me so I can give you access.*************
 
   I suggest you look at the REPO links for some code insight, the projects require a clone each
   

@@ -11,6 +11,64 @@
             Server-side Development with NodeJS, Express and MongoDB
             Multiplatform Mobile App Development with React Native                                                                                                                   
 
+# How to use this project.
+
+  I suggest you look at the REPO links for some code insight, the projects require a clone each
+  
+  ## Install NODE and NPM
+      
+      node -v
+      npm -v
+  
+  
+  ## Backend 
+  ___________________
+  
+          Clone: Server-side Development with NodeJS, Express and MongoDB
+
+          Backend node server ->
+          
+          Yarn install
+          Yarn Start
+          
+          WATCH : ********  the server you can now access the following endpoints with postman forexample: 
+
+          *****
+          *****
+          *****
+          *****
+          *****
+          *****
+          *****
+          *****
+
+  
+  ## React Native App
+  ___________________
+      https://expo.io/
+
+
+      Clone:  https://github.com/xAirx/Coursera-UniversityofHK-ReactNative
+
+            - Requires Expo CLI (providing you have any experience with EXPO) -> yarn start and scan Barcode on physical device     or choose emulator 
+        
+        
+        npm install expo-cli --global
+        Yarn install
+        Yarn start 
+
+
+  ## React Website
+  
+          Clone:  https://github.com/xAirx/Coursera-UniversityofHK-React
+
+          Yarn install
+          Yarn start 
+  
+ 
+  ## Site and app now communicates with the backend - ENJOY.  
+
+
  ## Repo links: 
 
          The Repo's have commits that reflects the parts in this document you should be able to find your way around.
@@ -519,13 +577,14 @@ onenote:https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/MER
 
 
 
-
+# Binding everything together
 
 # Roadmap Learning && "The future updates for the Fullstack Portfolio Project"
 
 ______________________________________________________________
+## Design for website and app
 
-## Styled Components
+### Styled Components
 
 
       Cant cache css, only load the css that the page needs 
@@ -537,22 +596,13 @@ ______________________________________________________________
       Seperation of concerns - All in one, Styled Components. 
       
 
+# Backend Integration.
 
-## LINUX virtual machine
-______________________________________
-
-
-      MONGODB
-
-           https://bitnami.com/stack/mongodb/virtual-machine
-
-           https://www.mysoftkey.com/mongodb/how-to-set-up-vagrant-and-virtualbox-for-mongodb-security-in-window/
-
-           https://codehangar.io/mongodb-image-instance-with-docker-toolbox-tutorial/
+       Backend provides the data for both website and app
 
 
-_____________________________________________________
 
+# Alternative Backend 
  
 ##  GRAPHQL APOLLO, WEBSockets
 
@@ -591,4 +641,16 @@ _____________________________________________________
            https://medium.com/reactbrasil/build-a-chat-with-graphql-react-and-new-stuff-75ee4ffd2f2e
 
 
-____________________________________________________________________________________
+
+## LINUX virtual machine
+______________________________________
+
+
+      MONGODB
+
+           https://bitnami.com/stack/mongodb/virtual-machine
+
+           https://www.mysoftkey.com/mongodb/how-to-set-up-vagrant-and-virtualbox-for-mongodb-security-in-window/
+
+           https://codehangar.io/mongodb-image-instance-with-docker-toolbox-tutorial/
+

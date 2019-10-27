@@ -1,6 +1,9 @@
 # My Portfolio FullStack Project 
 
-&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 
 # Project created as part of the honors programme at the hong kong universty of science and technology.
 
@@ -14,7 +17,10 @@
             Server-side Development with NodeJS, Express and MongoDB
             Multiplatform Mobile App Development with React Native                                                                                                                   
 
-&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 
 # How to use this project.
 
@@ -75,8 +81,11 @@
 
 
 
- &nbsp;&nbsp;&nbsp;&nbsp;      
- 
+ &nbsp;
+ &nbsp;
+ &nbsp;
+ &nbsp;      
+
          
  ## The "Future Section" 
   
@@ -85,7 +94,11 @@
           In the bottom you will find a FUTURE section with extra development including styled components, graphql and more!
     
    
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ &nbsp;
+ &nbsp;
+ &nbsp;
+ &nbsp;
+ &nbsp;
    
 # Architecture (subject to change): 
 
@@ -144,7 +157,10 @@
          Feedback through the feedback form by creating a new feedback service that accepts the form data and uses Restangular to record their feedback on the server.
     
   
-  &nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;
+  &nbsp;
+  &nbsp;
+  &nbsp;
   
    ## App made in React Native 
     __________________________________
@@ -213,7 +229,10 @@
           
           
   
-  &nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;
+  &nbsp;
+  &nbsp;
+  &nbsp;
     
     
   ## Backend and API + Authentication.
@@ -283,7 +302,10 @@
      
      
  
- &nbsp;&nbsp;&nbsp;&nbsp;
+ &nbsp;
+ &nbsp;
+ &nbsp;
+ &nbsp;
      
      
      
@@ -357,7 +379,11 @@ onenote:https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/MER
 
  
  
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ &nbsp;
+ &nbsp;
+ &nbsp;
+ &nbsp;
+ &nbsp;
 
 ## Backend: 
 
@@ -472,7 +498,11 @@ https://onedrive.live.com/view.aspx?resid=897203C158E872F%2184124&id=documents&w
     * The app.js has been updated to support the new route.
 
 
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ &nbsp;
+ &nbsp;
+ &nbsp;
+ &nbsp;
+ &nbsp;
 
 ## React Native 
 
@@ -571,7 +601,10 @@ onenote:https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/MER
        The details of the event are correctly inserted setting the title, start and end time and the location correctly.
 
 
-
+  &nbsp;
+  &nbsp;
+  &nbsp;
+  &nbsp;
 
 # Binding everything together
 
@@ -595,9 +628,19 @@ ______________________________________________________________
 # Backend Integration.
 
        Backend provides the data for both website and app
+       
+       *******
+       *******
+       *******
+       *******
+       *******
+       *******
 
-
-
+ &nbsp;
+ &nbsp;
+ &nbsp;
+ &nbsp;
+ 
 # Alternative Backend 
  
 ##  GRAPHQL APOLLO, WEBSockets
@@ -637,7 +680,11 @@ ______________________________________________________________
            https://medium.com/reactbrasil/build-a-chat-with-graphql-react-and-new-stuff-75ee4ffd2f2e
 
 
-
+ &nbsp;
+ &nbsp;
+ &nbsp;
+ &nbsp;
+  
 ## LINUX virtual machine
 ______________________________________
 

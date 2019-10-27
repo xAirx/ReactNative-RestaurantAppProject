@@ -321,8 +321,19 @@
      API supporting various objects of which contains members of the “company” 
      
      
+
+   ## API management and creation using SWAGGER.
+
+   ### API description: 
+   
+   ************
+   ************
+   ************
+   ************
+
+
  
- &nbsp;
+  &nbsp;
   &nbsp;
   &nbsp;
   &nbsp;
@@ -419,7 +430,6 @@ onenote:https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/MER
 #### Notes: 
 
 https://onedrive.live.com/view.aspx?resid=897203C158E872F%2184124&id=documents&wd=target%28MERN%20stack%2FSQL%2FExpress%20Router%29
-
 
    #### Express and Routing
 

@@ -1,5 +1,6 @@
 # My Portfolio FullStack Project 
 
+&nbsp;&nbsp;&nbsp;&nbsp;
 
 # Project created as part of the honors programme at the hong kong universty of science and technology.
 
@@ -12,6 +13,8 @@
             Front-End Web Development with React 
             Server-side Development with NodeJS, Express and MongoDB
             Multiplatform Mobile App Development with React Native                                                                                                                   
+
+&nbsp;&nbsp;&nbsp;&nbsp;
 
 # How to use this project.
 

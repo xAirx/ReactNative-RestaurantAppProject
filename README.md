@@ -34,13 +34,34 @@
    Expected List of Features & Architecture
 ### Stacklist: 
     
-    Website made in React.js
+  #### Website made in React.js
     __________________________________
     React router
     Redux
     ReactStrap
-    And more****
     
+    ##### Features:
+    
+    Website made to support any type of business.
+    
+         Integrated font awesome "fonts and buttons"
+        
+         Form handling &  Redux integration for form handling 
+         
+         *********** Redux integration to create a "Loading Component" using the activity indicator component
+         Trigger showing of message when data is fetched from server.
+
+         ***********Redux integration to "Star products" and rate them
+
+         ***********Redux integration to handle the customers favorite products
+         
+         Redux Thunk middleware 
+         
+         React Animations for animations
+         
+         Redux For Client server communication with fetch.
+         
+         Feedback through the feedback form by creating a new feedback service that accepts the form data and uses Restangular to record their feedback on the server.
     
     
    #### App made in React Native 
@@ -55,7 +76,7 @@
      The app also includes table reservation, with integration with the users calendar.
     
     
-   ##### Features:
+     ##### Features:
          
          React native Navigation & Components.
      
@@ -86,7 +107,8 @@
     
     
     
-    Backend and API + Authentication.
+  #### Backend and API + Authentication.
+  
     __________________________________
     Mongoose
     MongoDB
@@ -107,6 +129,13 @@
      Support for a user to manage their own comments, delete functionality.
      
      API supporting various objects of which contains members of the “company” 
+     
+     
+     
+     
+     
+     
+     
      
     
    

@@ -24,12 +24,8 @@
 
 # How to use this project.
 
-        The repos require contacting me so I can give you access, if you here as part of my CV I have provided a github account with access to the repos you will have read access.
-
-        I would love to give a full demo of the system at a potentional interview. 
-
-
         I suggest you look at the REPO links for some code insight, the projects require a clone each
+        
   
   ## Install NODE and NPM
       

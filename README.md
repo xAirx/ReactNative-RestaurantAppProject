@@ -86,6 +86,10 @@
  &nbsp;
  &nbsp;      
 
+ &nbsp;
+ &nbsp;
+ &nbsp;
+ &nbsp;
          
  ## The "Future Section" 
   
@@ -95,6 +99,11 @@
     
    
  &nbsp;
+ &nbsp;
+ &nbsp;
+ &nbsp;
+ &nbsp;
+ 
  &nbsp;
  &nbsp;
  &nbsp;
@@ -156,6 +165,11 @@
          
          Feedback through the feedback form by creating a new feedback service that accepts the form data and uses Restangular to record their feedback on the server.
     
+  
+  &nbsp;
+  &nbsp;
+  &nbsp;
+  &nbsp;
   
   &nbsp;
   &nbsp;
@@ -228,6 +242,11 @@
           connectchange even fires when netwwork status changes etc.
           
           
+  
+   &nbsp;
+  &nbsp;
+  &nbsp;
+  &nbsp;
   
   &nbsp;
   &nbsp;
@@ -303,9 +322,14 @@
      
  
  &nbsp;
- &nbsp;
- &nbsp;
- &nbsp;
+  &nbsp;
+  &nbsp;
+  &nbsp;
+  
+  &nbsp;
+  &nbsp;
+  &nbsp;
+  &nbsp;
      
      
      
@@ -379,11 +403,15 @@ onenote:https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/MER
 
  
  
- &nbsp;
- &nbsp;
- &nbsp;
- &nbsp;
- &nbsp;
+  &nbsp;
+  &nbsp;
+  &nbsp;
+  &nbsp;
+  
+  &nbsp;
+  &nbsp;
+  &nbsp;
+  &nbsp;
 
 ## Backend: 
 
@@ -498,11 +526,15 @@ https://onedrive.live.com/view.aspx?resid=897203C158E872F%2184124&id=documents&w
     * The app.js has been updated to support the new route.
 
 
- &nbsp;
- &nbsp;
- &nbsp;
- &nbsp;
- &nbsp;
+  &nbsp;
+  &nbsp;
+  &nbsp;
+  &nbsp;
+  
+  &nbsp;
+  &nbsp;
+  &nbsp;
+  &nbsp;
 
 ## React Native 
 
@@ -605,15 +637,20 @@ onenote:https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/MER
   &nbsp;
   &nbsp;
   &nbsp;
+  
+  &nbsp;
+  &nbsp;
+  &nbsp;
+  &nbsp;
 
 # Binding everything together
 
-# Roadmap Learning && "The future updates for the Fullstack Portfolio Project"
+## Roadmap Learning && "The future updates for the Fullstack Portfolio Project"
 
 ______________________________________________________________
-## Design for website and app
+### Design for website and app
 
-### Styled Components
+#### Styled Components
 
 
       Cant cache css, only load the css that the page needs 
@@ -625,7 +662,7 @@ ______________________________________________________________
       Seperation of concerns - All in one, Styled Components. 
       
 
-# Backend Integration.
+#### Backend Integration.
 
        Backend provides the data for both website and app
        
@@ -637,13 +674,18 @@ ______________________________________________________________
        *******
 
  &nbsp;
- &nbsp;
- &nbsp;
- &nbsp;
+  &nbsp;
+  &nbsp;
+  &nbsp;
+  
+  &nbsp;
+  &nbsp;
+  &nbsp;
+  &nbsp;
  
-# Alternative Backend 
+#### Alternative Backend 
  
-##  GRAPHQL APOLLO, WEBSockets
+######  GRAPHQL APOLLO, WEBSockets
 
      https://www.tutorialkart.com/nodejs/nodejs-tutorial
 
@@ -681,11 +723,16 @@ ______________________________________________________________
 
 
  &nbsp;
- &nbsp;
- &nbsp;
- &nbsp;
+  &nbsp;
+  &nbsp;
+  &nbsp;
   
-## LINUX virtual machine
+  &nbsp;
+  &nbsp;
+  &nbsp;
+  &nbsp;
+  
+###### LINUX virtual machine
 ______________________________________
 
 

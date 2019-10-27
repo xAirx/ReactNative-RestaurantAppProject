@@ -14,6 +14,8 @@
  ## Repo links: 
 
          The Repo's have commits that reflects the parts in this document you should be able to find your way around.
+         
+         https://github.com/xAirx/Certifications
 
          https://github.com/xAirx/Coursera-UniversityofHK-ReactNative
 

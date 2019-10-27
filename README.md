@@ -11,7 +11,7 @@
             Server-side Development with NodeJS, Express and MongoDB
             Multiplatform Mobile App Development with React Native                                                                                                                   
 
-     ### Repo links: 
+ ## Repo links: 
 
          The Repo's have commits that reflects the parts in this document you should be able to find your way around.
 
@@ -22,7 +22,9 @@
          https://github.com/xAirx/Coursera-UniversyofHK-ServerSideNode
          
          
-     ### In the bottom you will find a FUTURE section with extra development including styled components, graphql and more!
+  ## The "Future Section" -> Node School // Styled components and GraphQL
+  
+  In the bottom you will find a FUTURE section with extra development including styled components, graphql and more!
     
    
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

@@ -55,9 +55,7 @@
 
   
     __________________________________
-    React router
-    Redux
-    ReactStrap
+
     
    #### Features:
     
@@ -157,7 +155,9 @@
     
   ## Backend and API + Authentication.
   
-    __________________________________
+   ### Goals:
+   
+   
     Mongoose
     MongoDB
     Express ( REST API )
@@ -165,8 +165,48 @@
     Morgan
     Express Router
     
+    
+    Describe the use of Node for server-side development
+    Create a Node application
+    Demonstrate the use of Node modules in developing a Node application
+    Develop a simple REST API server using the Express framework
+    
+    Demonstrate an understanding of data persistence using a database
+    Design persistent data storage based on MongoDB, a NoSQL database
+    Develop schemas and models for data storage using Mongoose
+    Combine the REST API and the data persistance layer for a full-fledged server implementation
+    
+    Demonstrate the need for user authentication
+    Evaluate varioius alternative approaches for supporting user authentication
+    Develop a comprehensive user authentication system using Passport
+    
+    Develop a secure server based on the HTTPS protocol
+    Design the Express server to handle CORS
+    Develop user authentication based on OAuth protocol
+    Demonstrate the various Backend as a Service approaches
+    
+   #### Features
+     
+     REST API with express mongodband Mongoose
      
      User login and authentication
+     
+     Basic Authentication
+     
+     Cookies, Express, Sessions and error handling.
+     
+     Mongoose Population
+     
+     HTTPS and Secure Communication
+     
+     Cross - Origin - Resource sharing
+     
+     Oauth and user authentication in conjunction
+     
+     Backend as a service.
+     
+     
+     Extra: 
      
      Authentication based on being an admin or not.
      

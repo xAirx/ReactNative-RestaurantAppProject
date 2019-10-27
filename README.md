@@ -244,7 +244,7 @@
           
           
   
-   &nbsp;
+  &nbsp;
   &nbsp;
   &nbsp;
   &nbsp;
@@ -572,7 +572,7 @@ onenote:https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/MER
       Update the comments reducer function to handle the new ADD_COMMENT action and add the comment to the list of comments. The handling of the action should also ensure that appropriate ID will be added to the comment.
 
 
-      The modal containing the form is correctly added to the DIshdetail component
+      The modal containing the form is correctly added to the Dishdetail component
       The form is correctly configured with the rating, author and comment fields.
       An Icon is added to the RenderDish Card that will trigger the showing of the modal.
 

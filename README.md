@@ -82,7 +82,9 @@
          
          Feedback through the feedback form by creating a new feedback service that accepts the form data and uses Restangular to record their feedback on the server.
     
-    
+  
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  
    ## App made in React Native 
     __________________________________
 

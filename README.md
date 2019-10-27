@@ -3,32 +3,33 @@
 
 # Coursera
 
-# Portfolio projekt. 
+# Fullstack Portfolio projekt. 
 
- 
 
 # Project created as part of the honors programme at the hong kong universty of science and technology.
-## The notes below is the project requirements for the final project as part of the "Fullstack Certification"
- 
- 
-### The project will combine all three courses:
 
-          Front-End Web Development with React 
-          Server-side Development with NodeJS, Express and MongoDB
-          Multiplatform Mobile App Development with React Native                                                                                                                   
+    The notes below is the project requirements for the final project as part of the "Fullstack Certification"
 
-### Repo links: 
+    The project will combine all three courses:
+
+            Front-End Web Development with React 
+            Server-side Development with NodeJS, Express and MongoDB
+            Multiplatform Mobile App Development with React Native                                                                                                                   
+
+     ### Repo links: 
+
+         The Repo's have commits that reflects the parts in this document you should be able to find your way around.
+
+         https://github.com/xAirx/Coursera-UniversityofHK-ReactNative
+
+         https://github.com/xAirx/Coursera-UniversityofHK-React
+
+         https://github.com/xAirx/Coursera-UniversyofHK-ServerSideNode
     
-    The Repo's have commits that reflects the parts in this document you should be able to find your way around.
-    
-    https://github.com/xAirx/Coursera-UniversityofHK-ReactNative
-    
-    https://github.com/xAirx/Coursera-UniversityofHK-React
-    
-    https://github.com/xAirx/Coursera-UniversyofHK-ServerSideNode
-    
-    
-## Architecture (subject to change): 
+   
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   
+# Architecture (subject to change): 
 
    
    Expected List of Features & Architecture
@@ -36,7 +37,7 @@
     
   #### Website made in React.js
   
-    Goals: 
+  #####Goals: 
 
       Express the general characteristics of JavaScript frameworks and libraries
       Create a new project using React
@@ -63,7 +64,7 @@
     Redux
     ReactStrap
     
-    ############################## Features:################################################
+   ###### Features:
     
     Website made to support any type of business.
     
@@ -99,7 +100,7 @@
      The app also includes table reservation, with integration with the users calendar.
      
      
-     Goals: 
+   ##### Goals: 
      
      Summarize the salient features of hybrid mobile application development frameworks
      Create a React Native application
@@ -123,8 +124,8 @@
      
      
     
-     ######################## Features:   ################################################
-         
+   ####### Features:   
+   
          React native Navigation & Components.
      
          Integrated font awesome "fonts and buttons"
@@ -151,7 +152,10 @@
         NetInfo() and Network info, to check if device is offline or not.
           connectiontype, effectiveconnectiontype
           connectchange even fires when netwwork status changes etc.
-    
+          
+          
+  
+  &nbsp;&nbsp;&nbsp;&nbsp;
     
     
   #### Backend and API + Authentication.
@@ -178,18 +182,17 @@
      API supporting various objects of which contains members of the “company” 
      
      
-     
-     
-     
+ 
+ &nbsp;&nbsp;&nbsp;&nbsp;
      
      
      
     
-   
+ # Development Notes  
      
 
 
- # React website
+ ## React website
                 
   
      Frontend built in React.js, supporting react router based on Redux.
@@ -246,9 +249,11 @@
 
     Appropriate animation has been added to stagger the rendering of the leaders in the AboutComponent.
 
+ 
+ 
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-
-# Backend: 
+## Backend: 
 
 #### Notes: 
 
@@ -363,9 +368,9 @@ onenote:https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/MER
     * The app.js has been updated to support the new route.
 
 
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-
-# React Native 
+## React Native 
 
 The Native app is a mini version of the above React Frontend. 
 

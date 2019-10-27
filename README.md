@@ -189,7 +189,13 @@
      
 
 
- ## React website
+ ## React website (Frotend)
+ 
+ 
+#### Notes: 
+
+https://onedrive.live.com/view.aspx?resid=897203C158E872F%2184124&id=documents&wd=target%28MERN%20stack%29
+onenote:https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/MERN%20stack/
                 
   
      Frontend built in React.js, supporting react router based on Redux.
@@ -255,8 +261,6 @@
 #### Notes: 
 
 https://onedrive.live.com/view.aspx?resid=897203C158E872F%2184124&id=documents&wd=target%28MERN%20stack%2FSQL%2FExpress%20Router%29
-onenote:https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/MERN%20stack/SQL/Express%20Router/
-
 
 
    #### Express and Routing
@@ -374,6 +378,11 @@ The Native app is a mini version of the above React Frontend.
 The Native app will also be using the API and Backend created.
 
 The app also includes table reservation, with integration with the users calendar.
+
+#### Notes: 
+
+https://onedrive.live.com/view.aspx?resid=897203C158E872F%2184124&id=documents&wd=target%28MERN%20stack%29
+onenote:https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/MERN%20stack/
 
 
 #### Part 1 : Navigators and Components. - done

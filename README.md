@@ -755,3 +755,10 @@ ______________________________________
 
            https://codehangar.io/mongodb-image-instance-with-docker-toolbox-tutorial/
 
+
+#### HOSTING
+
+        MongoDB -> Mlab
+        Gratis -> Host React on Heroku (MongoDB)
+        APP Expo
+

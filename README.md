@@ -212,6 +212,9 @@
      Develop applications that can do user notifications
      
      
+     
+     
+     
     
    #### Features:   
    
@@ -241,6 +244,16 @@
         NetInfo() and Network info, to check if device is offline or not.
           connectiontype, effectiveconnectiontype
           connectchange even fires when netwwork status changes etc.
+          
+        Swipe Option Buttons and Alerts
+          
+        Animations
+          
+        Gestures
+          
+        Persist Redux Store
+          
+     
           
           
   

@@ -573,23 +573,30 @@ onenote:https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/MER
        The ContactComponent is a included using the Stack Navigator and in the Drawer Navigator. - done
 
  
-#### Part 2 : UI elements and Redux 
+#### Part 2 : UI elements and Redux - done
 
-      Add an Action named ADD_COMMENT to the ActionTypes.js. 
+      Add an Action named ADD_COMMENT to the ActionTypes.js. - done
       
-      Add two action creators named postComment() and addComment(). The postComment() creator will receive the dishId, rating, author and comment as the four parameters. 
+      Add two action creators named postComment() and addComment(). The postComment() creator will receive the dishId, rating, author and comment as the four parameters. - done
       
-      Update the comments reducer function to handle the new ADD_COMMENT action and add the comment to the list of comments. The handling of the action should also ensure that appropriate ID will be added to the comment.
+      Update the comments reducer function to handle the new ADD_COMMENT action and add the comment to the list of comments. The handling of the action should also ensure that appropriate ID will be added to the comment.- done
 
 
-      The modal containing the form is correctly added to the Dishdetail component
-      The form is correctly configured with the rating, author and comment fields.
-      An Icon is added to the RenderDish Card that will trigger the showing of the modal.
+      The modal containing the form is correctly added to the Dishdetail component- done
+      The form is correctly configured with the rating, author and comment fields.- done
+      An Icon is added to the RenderDish Card that will trigger the showing of the modal.- done
 
-      The ADD_COMMENT action is correctly added
-      The postComment() action creator is correctly added
-      The addComment() action creator is correctly added and will be dispatched by postComment() after a 2 sec delay
-      The comment reducer is updated to handle the ADD_COMMENT action
+      The ADD_COMMENT action is correctly added- done
+      The postComment() action creator is correctly added- done
+      The addComment() action creator is correctly added and will be dispatched by postComment() after a 2 sec delay- done
+      The comment reducer is updated to handle the ADD_COMMENT action- done
+      
+      EXTRA: __________________________________________________________________
+      
+      The favorites redux integration now includes a toggle functionality.- done
+     
+      The POST_COMMENT now also allows us to correctly call the LOADING_COMMENTS and show the data dynamically on add.- done
+      
 
     
 #### Part 3: Animations, gestures and redux persist.
@@ -677,14 +684,8 @@ ______________________________________________________________
 
        Backend provides the data for both website and app
        
-       *******
-       *******
-       *******
-       *******
-       *******
-       *******
 
- &nbsp;
+&nbsp;
   &nbsp;
   &nbsp;
   &nbsp;
@@ -756,9 +757,33 @@ ______________________________________
            https://codehangar.io/mongodb-image-instance-with-docker-toolbox-tutorial/
 
 
-#### HOSTING
+#### CI/CD & HOSTING
+
 
         MongoDB -> Mlab
+       
         Gratis -> Host React on Heroku (MongoDB)
-        APP Expo
+       
+        APP HOSTED ON - Expo
+        
+        https://medium.com/swlh/how-do-i-deploy-my-code-to-heroku-using-gitlab-ci-cd-6a232b6be2e4
+        
+        https://medium.com/@seulkiro/deploy-node-js-app-with-gitlab-ci-cd-214d12bfeeb5
+        
+        https://hackernoon.com/setting-up-ci-cd-on-gitlab-step-by-step-guide-part-1-826385728223
+        
+        https://medium.com/swlh/how-do-i-deploy-my-code-to-heroku-using-gitlab-ci-cd-6a232b6be2e4
+        
+        https://gitlab.com/anushbmx/react-js-deployment
+        
+        https://www.freecodecamp.org/news/how-to-set-up-continuous-integration-and-deployment-for-your-react-app-d09ae4525250/
+        
+        https://medium.com/@Zaccc123/https-medium-com-zaccc123-continuous-integration-and-deployment-setup-for-react-app-7b5f4bd76cdd
+        
+        
+        
+        
+        
+        
+        
 

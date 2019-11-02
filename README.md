@@ -82,6 +82,20 @@
 
 
 
+
+
+ # Current Features of the Website, app and backend.
+ 
+ 
+  ***********
+  ***********
+  ***********
+  ***********
+  ***********
+  ***********
+ 
+
+
  &nbsp;
  &nbsp;
  &nbsp;
@@ -109,6 +123,8 @@
  &nbsp;
  &nbsp;
  &nbsp;
+ 
+ 
    
 # Architecture (subject to change): 
 

@@ -36,23 +36,159 @@
   ## Backend 
   ___________________
   
+        A simple description of some of the endpoints and schemas, look in the project for a more in depth look at the code.
+  
+  
           Clone: https://github.com/xAirx/Coursera-UniversyofHK-ServerSideNode
 
           Backend node server ->
           
-          Yarn install
-          Yarn Start
+          npm install
+          npm Start
           
-          WATCH : ********  the server you can now access the following endpoints with postman forexample: 
+          install mongodb community edition
+          install mongodb compass to get a gui.
+          
+          On mac: 
+          
+          brew services restart mongodb-community@4.2
+          
+          
 
-          *****
-          *****
-          *****
-          *****
-          *****
-          *****
-          *****
-          *****
+   ### Router example: 
+         
+
+                productRouter.route('/')
+                    .get((req, res, next) => {
+                        products.find({})
+                            .then((products) => {
+                                res.statusCode = 200;
+                                res.setHeader('Content-Type', 'application/json');
+                                res.json(products);
+                            }, (err) => next(err))
+                            .catch((err) => next(err));
+                    })
+                    .post((req, res, next) => {
+                        products.create(req.body)
+
+                    .put((req, res, next) => {
+                        res.statusCode = 403;
+                        res.end('PUT operation not supported on /products');
+                    })
+                    .delete((req, res, next) => {
+                        Product.remove({})
+
+
+                productRouter.route('/:productId')
+                    .get((req, res, next) => {
+                        Product.findById(req.params.productId)
+
+                    .post((req, res, next) => {
+                        res.statusCode = 403;
+                        res.end('POST operation not supported on /products/' + req.params.productId);
+                    })
+                    .put((req, res, next) => {
+                        Product.findByIdAndUpdate(req.params.productId, {
+
+                    .delete((req, res, next) => {
+                        Product.findByIdAndRemove(req.params.productId)
+
+                //// COMMENTS
+
+                productRouter.route('/:productId/comments')
+                    .get((req, res, next) => {
+                        products.findById(req.params.productId
+                    })
+                    .post((req, res, next) => {
+                        products.findById(req.params.productId)
+                    .put((req, res, next) => {
+                        res.statusCode = 403;
+                        res.end('PUT operation not supported on /products/'
+                            + req.params.productId + '/comments');
+                    })
+                    .delete((req, res, next) => {
+                        products.findById(req.params.productId)
+
+                productRouter.route('/:productId/comments/:commentId')
+                    .get((req, res, next) => {
+                        Product.findById(req.params.productId)
+
+                    .post((req, res, next) => {
+                        res.statusCode = 403;
+                        res.end('POST operation not supported on /products/' + req.params.productId
+                            + '/comments/' + req.params.commentId);
+                    })
+                    .put((req, res, next) => {
+                        Product.findById(req.params.productId)
+                            .then((product) => {
+
+                    .delete((req, res, next) => {
+                        Product.findById(req.params.productId)
+
+                module.exports = ProductRouter;
+                
+   ### Schema example 
+   
+                const mongoose = require('mongoose');
+                const Schema = mongoose.Schema;
+                require('mongoose-currency').loadType(mongoose);
+                /* const Currency = mongoose.Types.Currency; */
+
+
+                var commentSchema = new Schema({
+                    rating: {
+                        type: Number,
+                        min: 1,
+                        max: 5,
+                        required: true
+                    },
+                    comment: {
+                        type: String,
+                        required: true
+                    },
+                    author: {
+                        type: String,
+                        required: true
+                    },
+                }, {
+                        timestamps: true
+                    });
+
+                const productSchema = new Schema({
+                    name: {
+                        type: String,
+                        required: true,
+                        unique: true
+                    },
+                    description: {
+                        type: String,
+                        required: true
+                    },
+                    image: {
+                        type: String,
+                        required: true
+                    },
+                    category: {
+                        type: String,
+                        required: true
+                    },
+                    label: {
+                        type: String,
+                        default: ''
+                    },
+                    featured: {
+                        type: Boolean,
+                        default: false
+                    },
+                    comments: [commentSchema]
+                }, {
+                        timestamps: true
+                    });
+
+
+                var Products = mongoose.model('product', productSchema);
+
+                module.exports = Products;
 
   
   ## React Native App

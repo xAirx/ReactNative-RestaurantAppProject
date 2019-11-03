@@ -510,7 +510,7 @@
      
 
 
- ## React website (Frotend)
+ ## React website (Frontend)
  
  
 #### Notes: 

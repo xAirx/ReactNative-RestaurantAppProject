@@ -617,38 +617,38 @@ https://onedrive.live.com/view.aspx?resid=897203C158E872F%2184124&id=documents&w
 
 
    ###### Part 2 : 
-
-    Architecture and REST API and endpoints.
+ 
+    Architecture and REST API and endpoints. - done
 
     Objectives:
 
-    * Designing the overall architecture of application, from the front-end to the back-end.  apportioned the responsibilities to the front-end and back-end.
+    * Designing the overall architecture of application, from the front-end to the back-end.  apportioned the responsibilities to the front-end and back-end.  - done
 
-    * Design an appropriate REST API that should be supported by server-side. A good design would enable ease of implementation of both the front-end and the back-end and facilitate seamless communication.
+    * Design an appropriate REST API that should be supported by server-side. A good design would enable ease of implementation of both the front-end and the back-end and facilitate seamless communication.  - done
 
-    * Decide on the database schemas and the structure of the data, depending upon the database technology to implement the persistence of server-side data
+    * Decide on the database schemas and the structure of the data, depending upon the database technology to implement the persistence of server-side data  - done
 
-    * Design the business logic to be implemented on the server-side to support the needs of the front-end.
-
-
-    * Implemented the Promotions schema and model
-
-    * Implement a REST API to support the /promotions endpoint, and the /promotions/:promoId endpoint enabling the interaction with the MongoDB database
-
-    * Implemented the Leaders schema and model
-
-    * Implement a REST API to support the /leaders endpoint, and the /leaders/:leaderId endpoint enabling the interaction with the MongoDB database
+    * Design the business logic to be implemented on the server-side to support the needs of the front-end.  - done
 
 
-    Task 1
-    * The Promotions schema and model correctly supports all the fields as per the example document given above
-    * The label field is set to an empty string by default
-    * The price schema is be supported with a new SchemaType called Currency.
-    * The REST API endpoints /promotions and /promotions/:promoId are implemented to interact with the MongoDB database
+    * Implemented the Promotions schema and model - done
 
-    Task 2
-    * The Leaders schema and model correctly supports all the fields as per the example document given above.
-    * The REST API endpoints /leaders and /leaders/:leaderId are implemented to interact with the MongoDB database
+    * Implement a REST API to support the /promotions endpoint, and the /promotions/:promoId endpoint enabling the interaction with the MongoDB database  - done
+
+    * Implemented the Leaders schema and model  - done
+
+    * Implement a REST API to support the /leaders endpoint, and the /leaders/:leaderId endpoint enabling the interaction with the MongoDB database - done
+
+
+    Task 1 - done
+    * The Promotions schema and model correctly supports all the fields as per the example document given above - done
+    * The label field is set to an empty string by default - done
+    * The price schema is be supported with a new SchemaType called Currency. - done
+    * The REST API endpoints /promotions and /promotions/:promoId are implemented to interact with the MongoDB database - done
+
+    Task 2 - done
+    * The Leaders schema and model correctly supports all the fields as per the example document given above. - done
+    * The REST API endpoints /leaders and /leaders/:leaderId are implemented to interact with the MongoDB database - done
 
 
 
@@ -922,7 +922,7 @@ ______________________________________
 
         MongoDB -> Mlab
        
-        Gratis -> Host React on Heroku (MongoDB)
+        Free -> Host React on Heroku (MongoDB)
        
         APP HOSTED ON - Expo
         

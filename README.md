@@ -844,6 +844,47 @@ ______________________________________________________________
        Backend provides the data for both website and app
        
 
+#### Hooks && Typescript 
+
+            https://blog.usejournal.com/using-react-hooks-with-typescript-aae6c7b2a3a9
+            https://levelup.gitconnected.com/usetypescript-a-complete-guide-to-react-hooks-and-typescript-db1858d1fb9c
+            https://rjzaworski.com/2019/01/using-react-hooks-with-typescript
+            https://medium.com/@jrwebdev/react-hooks-in-typescript-88fce7001d0d
+
+
+            ## Hooks 
+
+                 https://scotch.io/tutorials/building-an-online-retail-dashboard-in-react#toc-creating-kpi-s
+                 https://react.games/course
+                 https://tylermcginnis.com/courses/react-hooks/
+
+                  ### Pure React.PDF
+
+                            State in functions 
+
+                            Thinking about state
+
+                            Input controls
+
+                            The useReducer Hook
+
+                            The useEffect hook
+
+               ### Exercises
+
+                         https://www.taniarascia.com/content-editable-elements-in-javascript-react/
+                         https://www.taniarascia.com/crud-app-in-react-with-hooks/
+
+
+
+
+
+#### Css in js
+
+        https://www.freecodecamp.org/news/css-in-javascript-the-future-of-component-based-styling-70b161a79a32/
+
+        https://link.medium.com/39iEdodYg1
+
 &nbsp;
   &nbsp;
   &nbsp;

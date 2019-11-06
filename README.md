@@ -17,10 +17,11 @@
             Server-side Development with NodeJS, Express and MongoDB
             Multiplatform Mobile App Development with React Native                                                                                                                   
 
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
+
+
+------
+
+
 
 # Project overview
 
@@ -44,7 +45,9 @@
 
 ## Imagery
 
-## WebApp
+
+
+### WebApp
 
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
@@ -53,7 +56,7 @@
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
-## App
+### App
 
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
@@ -79,11 +82,10 @@
 
   ### Backend 
 
-___________________
-
         A simple description of some of the endpoints and schemas, look in the project for a more in depth look at the code.
 
   
+
 
           Clone: https://github.com/xAirx/Coursera-UniversyofHK-ServerSideNode
     
@@ -104,8 +106,6 @@ ___________________
 
   ### React Native App
 
-___________________
-
       https://expo.io/
 
 
@@ -115,10 +115,9 @@ ___________________
 
 
 ​        
-
-        npm install expo-cli --global
-        Yarn install
-        Yarn start 
+​        npm install expo-cli --global
+​        Yarn install
+​        Yarn start 
 
 
 
@@ -131,9 +130,14 @@ ___________________
 
  
 
+
   ##### Site and app now communicates with the backend - ENJOY.  
 
  
+
+
+
+
 
 # Architecture (subject to change): 
 
@@ -141,7 +145,7 @@ Expected List of Features & Architecture
 
 
 
-## Stacklist: 
+## Stacklist:
 
 
 
@@ -167,10 +171,6 @@ Expected List of Features & Architecture
       Develop Redux actions using Redux Thunk
       Develop client-server communication using Fetch
       Develop Fetch-based communication with a REST API server
-
-  
-
-    __________________________________
 
 
 ​    
@@ -198,10 +198,7 @@ Expected List of Features & Architecture
          
          Feedback through the feedback form by creating a new feedback service that accepts the form data and uses Restangular to record their feedback on the server.
 
-  
-
   &nbsp;
- &nbsp;
 
    ## App made in React Native 
 
@@ -243,9 +240,6 @@ Expected List of Features & Architecture
 
 ​     
 ​     
-​     
-​     
-​    
 
    #### Features:   
 
@@ -303,12 +297,12 @@ Expected List of Features & Architecture
 
 
 ​    
+​    Describe the use of Node for server-side development
+​    Create a Node application
+​    Demonstrate the use of Node modules in developing a Node application
+​    Develop a simple REST API server using the Express framework
+​    
 
-    Describe the use of Node for server-side development
-    Create a Node application
-    Demonstrate the use of Node modules in developing a Node application
-    Develop a simple REST API server using the Express framework
-    
     Demonstrate an understanding of data persistence using a database
     Design persistent data storage based on MongoDB, a NoSQL database
     Develop schemas and models for data storage using Mongoose
@@ -347,9 +341,9 @@ Expected List of Features & Architecture
 
 
 ​     
+​     Extra: 
+​     
 
-     Extra: 
-     
      Authentication based on being an admin or not.
      
      Admin based management, being able to see a user list, and the entire API.
@@ -529,6 +523,7 @@ onenote: https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/ME
 
    
 
+
   #### Part 1 & 2 :
 
       Setting up the project &. Creating components needed - done
@@ -570,6 +565,7 @@ onenote: https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/ME
         Enabled the users to submit feedback through the feedback form by creating a new feedback service that accepts the form data and uses Restangular to record their feedback on the server.
 
  
+
 
      Appropriate action types and action creators have been added.
     The Home component is correctly using the leader data, and handling any errors that might arise.
@@ -702,7 +698,6 @@ https://onedrive.live.com/view.aspx?resid=897203C158E872F%2184124&id=documents&w
   &nbsp;
   &nbsp;
   &nbsp;
- 
 
 ## React Native 
 
@@ -733,6 +728,7 @@ onenote:https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/MER
        The ContactComponent is a included using the Stack Navigator and in the Drawer Navigator. - done
 
  
+
 
 #### Part 2 : UI elements and Redux - done
 
@@ -787,6 +783,7 @@ onenote:https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/MER
 
    
 
+
 In this task I will insert a new Calendar event into the default calendar on the mobile device for the table reservation.  will use the Calendar API from Expo SDK for this.  will implement this in the ReservationComponent.js file.
 
        When the user submits the reservation form,  will obtain the details of the reservation in the handleReservation() function.
@@ -822,7 +819,6 @@ In this task I will insert a new Calendar event into the default calendar on the
 ## Roadmap Learning && "The future updates for the Fullstack Portfolio Project"
 
 ______________________________________________________________
-
 
 
 ### Design for website and app
@@ -889,8 +885,9 @@ ______________________________________________________________
                          https://www.taniarascia.com/crud-app-in-react-with-hooks/
 
 
-
   &nbsp;
+
+
 
 #### Alternative Backend 
 
@@ -932,7 +929,7 @@ ______________________________________________________________
     
            https://medium.com/reactbrasil/build-a-chat-with-graphql-react-and-new-stuff-75ee4ffd2f2e
 
-  &nbsp;
+ &nbsp;
   &nbsp;
   &nbsp;
 
@@ -980,3 +977,4 @@ ______________________________________
 
 
 ​    
+

@@ -8,11 +8,11 @@
 ### Project created as part of the honors programme at the hong kong universty of science and technology.
 
     The notes below is the project requirements for the final project as part of the "Fullstack Certification"
-
+    
     The project will combine all three courses:
     
             https://github.com/xAirx/Certifications
-
+    
             Front-End Web Development with React 
             Server-side Development with NodeJS, Express and MongoDB
             Multiplatform Mobile App Development with React Native                                                                                                                   
@@ -24,9 +24,25 @@
 
 # Project overview
 
-# Functionality
 
-# Imagery
+
+ ## Current Features of the Website, app and backend.
+
+***********
+
+***********
+
+***********
+
+***********
+
+***********
+
+***********
+
+
+
+## Imagery
 
 ## WebApp
 
@@ -51,22 +67,26 @@
 # How to use this project.
 
         I suggest you look at the REPO links for some code insight, the projects require a clone each
-        
+
   
-  ## Install NODE and NPM
-      
+
+  ### Install NODE and NPM
+
       node -v
       npm -v
-  
-  
-  ## Backend 
-  ___________________
-  
-        A simple description of some of the endpoints and schemas, look in the project for a more in depth look at the code.
-  
-  
-          Clone: https://github.com/xAirx/Coursera-UniversyofHK-ServerSideNode
 
+  
+
+  ### Backend 
+
+___________________
+
+        A simple description of some of the endpoints and schemas, look in the project for a more in depth look at the code.
+
+  
+
+          Clone: https://github.com/xAirx/Coursera-UniversyofHK-ServerSideNode
+    
           Backend node server ->
           
           npm install
@@ -78,115 +98,85 @@
           On mac: 
           
           brew services restart mongodb-community@4.2
-          
-          
-  
-  ## React Native App
-  ___________________
+
+
+​          
+
+  ### React Native App
+
+___________________
+
       https://expo.io/
 
 
       Clone:  https://github.com/xAirx/Coursera-UniversityofHK-ReactNative
-
+    
             - Requires Expo CLI (providing you have any experience with EXPO) -> yarn start and scan Barcode on physical device     or choose emulator 
-        
-        
+
+
+​        
+
         npm install expo-cli --global
         Yarn install
         Yarn start 
 
 
-  ## React Website
-  
-          Clone:  https://github.com/xAirx/Coursera-UniversityofHK-React
 
+  ### React Website
+
+          Clone:  https://github.com/xAirx/Coursera-UniversityofHK-React
+    
           Yarn install
           Yarn start 
-  
- 
-  ## Site and app now communicates with the backend - ENJOY.  
 
-
-
-
-
- # Current Features of the Website, app and backend.
- 
- 
-  ***********
-  ***********
-  ***********
-  ***********
-  ***********
-  ***********
  
 
+  ##### Site and app now communicates with the backend - ENJOY.  
 
- &nbsp;
- &nbsp;
- &nbsp;
- &nbsp;      
+ 
 
- &nbsp;
- &nbsp;
- &nbsp;
- &nbsp;
-         
- ## The "Future Section" 
-  
-          -> NODE SCHOOL // Styled components and GraphQL
-
-          In the bottom you will find a FUTURE section with extra development including styled components, graphql and more!
-    
-   
- &nbsp;
- &nbsp;
- &nbsp;
- &nbsp;
- &nbsp;
- 
- &nbsp;
- &nbsp;
- &nbsp;
- &nbsp;
- 
- 
-   
 # Architecture (subject to change): 
 
-   
-   Expected List of Features & Architecture
+Expected List of Features & Architecture
+
+
+
 ## Stacklist: 
-    
+
+
+
   ### Website made in React.js
-  
+
   #### Goals: 
 
       Express the general characteristics of JavaScript frameworks and libraries
       Create a new project using React
       Create React components within a React application
       Express what is meant by full-stack web development
-
+    
       Develop a React router based navigation to various views in a React application
       Develop a single page application using the React router support
       Give examples of various types of React components
-
+    
       Create uncontrolled React forms
       Create controlled forms and perform form validation
       Discuss the features of the Flux architecture
       Explain the Redux approach to implementing a variant of the Flow architecture
-
+    
       Create Redux Actions
       Develop Redux actions using Redux Thunk
       Develop client-server communication using Fetch
       Develop Fetch-based communication with a REST API server
 
   
+
     __________________________________
 
-    
+
+​    
+
    #### Features:
-    
+
     Website made to support any type of business.
     
          Integrated font awesome "fonts and buttons"
@@ -195,9 +185,9 @@
          
          *********** Redux integration to create a "Loading Component" using the activity indicator component
          Trigger showing of message when data is fetched from server.
-
+    
          ***********Redux integration to "Star products" and rate them
-
+    
          ***********Redux integration to handle the customers favorite products
          
          Redux Thunk middleware 
@@ -207,21 +197,16 @@
          Redux For Client server communication with fetch.
          
          Feedback through the feedback form by creating a new feedback service that accepts the form data and uses Restangular to record their feedback on the server.
-    
-  
-  &nbsp;
-  &nbsp;
-  &nbsp;
-  &nbsp;
-  
-  &nbsp;
-  &nbsp;
-  &nbsp;
-  &nbsp;
-  
-   ## App made in React Native 
-    __________________________________
 
+  
+
+  &nbsp;
+ &nbsp;
+
+   ## App made in React Native 
+
+    __________________________________
+    
      A React Native app, supporting the same features working with the same backend and API.
      
      The Native app is a mini version of the above React Frontend.
@@ -229,10 +214,12 @@
      The Native app will also be using the API and Backend created.
      
      The app also includes table reservation, with integration with the users calendar.
-     
-     
+
+
+​     
+
    ### Goals: 
-     
+
      Summarize the salient features of hybrid mobile application development frameworks
      Create a React Native application
      Develop a React Native application using various React Native components and Layouts
@@ -252,14 +239,16 @@
      Employ the Expo SDK to access native device capabilities
      Develop applications that use sharing features of mobile devices
      Develop applications that can do user notifications
-     
-     
-     
-     
-     
-    
+
+
+​     
+​     
+​     
+​     
+​    
+
    #### Features:   
-   
+
          React native Navigation & Components.
      
          Integrated font awesome "fonts and buttons"
@@ -268,9 +257,9 @@
          
          Redux integration to create a "Loading Component" using the activity indicator component
          Trigger showing of message when data is fetched from server.
-
+    
          Redux integration to "Star products" and rate them
-
+    
          Redux integration to handle the customers favorite products
          
          Secure storage - handling user login etc.
@@ -294,35 +283,27 @@
         Gestures
           
         Persist Redux Store
-          
-     
-          
-          
-  
-  &nbsp;
-  &nbsp;
-  &nbsp;
-  &nbsp;
-  
-  &nbsp;
-  &nbsp;
-  &nbsp;
-  &nbsp;
-    
-    
+
+
+​     
+​          
+​          
+
   ## Backend and API + Authentication.
-  
+
    ### Goals:
-   
-   
+
+
     Mongoose
     MongoDB
     Express ( REST API )
     Bodyparser
     Morgan
     Express Router
-    
-    
+
+
+​    
+
     Describe the use of Node for server-side development
     Create a Node application
     Demonstrate the use of Node modules in developing a Node application
@@ -341,9 +322,11 @@
     Design the Express server to handle CORS
     Develop user authentication based on OAuth protocol
     Demonstrate the various Backend as a Service approaches
-    
+
+
+
    #### Features
-     
+
      REST API with express mongodband Mongoose
      
      User login and authentication
@@ -361,8 +344,10 @@
      Oauth and user authentication in conjunction
      
      Backend as a service.
-     
-     
+
+
+​     
+
      Extra: 
      
      Authentication based on being an admin or not.
@@ -374,16 +359,21 @@
      Support for a user to manage their own comments, delete functionality.
      
      API supporting various objects of which contains members of the “company” 
-     
-     
 
-   ## API management and creation using SWAGGER.
 
-   ### API description: 
-   
-  
+​     
+
+   ## API management and creation 
+
+
+
+   ## API description: 
+
+
+
+
    ### Router example: 
-         
+
 
                 productRouter.route('/')
                     .get((req, res, next) => {
@@ -397,7 +387,7 @@
                     })
                     .post((req, res, next) => {
                         products.create(req.body)
-
+    
                     .put((req, res, next) => {
                         res.statusCode = 403;
                         res.end('PUT operation not supported on /products');
@@ -409,19 +399,19 @@
                 productRouter.route('/:productId')
                     .get((req, res, next) => {
                         Product.findById(req.params.productId)
-
+    
                     .post((req, res, next) => {
                         res.statusCode = 403;
                         res.end('POST operation not supported on /products/' + req.params.productId);
                     })
                     .put((req, res, next) => {
                         Product.findByIdAndUpdate(req.params.productId, {
-
+    
                     .delete((req, res, next) => {
                         Product.findByIdAndRemove(req.params.productId)
-
+    
                 //// COMMENTS
-
+    
                 productRouter.route('/:productId/comments')
                     .get((req, res, next) => {
                         products.findById(req.params.productId
@@ -435,11 +425,11 @@
                     })
                     .delete((req, res, next) => {
                         products.findById(req.params.productId)
-
+    
                 productRouter.route('/:productId/comments/:commentId')
                     .get((req, res, next) => {
                         Product.findById(req.params.productId)
-
+    
                     .post((req, res, next) => {
                         res.statusCode = 403;
                         res.end('POST operation not supported on /products/' + req.params.productId
@@ -448,14 +438,14 @@
                     .put((req, res, next) => {
                         Product.findById(req.params.productId)
                             .then((product) => {
-
+    
                     .delete((req, res, next) => {
                         Product.findById(req.params.productId)
-
+    
                 module.exports = ProductRouter;
-                
+
    ### Schema example 
-   
+
                 const mongoose = require('mongoose');
                 const Schema = mongoose.Schema;
                 require('mongoose-currency').loadType(mongoose);
@@ -480,7 +470,7 @@
                 }, {
                         timestamps: true
                     });
-
+    
                 const productSchema = new Schema({
                     name: {
                         type: String,
@@ -514,79 +504,73 @@
 
 
                 var Products = mongoose.model('product', productSchema);
-
+    
                 module.exports = Products;
 
 
- 
+
   &nbsp;
-  &nbsp;
-  &nbsp;
-  &nbsp;
-  
-  &nbsp;
-  &nbsp;
-  &nbsp;
-  &nbsp;
-     
-     
-     
-    
- # Development Notes  
-     
+
+# Development Notes  
+
 
 
  ## React website (Frontend)
- 
- 
+
 #### Notes: 
 
-onenote:https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/MERN%20stack/
+
+
+onenote: https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/MERN%20stack/
                 
-  
+
      Frontend built in React.js, supporting react router based on Redux.
      Introduced new action types and action creators to support the fetching of the information from the server and update the Redux store.
+
    
-   
+
   #### Part 1 & 2 :
-      
+
       Setting up the project &. Creating components needed - done
       
       Created a new DishdetailComponent and added it to React application. - done
-
+    
       Updated the view of the DishdetailComponent to display the details of the selected dish using an reactstrap card component. - done
-
+    
       Updated the view of the DishdetailComponent to display the list of comments about the dish using the Bootstrap unstyled list component. - done
-
+    
       Integrated the AboutComponent given above into the single page application. - done
-
+    
       Added a new functional component named <RenderLeader> through the RenderLeader() function to AboutComponent.js that    renders the details of a given leader using the reactstrap <Media> component. - done
       
     Construct and render the list of leaders in the About Us page using the <RenderLeader> component implemented above. - done
-      
+
 
 #### Part 3:
-       
+
       Configure The React application to make use of Redux   - done
        
       Provide a form to enable users to submit their comments   - done
       
       Validate the information entered by the users in the form   - done
-
+    
       Set up the form as a local form using the react-redux-form    - done
-      
-      
+
+
+​      
+
  #### Part 4 : 
- 
+
        Introduced new action types and action creators to support the fetching of the leaders information from the server and update the Redux store.
-
+    
         Updated the Home and the About component to render the information about the leaders using the downloaded data from the server
-
+    
         Add simple animations to the About component where the leaders information is displayed.
-
+    
         Enabled the users to submit feedback through the feedback form by creating a new feedback service that accepts the form data and uses Restangular to record their feedback on the server.
 
  
+
      Appropriate action types and action creators have been added.
     The Home component is correctly using the leader data, and handling any errors that might arise.
     The About component is correctly using the leader data, and handling any errors that might arise.
@@ -598,23 +582,17 @@ onenote:https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/MER
 
     Appropriate animation has been added to stagger the rendering of the leaders in the AboutComponent.
 
- 
- 
-  &nbsp;
-  &nbsp;
-  &nbsp;
-  &nbsp;
-  
-  &nbsp;
-  &nbsp;
-  &nbsp;
-  &nbsp;
+
+
+
 
 ## Backend: 
 
 #### Notes: 
 
 https://onedrive.live.com/view.aspx?resid=897203C158E872F%2184124&id=documents&wd=target%28MERN%20stack%2FSQL%2FExpress%20Router%29
+
+
 
    #### Express and Routing
 
@@ -623,45 +601,45 @@ https://onedrive.live.com/view.aspx?resid=897203C158E872F%2184124&id=documents&w
     * Created a Node module using Express router to support the routes for the products REST API. - done
     * Created a Node module using Express router to support the routes for the promotions REST API. -done 
     * Created a Node module using Express router to support the routes for the leaders REST API. -done 
-
+    
     Objective 1 
-
+    
     * The REST API supports GET, PUT, POST and DELETE operations on /products/:dishId end point. -done 
-
+    
     Objective 2 
-
+    
     * The new Node module, promoRouter is implemented and used to support the /promotions end point. -done 
     * The REST API supports GET, PUT, POST and DELETE operations on /promotions and GET, PUT, POST and DELETE operations on /promotions/:promoId end points. -done 
 
 
     Objective 3 
-
+    
     * The new Node module, leaderRouter is implemented and used to support the /leaders end point. -done 
     * The REST API supports GET, PUT, POST and DELETE operations on /leadership and GET, PUT, POST and DELETE operations on /leaders/:leaderId end points. -done
 
 
 
    ###### Part 2 : 
- 
+
     Architecture and REST API and endpoints. - done
-
+    
     Objectives:
-
+    
     * Designing the overall architecture of application, from the front-end to the back-end.  apportioned the responsibilities to the front-end and back-end.  - done
-
+    
     * Design an appropriate REST API that should be supported by server-side. A good design would enable ease of implementation of both the front-end and the back-end and facilitate seamless communication.  - done
-
+    
     * Decide on the database schemas and the structure of the data, depending upon the database technology to implement the persistence of server-side data  - done
-
+    
     * Design the business logic to be implemented on the server-side to support the needs of the front-end.  - done
 
 
     * Implemented the Promotions schema and model - done
-
+    
     * Implement a REST API to support the /promotions endpoint, and the /promotions/:promoId endpoint enabling the interaction with the MongoDB database  - done
-
+    
     * Implemented the Leaders schema and model  - done
-
+    
     * Implement a REST API to support the /leaders endpoint, and the /leaders/:leaderId endpoint enabling the interaction with the MongoDB database - done
 
 
@@ -670,7 +648,7 @@ https://onedrive.live.com/view.aspx?resid=897203C158E872F%2184124&id=documents&w
     * The label field is set to an empty string by default - done
     * The price schema is be supported with a new SchemaType called Currency. - done
     * The REST API endpoints /promotions and /promotions/:promoId are implemented to interact with the MongoDB database - done
-
+    
     Task 2 - done
     * The Leaders schema and model correctly supports all the fields as per the example document given above. - done
     * The REST API endpoints /leaders and /leaders/:leaderId are implemented to interact with the MongoDB database - done
@@ -681,7 +659,7 @@ https://onedrive.live.com/view.aspx?resid=897203C158E872F%2184124&id=documents&w
    ###### Part 3 :
 
     User Authentication
-
+    
     * Check if a verified ordinary user also has Admin privileges.
     * Allow any one to perform GET operations
     * Allow only an Admin to perform POST, PUT and DELETE operations
@@ -721,16 +699,10 @@ https://onedrive.live.com/view.aspx?resid=897203C158E872F%2184124&id=documents&w
     * The GET, POST and DELETE operations are well supported as per the specifications above
     * The app.js has been updated to support the new route.
 
-
   &nbsp;
   &nbsp;
   &nbsp;
-  &nbsp;
-  
-  &nbsp;
-  &nbsp;
-  &nbsp;
-  &nbsp;
+ 
 
 ## React Native 
 
@@ -740,24 +712,28 @@ The Native app will also be using the API and Backend created.
 
 The app also includes table reservation, with integration with the users calendar.
 
+
+
 #### Notes: 
 
 https://onedrive.live.com/view.aspx?resid=897203C158E872F%2184124&id=documents&wd=target%28MERN%20stack%29
 onenote:https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/MERN%20stack/
 
 
+
 #### Part 1 : Navigators and Components. - done
 
     The Contact Us page is showing the address of the restaurant in the card format as shown above. - done
-
+    
        The history information about the restaurant is displayed in a card format as shown above using a functional component named History(). - done
        
        The corporate leadership information is shown in the About Us page in the format as shown above. The leader information is renedered inside a Card. - done
-
+    
        The AboutComponent is a included using the Stack Navigator and in the Drawer Navigator. - done
        The ContactComponent is a included using the Stack Navigator and in the Drawer Navigator. - done
 
  
+
 #### Part 2 : UI elements and Redux - done
 
       Add an Action named ADD_COMMENT to the ActionTypes.js. - done
@@ -770,7 +746,7 @@ onenote:https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/MER
       The modal containing the form is correctly added to the Dishdetail component- done
       The form is correctly configured with the rating, author and comment fields.- done
       An Icon is added to the RenderDish Card that will trigger the showing of the modal.- done
-
+    
       The ADD_COMMENT action is correctly added- done
       The postComment() action creator is correctly added- done
       The addComment() action creator is correctly added and will be dispatched by postComment() after a 2 sec delay- done
@@ -781,9 +757,10 @@ onenote:https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/MER
       The favorites redux integration now includes a toggle functionality.- done
      
       The POST_COMMENT now also allows us to correctly call the LOADING_COMMENTS and show the data dynamically on add.- done
-      
 
-    
+
+​    
+
 #### Part 3: Animations, gestures and redux persist.
 
      The reservation form zooms in when the user navigates to the reservation view
@@ -796,9 +773,11 @@ onenote:https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/MER
 
     When the user does a left to right gesture on the Dish details card in the Dishdetail component, toggle the comment form modal.
 
-      
-      
-#### part 4:  Calendar event API, Image Picker API Reservation Functionality with users calendar.
+
+​      
+​      
+
+#### Part 4:  Calendar event API, Image Picker API Reservation Functionality with users calendar.
 
    In this task will make use of the Expo SDK ImagePicker API to enable application to fetch an image from the photo library.
 
@@ -807,22 +786,23 @@ onenote:https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/MER
        Once the image is picked, it must be processed through the ImageManipulator to obtain a resized PNG version of the image as we did in the exercise.
 
    
-   In this task will insert a new Calendar event into the default calendar on the mobile device for the table reservation.  will use the Calendar API from Expo SDK for this.  will implement this in the ReservationComponent.js file.
+
+In this task I will insert a new Calendar event into the default calendar on the mobile device for the table reservation.  will use the Calendar API from Expo SDK for this.  will implement this in the ReservationComponent.js file.
 
        When the user submits the reservation form,  will obtain the details of the reservation in the handleReservation() function.
        Implement a new function named obtainCalendarPermission() that will ask for permission to access the calendar on the device. The corresponding permission is Permission.CALENDAR.
        Implement another function named addReservationToCalendar() that receives the date information as a parameter. This function is invoked from the handleReservation() function.
-
+    
       should use the createEventAsync() function from the Calendar API to insert the event into the default calendar (Calendar.DEFAULT). This function takes a title, the start and end time, timezone and location as the parameters.
        Use 'Con Fusion Table Reservation' as the title of the inserted event
-
+    
        To specify the start Date and end Date,  can convert the Date ISO string into a Date object by using new Date(Date.parse(date)). Furthermore, the Date.parse() gives  the date value in milliseconds.  can set up the end time by adding 2 hours (2*60*60*1000) to the milliseconds and use it to generate the Date object corresponding to the end time of the event.
-
+    
        For time zone use 'Asia/Hong_Kong', and the location as '121, Clear Water Bay Road, Clear Water Bay, Kowloon, Hong Kong'
 
 
        The LoginComponent.js is updated to implement the getImageFromGallery() function that uses the ImagePicker API to enable the fetching of the image from the photo library.
-
+    
        The LoginComponent.js file is updated to include a button named Gallery that will initiate the procedure to enable the user to select a picture from the photo gallery.
 
 
@@ -830,45 +810,52 @@ onenote:https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/MER
 
 
        The ReservationComponent.js file is modified to implement the obtainCalendarPermission() function that obtains permission to access the calendar
-
+    
        The ReservationComponent.js file is modified to implement the addReservationToCalendar() function that inserts the event into the default calendar using the Calendar API.
-
+    
        The details of the event are correctly inserted setting the title, start and end time and the location correctly.
 
 
-  &nbsp;
-  &nbsp;
-  &nbsp;
-  &nbsp;
-  
-  &nbsp;
-  &nbsp;
-  &nbsp;
-  &nbsp;
 
 # Binding everything together
 
 ## Roadmap Learning && "The future updates for the Fullstack Portfolio Project"
 
 ______________________________________________________________
+
+
+
 ### Design for website and app
+
+
 
 #### Styled Components
 
 
       Cant cache css, only load the css that the page needs 
-
+    
       Faster initial load.
-
+    
       Same load the rest of the time since you cant cache styled component.
-
+    
       Seperation of concerns - All in one, Styled Components. 
-      
+
+
+
+#### Css in js
+
+        https://www.freecodecamp.org/news/css-in-javascript-the-future-of-component-based-styling-70b161a79a32/
+    
+        https://link.medium.com/39iEdodYg1
+
+
+
 
 #### Backend Integration.
 
        Backend provides the data for both website and app
-       
+
+
 
 #### Hooks && Typescript 
 
@@ -879,63 +866,49 @@ ______________________________________________________________
 
 
             ## Hooks 
-
+    
                  https://scotch.io/tutorials/building-an-online-retail-dashboard-in-react#toc-creating-kpi-s
                  https://react.games/course
                  https://tylermcginnis.com/courses/react-hooks/
-
+    
                   ### Pure React.PDF
-
+    
                             State in functions 
-
+    
                             Thinking about state
-
+    
                             Input controls
-
+    
                             The useReducer Hook
-
+    
                             The useEffect hook
-
+    
                ### Exercises
-
+    
                          https://www.taniarascia.com/content-editable-elements-in-javascript-react/
                          https://www.taniarascia.com/crud-app-in-react-with-hooks/
 
 
 
+  &nbsp;
 
-
-#### Css in js
-
-        https://www.freecodecamp.org/news/css-in-javascript-the-future-of-component-based-styling-70b161a79a32/
-
-        https://link.medium.com/39iEdodYg1
-
-&nbsp;
-  &nbsp;
-  &nbsp;
-  &nbsp;
-  
-  &nbsp;
-  &nbsp;
-  &nbsp;
-  &nbsp;
- 
 #### Alternative Backend 
- 
+
+
+
 ######  GRAPHQL APOLLO, WEBSockets
 
      https://www.tutorialkart.com/nodejs/nodejs-tutorial
-
+    
      https://blog.apollographql.com/full-stack-react-graphql-tutorial-582ac8d24e3b
-
+    
       Read book 
-
+    
       https://www.fullstackreact.com/
 
 
          ## Ekstra Tutorials.... 
-
+    
            https://react.rocks/tag/FullStack
 
 
@@ -946,44 +919,39 @@ ______________________________________________________________
 
 
            https://medium.com/@nabendu82/build-a-complete-app-with-react-and-graphql-1-f8aff5f1ecc1
-
+    
            https://www.packtpub.com/web-development/hands-full-stack-web-development-graphql-and-react
-
+    
            https://hashnode.com/post/react-tutorial-using-mern-stack-ciiyus9m700qqge53mer0isxz
-
+    
            https://levelup.gitconnected.com/using-graphql-api-with-node-js-and-react-forms-8b13f4b26361
-
+    
            https://www.sitepoint.com/explore-graphql-with-apollo-react/
-
+    
            https://levelup.gitconnected.com/the-rise-of-the-nrg-stack-node-js-react-and-graphql-6dfba468ba8a
-
+    
            https://medium.com/reactbrasil/build-a-chat-with-graphql-react-and-new-stuff-75ee4ffd2f2e
 
+  &nbsp;
+  &nbsp;
+  &nbsp;
 
- &nbsp;
-  &nbsp;
-  &nbsp;
-  &nbsp;
-  
-  &nbsp;
-  &nbsp;
-  &nbsp;
-  &nbsp;
-  
-###### LINUX virtual machine
+## LINUX virtual machine
+
 ______________________________________
 
 
       MONGODB
-
+    
            https://bitnami.com/stack/mongodb/virtual-machine
-
+    
            https://www.mysoftkey.com/mongodb/how-to-set-up-vagrant-and-virtualbox-for-mongodb-security-in-window/
-
+    
            https://codehangar.io/mongodb-image-instance-with-docker-toolbox-tutorial/
 
 
-#### CI/CD & HOSTING
+
+## CI/CD & HOSTING
 
 
         MongoDB -> Mlab
@@ -1009,10 +977,6 @@ ______________________________________
         https://github.com/peter-evans/swagger-github-pages
         
         https://github.com/swagger-api/swagger-ui
-        
-        
-        
-        
-        
-        
 
+
+​    

@@ -21,11 +21,17 @@
 
 ------
 
-
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 
 # Project overview
 
-
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 
  ## Current Features of the Website, app and backend.
 
@@ -41,7 +47,10 @@
 
 ***********
 
-
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 
 ## Imagery
 
@@ -55,7 +64,10 @@
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
-
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 ### App
 
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
@@ -66,19 +78,28 @@
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
 
-
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 # How to use this project.
 
         I suggest you look at the REPO links for some code insight, the projects require a clone each
 
-  
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp; 
 
   ### Install NODE and NPM
 
       node -v
       npm -v
 
-  
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 
   ### Backend 
 
@@ -102,7 +123,10 @@
           brew services restart mongodb-community@4.2
 
 
-​          
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;     
 
   ### React Native App
 
@@ -114,12 +138,15 @@
             - Requires Expo CLI (providing you have any experience with EXPO) -> yarn start and scan Barcode on physical device     or choose emulator 
 
 
-​        
-​        npm install expo-cli --global
-​        Yarn install
-​        Yarn start 
+        
+       npm install expo-cli --global
+       Yarn install
+       Yarn start 
 
-
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 
   ### React Website
 
@@ -129,13 +156,22 @@
           Yarn start 
 
  
-
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 
   ##### Site and app now communicates with the backend - ENJOY.  
 
  
 
-
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 
 
 
@@ -143,13 +179,24 @@
 
 Expected List of Features & Architecture
 
-
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 
 ## Stacklist:
 
-
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 
   ### Website made in React.js
+  
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 
   #### Goals: 
 
@@ -173,7 +220,10 @@ Expected List of Features & Architecture
       Develop Fetch-based communication with a REST API server
 
 
-​    
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 
    #### Features:
 
@@ -198,7 +248,10 @@ Expected List of Features & Architecture
          
          Feedback through the feedback form by creating a new feedback service that accepts the form data and uses Restangular to record their feedback on the server.
 
-  &nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 
    ## App made in React Native 
 
@@ -212,8 +265,10 @@ Expected List of Features & Architecture
      
      The app also includes table reservation, with integration with the users calendar.
 
-
-​     
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 
    ### Goals: 
 
@@ -238,8 +293,10 @@ Expected List of Features & Architecture
      Develop applications that can do user notifications
 
 
-​     
-​     
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;   
 
    #### Features:   
 
@@ -279,9 +336,10 @@ Expected List of Features & Architecture
         Persist Redux Store
 
 
-​     
-​          
-​          
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;       
 
   ## Backend and API + Authentication.
 
@@ -296,12 +354,12 @@ Expected List of Features & Architecture
     Express Router
 
 
-​    
-​    Describe the use of Node for server-side development
-​    Create a Node application
-​    Demonstrate the use of Node modules in developing a Node application
-​    Develop a simple REST API server using the Express framework
-​    
+    
+    Describe the use of Node for server-side development
+    Create a Node application
+    Demonstrate the use of Node modules in developing a Node application
+    Develop a simple REST API server using the Express framework
+   
 
     Demonstrate an understanding of data persistence using a database
     Design persistent data storage based on MongoDB, a NoSQL database
@@ -317,7 +375,10 @@ Expected List of Features & Architecture
     Develop user authentication based on OAuth protocol
     Demonstrate the various Backend as a Service approaches
 
-
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 
    #### Features
 
@@ -340,9 +401,9 @@ Expected List of Features & Architecture
      Backend as a service.
 
 
-​     
-​     Extra: 
-​     
+     
+     Extra: 
+    
 
      Authentication based on being an admin or not.
      
@@ -355,16 +416,25 @@ Expected List of Features & Architecture
      API supporting various objects of which contains members of the “company” 
 
 
-​     
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 
    ## API management and creation 
 
-
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 
    ## API description: 
 
 
-
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 
    ### Router example: 
 
@@ -438,7 +508,12 @@ Expected List of Features & Architecture
     
                 module.exports = ProductRouter;
 
-   ### Schema example 
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
+  ### Schema example 
 
                 const mongoose = require('mongoose');
                 const Schema = mongoose.Schema;
@@ -503,13 +578,24 @@ Expected List of Features & Architecture
 
 
 
-  &nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 
 # Development Notes  
 
-
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 
  ## React website (Frontend)
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 
 #### Notes: 
 
@@ -551,8 +637,7 @@ onenote: https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/ME
     
       Set up the form as a local form using the react-redux-form    - done
 
-
-​      
+     
 
  #### Part 4 : 
 
@@ -579,16 +664,27 @@ onenote: https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/ME
     Appropriate animation has been added to stagger the rendering of the leaders in the AboutComponent.
 
 
-
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 
 
 ## Backend: 
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 
 #### Notes: 
 
 https://onedrive.live.com/view.aspx?resid=897203C158E872F%2184124&id=documents&wd=target%28MERN%20stack%2FSQL%2FExpress%20Router%29
 
-
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 
    #### Express and Routing
 
@@ -698,6 +794,7 @@ https://onedrive.live.com/view.aspx?resid=897203C158E872F%2184124&id=documents&w
   &nbsp;
   &nbsp;
   &nbsp;
+  &nbsp;
 
 ## React Native 
 
@@ -707,13 +804,20 @@ The Native app will also be using the API and Backend created.
 
 The app also includes table reservation, with integration with the users calendar.
 
-
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 
 #### Notes: 
 
 https://onedrive.live.com/view.aspx?resid=897203C158E872F%2184124&id=documents&wd=target%28MERN%20stack%29
 onenote:https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/MERN%20stack/
 
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 
 
 #### Part 1 : Navigators and Components. - done
@@ -755,7 +859,7 @@ onenote:https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/MER
       The POST_COMMENT now also allows us to correctly call the LOADING_COMMENTS and show the data dynamically on add.- done
 
 
-​    
+  
 
 #### Part 3: Animations, gestures and redux persist.
 
@@ -769,9 +873,7 @@ onenote:https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/MER
 
     When the user does a left to right gesture on the Dish details card in the Dishdetail component, toggle the comment form modal.
 
-
-​      
-​      
+      
 
 #### Part 4:  Calendar event API, Image Picker API Reservation Functionality with users calendar.
 
@@ -812,18 +914,27 @@ In this task I will insert a new Calendar event into the default calendar on the
     
        The details of the event are correctly inserted setting the title, start and end time and the location correctly.
 
-
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 
 # Binding everything together
 
 ## Roadmap Learning && "The future updates for the Fullstack Portfolio Project"
 
 ______________________________________________________________
-
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 
 ### Design for website and app
 
-
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 
 #### Styled Components
 
@@ -974,7 +1085,5 @@ ______________________________________
         https://github.com/peter-evans/swagger-github-pages
         
         https://github.com/swagger-api/swagger-ui
-
-
-​    
+  
 

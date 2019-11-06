@@ -172,7 +172,10 @@
 &nbsp;
 &nbsp;
 &nbsp;
-
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 
 
 # Architecture (subject to change): 
@@ -583,6 +586,10 @@ Expected List of Features & Architecture
 &nbsp;
 &nbsp;
 &nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 
 # Development Notes  
 
@@ -914,6 +921,10 @@ In this task I will insert a new Calendar event into the default calendar on the
     
        The details of the event are correctly inserted setting the title, start and end time and the location correctly.
 
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 &nbsp;
 &nbsp;
 &nbsp;

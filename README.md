@@ -869,17 +869,18 @@ onenote:https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/MER
 
   
 
-#### Part 3: Animations, gestures and redux persist.
-
-     The reservation form zooms in when the user navigates to the reservation view
+#### Part 3: Animations, gestures and redux persist. - done
 
 
-    An alert containing the information from the reservation form is shown when the user submits the filled reservation form.
-    If the user clicks on Cancel, then the form is cleared.
-    If the user clicks on OK, then the form is cleared.
+     The reservation form zooms in when the user navigates to the reservation view - done
 
 
-    When the user does a left to right gesture on the Dish details card in the Dishdetail component, toggle the comment form modal.
+    An alert containing the information from the reservation form is shown when the user submits the filled reservation form. - done
+    If the user clicks on Cancel, then the form is cleared. - done
+    If the user clicks on OK, then the form is cleared. - done
+
+
+    When the user does a left to right gesture on the Dish details card in the Dishdetail component, toggle the comment form modal. - done
 
       
 

@@ -39,13 +39,21 @@
 ### App
 
 ![](https://media.giphy.com/media/lmqAV0ZTpJ1ORgwxMU/giphy.gif)
-![](https://media.giphy.com/media/Rihl7EsnvgbntDO0Oh/giphy.gif)
+
 ![](https://media.giphy.com/media/JrwyIDPuRZY7f3lSXu/giphy.gif)
 ![](https://media.giphy.com/media/SvFVHDHMnRG1tz2oba/giphy.gif)
 ![](https://media.giphy.com/media/kEFU6eXB9Kaz2uIGd9/giphy.gif)
 ![](https://media.giphy.com/media/Rihl7EsnvgbntDO0Oh/giphy.gif)
 
+
+Favorites 
 ![](https://media.giphy.com/media/QaMK4KkNhDrvsslUN0/giphy.gif)
+
+Login
+
+Registration
+
+
 ![](https://media.giphy.com/media/hXCNwWGH8a61cXFZZL/giphy.gif)
 
 ##### Expo App online testing link

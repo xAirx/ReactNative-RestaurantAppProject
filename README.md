@@ -33,24 +33,6 @@
 &nbsp;
 &nbsp;
 
- ## Current Features of the Website, app and backend.
-
-***********
-
-***********
-
-***********
-
-***********
-
-***********
-
-***********
-
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
 
 ## Imagery
 
@@ -71,6 +53,16 @@
 &nbsp;
 &nbsp;
 &nbsp;
+
+ ## Current Features of the Website, app and backend.
+
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp; 
+
+
 # How to use this project.
 
         I suggest you look at the REPO links for some code insight, the projects require a clone each

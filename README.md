@@ -38,6 +38,8 @@
 
 ### App
 
+ ## Current Features of the Website, app and backend.
+ 
 ![](https://media.giphy.com/media/XbyRPGlLGjzwd48wly/giphy.gif)
 ![](https://media.giphy.com/media/WpHzcqwVw77m2NYoPq/giphy.gif)
 ![](https://media.giphy.com/media/QaMK4KkNhDrvsslUN0/giphy.gif)
@@ -55,13 +57,6 @@
 &nbsp;
 &nbsp;
 
- ## Current Features of the Website, app and backend.
-
-
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp; 
 
 
 # How to use this project.

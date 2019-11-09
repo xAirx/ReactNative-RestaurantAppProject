@@ -38,7 +38,6 @@
 
 ### App
 
-![](https://media.giphy.com/media/hqrJZuD8z5pyWcbmqB/giphy.gif)
 ![](https://media.giphy.com/media/lmqAV0ZTpJ1ORgwxMU/giphy.gif)
 ![](https://media.giphy.com/media/kEFU6eXB9Kaz2uIGd9/giphy.gif)
 ![](https://media.giphy.com/media/Rihl7EsnvgbntDO0Oh/giphy.gif)

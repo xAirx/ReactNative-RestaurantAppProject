@@ -38,7 +38,7 @@
 
 ### Website - A work in progress
 
-![](https://media.giphy.com/media/PiWvDUyWtZ9SrwzVFT/giphy.gif)
+![](http://www.giphy.com/gifs/RLcNX8uq3bWSlTsEWU)
 
 
 ### App - A work in progress

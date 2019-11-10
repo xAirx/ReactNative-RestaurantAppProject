@@ -863,45 +863,45 @@ onenote:https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/MER
 
       
 
-#### Part 4:  Calendar event API, Image Picker API Reservation Functionality with users calendar.
+#### Part 4:  Calendar event API, Image Picker API Reservation Functionality with users calendar.- done
 
    In this task will make use of the Expo SDK ImagePicker API to enable application to fetch an image from the photo library.
 
-       Update LoginComponent.js to set up a function named getImageFromGallery() that fetches the image from the photo library on the device using the ImagePicker API support. Details of setting up the source to be the Photo Library can be found in the API documentation.
-       Add a new button named Gallery that when clicked will initiate the process to enable the user to select a picture from the photo library using the ImagePicker API.
-       Once the image is picked, it must be processed through the ImageManipulator to obtain a resized PNG version of the image as we did in the exercise.
+       Update LoginComponent.js to set up a function named getImageFromGallery() that fetches the image from the photo library on the device using the ImagePicker API support. Details of setting up the source to be the Photo Library can be found in the API documentation.- done
+       Add a new button named Gallery that when clicked will initiate the process to enable the user to select a picture from the photo library using the ImagePicker API.- done
+       Once the image is picked, it must be processed through the ImageManipulator to obtain a resized PNG version of the image as we did in the exercise.- done
 
    
 
 
 In this task I will insert a new Calendar event into the default calendar on the mobile device for the table reservation.  will use the Calendar API from Expo SDK for this.  will implement this in the ReservationComponent.js file.
 
-       When the user submits the reservation form,  will obtain the details of the reservation in the handleReservation() function.
+       When the user submits the reservation form,  will obtain the details of the reservation in the handleReservation() function.- done
        Implement a new function named obtainCalendarPermission() that will ask for permission to access the calendar on the device. The corresponding permission is Permission.CALENDAR.
-       Implement another function named addReservationToCalendar() that receives the date information as a parameter. This function is invoked from the handleReservation() function.
+       Implement another function named addReservationToCalendar() that receives the date information as a parameter. This function is invoked from the handleReservation() function.- done
     
       should use the createEventAsync() function from the Calendar API to insert the event into the default calendar (Calendar.DEFAULT). This function takes a title, the start and end time, timezone and location as the parameters.
-       Use 'Con Fusion Table Reservation' as the title of the inserted event
+       Use 'Con Fusion Table Reservation' as the title of the inserted event- done
     
-       To specify the start Date and end Date,  can convert the Date ISO string into a Date object by using new Date(Date.parse(date)). Furthermore, the Date.parse() gives  the date value in milliseconds.  can set up the end time by adding 2 hours (2*60*60*1000) to the milliseconds and use it to generate the Date object corresponding to the end time of the event.
+       To specify the start Date and end Date,  can convert the Date ISO string into a Date object by using new Date(Date.parse(date)). Furthermore, the Date.parse() gives  the date value in milliseconds.  can set up the end time by adding 2 hours (2*60*60*1000) to the milliseconds and use it to generate the Date object corresponding to the end time of the event.- done
     
        For time zone use 'Asia/Hong_Kong', and the location as '121, Clear Water Bay Road, Clear Water Bay, Kowloon, Hong Kong'
-
+- done
 
        The LoginComponent.js is updated to implement the getImageFromGallery() function that uses the ImagePicker API to enable the fetching of the image from the photo library.
-    
+    - done
        The LoginComponent.js file is updated to include a button named Gallery that will initiate the procedure to enable the user to select a picture from the photo gallery.
-
+- done
 
        The image selected by the user is processed using the ImageManipulator to generate a PNG image
-
+- done
 
        The ReservationComponent.js file is modified to implement the obtainCalendarPermission() function that obtains permission to access the calendar
-    
-       The ReservationComponent.js file is modified to implement the addReservationToCalendar() function that inserts the event into the default calendar using the Calendar API.
+    - done
+       The ReservationComponent.js file is modified to implement the addReservationToCalendar() function that inserts the event into the default calendar using the Calendar API.- done
     
        The details of the event are correctly inserted setting the title, start and end time and the location correctly.
-
+- done
 &nbsp;
 &nbsp;
 &nbsp;

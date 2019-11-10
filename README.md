@@ -40,7 +40,6 @@
 
 ![](https://media.giphy.com/media/RLcNX8uq3bWSlTsEWU/giphy.gif)
 
-
 ### App - A work in progress
 
  ## Current Features of the Website, app and backend.

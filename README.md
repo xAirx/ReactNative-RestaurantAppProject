@@ -81,11 +81,17 @@
 &nbsp;
 &nbsp;
 
-  ### Backend 
+  ### Backend - WORK IN PROGRESS
 
         A simple description of some of the endpoints and schemas, look in the project for a more in depth look at the code.
 
-  
+          
+          For now use JSON-SERVER from here: 
+          
+          https://github.com/xAirx/Coursera-UniversyofHK-ServerSideNode/tree/master/JSON-SERVER
+          
+          "json-server --watch db.json"
+          
 
 
           Clone: https://github.com/xAirx/Coursera-UniversyofHK-ServerSideNode
@@ -108,7 +114,8 @@
 &nbsp;
 &nbsp;     
 
-  ### React Native App
+  ### React Native App - WORK IN PROGRESS
+
 
       https://expo.io/
 
@@ -128,7 +135,7 @@
 &nbsp;
 &nbsp;
 
-  ### React Website
+  ### React Website - WORK IN PROGRESS
 
           Clone:  https://github.com/xAirx/Coursera-UniversityofHK-React
     

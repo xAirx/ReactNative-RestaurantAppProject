@@ -40,6 +40,8 @@
 
 ![](https://media.giphy.com/media/RLcNX8uq3bWSlTsEWU/giphy.gif)
 
+<img src="https://media.giphy.com/media/RLcNX8uq3bWSlTsEWU/giphy.gif" width="40" height="40" />
+
 ### App - A work in progress
 
  ## Current Features of the Website, app and backend.

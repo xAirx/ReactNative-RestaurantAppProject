@@ -36,6 +36,11 @@
 
 ## Imagery
 
+### Website - work in progress
+
+![](https://media.giphy.com/media/kBqfEu9Ohx74fni3Dz/giphy.gif)
+
+
 ### App
 
  ## Current Features of the Website, app and backend.

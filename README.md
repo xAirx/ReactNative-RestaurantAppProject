@@ -14,8 +14,15 @@
             https://github.com/xAirx/Certifications
     
             Front-End Web Development with React 
+            https://github.com/xAirx/Coursera-UniversityofHK-React
+            
             Server-side Development with NodeJS, Express and MongoDB
-            Multiplatform Mobile App Development with React Native                                                                                                                   
+            
+            https://github.com/xAirx/Coursera-UniversyofHK-ServerSideNode
+            
+            Multiplatform Mobile App Development with React Native      
+            
+            https://github.com/xAirx/Coursera-UniversityofHK-ReactNative
 
 
 
@@ -60,108 +67,6 @@
 
 ##### Expo App online testing link
 
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-
-
-
-# How to use this project.
-
-        I suggest you look at the REPO links for some code insight, the projects require a clone each
-
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp; 
-
-  ### Install NODE and NPM
-
-      node -v
-      npm -v
-
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-
-  ### Backend - WORK IN PROGRESS
-
-        A simple description of some of the endpoints and schemas, look in the project for a more in depth look at the code.
-
-          
-          For now use JSON-SERVER from here: 
-          
-          https://github.com/xAirx/Coursera-UniversyofHK-ServerSideNode/tree/master/JSON-SERVER
-          
-          "json-server --watch db.json"
-          
-
-
-          Clone: https://github.com/xAirx/Coursera-UniversyofHK-ServerSideNode
-    
-          Backend node server ->
-          
-          npm install
-          npm Start
-          
-          install mongodb community edition
-          install mongodb compass to get a gui.
-          
-          On mac: 
-          
-          brew services restart mongodb-community@4.2
-
-
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;     
-
-  ### React Native App - WORK IN PROGRESS
-
-
-      https://expo.io/
-
-
-      Clone:  https://github.com/xAirx/Coursera-UniversityofHK-ReactNative
-    
-            - Requires Expo CLI (providing you have any experience with EXPO) -> yarn start and scan Barcode on physical device     or choose emulator 
-
-
-        
-       npm install expo-cli --global
-       Yarn install
-       Yarn start 
-
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-
-  ### React Website - WORK IN PROGRESS
-
-          Clone:  https://github.com/xAirx/Coursera-UniversityofHK-React
-    
-          Yarn install
-          Yarn start 
-
- 
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-
-  ##### Site and app now communicates with the backend - ENJOY.  
-
- 
-
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
 &nbsp;
 &nbsp;
 &nbsp;

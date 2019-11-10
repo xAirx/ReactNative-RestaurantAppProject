@@ -36,10 +36,6 @@
 
 ## Imagery
 
-### Website - A work in progress
-
-![](https://media.giphy.com/media/cNetAu2ihEFjhhCVcn/giphy.gif)
-
 
 ### App - A work in progress
 
@@ -56,6 +52,10 @@
 ![](https://media.giphy.com/media/Rihl7EsnvgbntDO0Oh/giphy.gif)
 
 
+
+### Website - A work in progress
+
+![](https://media.giphy.com/media/cNetAu2ihEFjhhCVcn/giphy.gif)
 
 
 ##### Expo App online testing link

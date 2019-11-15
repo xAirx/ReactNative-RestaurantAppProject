@@ -72,7 +72,7 @@
 
 
 
-### Website - A work in progress
+### Website - A work in progress - Visual and Design overhaul is next step.
 
 ![](https://media.giphy.com/media/cNetAu2ihEFjhhCVcn/giphy.gif)
 

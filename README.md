@@ -557,27 +557,27 @@ onenote: https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/ME
 
  #### Part 4 : 
 
-       Introduced new action types and action creators to support the fetching of the leaders information from the server and update the Redux store.
+       Introduced new action types and action creators to support the fetching of the leaders information from the server and update the Redux store. - done
     
-        Updated the Home and the About component to render the information about the leaders using the downloaded data from the server
+        Updated the Home and the About component to render the information about the leaders using the downloaded data from the server - done
     
-        Add simple animations to the About component where the leaders information is displayed.
+        Add simple animations to the About component where the leaders information is displayed. - done
     
-        Enabled the users to submit feedback through the feedback form by creating a new feedback service that accepts the form data and uses Restangular to record their feedback on the server.
+        Enabled the users to submit feedback through the feedback form by creating a new feedback service that accepts the form data and uses Restangular to record their feedback on the server. - done
 
  
 
 
-     Appropriate action types and action creators have been added.
-    The Home component is correctly using the leader data, and handling any errors that might arise.
-    The About component is correctly using the leader data, and handling any errors that might arise.
+     Appropriate action types and action creators have been added. - done
+    The Home component is correctly using the leader data, and handling any errors that might arise. - done
+    The About component is correctly using the leader data, and handling any errors that might arise. - done
 
 
-    A new postFeedback() action creator is correctly implemented to post the feedback data to the server.
-    The Contact component has been correctly updated to use postFeedback() to post the form data to the server.
+    A new postFeedback() action creator is correctly implemented to post the feedback data to the server. - done
+    The Contact component has been correctly updated to use postFeedback() to post the form data to the server. - done
 
 
-    Appropriate animation has been added to stagger the rendering of the leaders in the AboutComponent.
+    Appropriate animation has been added to stagger the rendering of the leaders in the AboutComponent. - done
 
 
 &nbsp;

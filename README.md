@@ -291,7 +291,13 @@ Expected List of Features & Architecture
     Morgan
     Express Router
 
-
+       Login functionality for frontend
+       
+        https://levelup.gitconnected.com/using-jwt-in-your-react-redux-app-for-authorization-d31be51a50d2
+        https://medium.com/@faizanv/authentication-for-your-react-and-express-application-w-json-web-tokens-923515826e0
+        https://www.sitepoint.com/tutorial-build-a-react-js-application-with-user-login-and-authentication/
+        https://scotch.io/tutorials/react-native-app-with-authentication-and-user-management-in-15-minutes
+        
     
     Describe the use of Node for server-side development
     Create a Node application
@@ -320,7 +326,7 @@ Expected List of Features & Architecture
 
    #### Features
 
-     REST API with express mongodband Mongoose
+     REST API with express mongodb and Mongoose
      
      User login and authentication
      

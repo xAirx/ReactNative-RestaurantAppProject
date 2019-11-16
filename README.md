@@ -91,7 +91,7 @@ With react,redux,routing and more.
 ![](https://media.giphy.com/media/j3JZrptEGxdvaD7dTv/giphy.gif)
 
 
-##### Expo App online testing link
+
 
 &nbsp;
 &nbsp;

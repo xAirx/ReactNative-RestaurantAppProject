@@ -47,19 +47,65 @@
 
 # Project overview
 
-A quick overview. 
+## A quick overview. 
 
-The project consists of an app and a website depicting a restaurant.
+        The project consists of an app and a website depicting a restaurant.
 
-Redux integration managing, favorites, adding and deleting items (in this case dishes since its a restaurant app/website.
+        Redux managing data from the API distributing it across the app.
+        
+        The data consists of leaders, dishes, and promotions, this data makes up the content on the webpage and app.
+        
+        Users can register and login   
+        
+        The registration functionality is extended in the app which includes integration with the devices camera and camera roll.
+        
+        Users are able to favorite and comment on dishes.
+        
+        Users are able to see their favorites and also delete them.
 
-Redux managing data from the API distributing it across the app.
+     
+        The app includes a table reservation system that also communicates with redux and native elements on the devices, such as calendar and notification 
+        
 
-Login functionality, with registration, JWT, communicating with the backend express API. 
 
-The registration functionality is extended in the app which includes integration with the devices camera and camera roll.
+## The backend adds following functionality:
 
-The app includes a table reservation system that also communicates with redux and native elements on the devices, such as calendar and notification 
+    Login functionality, with registration, JWT, communicating with the backend express API. 
+
+    
+    Check if a verified ordinary user also has Admin privileges
+    
+    
+    ////////// Admin panel assignment //////////////////////////////////////////////////////
+    
+    
+    Redirect from login to admin panel 
+    
+    Allow only an Admin to perform POST, PUT and DELETE operations
+    
+    Allow an Admin to be able to GET all the registered users' information from the database
+    
+    Allow admin to upload files, such as images when creating new dishes.
+    
+    Allow admin to flag dishes as promoted or not.
+    
+    Allow admin to flag leaders as promoted
+    
+    
+    ///////////////////////////////////////////////////////////////////////////////////////////////
+    
+    
+    ////////// Simple user "operations" //////////////
+    
+    Allow a registered user to submit comments, update a submitted comment and delete a submitted comment. 
+    
+    The user should be restricted to perform such operations only on his/her own comments. No user or even the Admin can edit or delete the comments submitted by other users.
+    
+    Allowed users to select a dish as their favorite, and add it to the list of favorites that are saved on the server.
+    
+    Allowed users to retrieve the list of their favorite dishes from the server
+    
+    Delete one or all of their favorite dishes from their favorites list on the server.
 
 
 
@@ -365,168 +411,11 @@ Expected List of Features & Architecture
 &nbsp;
 &nbsp;
 
-   ## API management and creation 
-
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-
-   ## API description: 
 
 
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-
-   ### Router example: 
+ ## API description: 
 
 
-                productRouter.route('/')
-                    .get((req, res, next) => {
-                        products.find({})
-                            .then((products) => {
-                                res.statusCode = 200;
-                                res.setHeader('Content-Type', 'application/json');
-                                res.json(products);
-                            }, (err) => next(err))
-                            .catch((err) => next(err));
-                    })
-                    .post((req, res, next) => {
-                        products.create(req.body)
-    
-                    .put((req, res, next) => {
-                        res.statusCode = 403;
-                        res.end('PUT operation not supported on /products');
-                    })
-                    .delete((req, res, next) => {
-                        Product.remove({})
-
-
-                productRouter.route('/:productId')
-                    .get((req, res, next) => {
-                        Product.findById(req.params.productId)
-    
-                    .post((req, res, next) => {
-                        res.statusCode = 403;
-                        res.end('POST operation not supported on /products/' + req.params.productId);
-                    })
-                    .put((req, res, next) => {
-                        Product.findByIdAndUpdate(req.params.productId, {
-    
-                    .delete((req, res, next) => {
-                        Product.findByIdAndRemove(req.params.productId)
-    
-                //// COMMENTS
-    
-                productRouter.route('/:productId/comments')
-                    .get((req, res, next) => {
-                        products.findById(req.params.productId
-                    })
-                    .post((req, res, next) => {
-                        products.findById(req.params.productId)
-                    .put((req, res, next) => {
-                        res.statusCode = 403;
-                        res.end('PUT operation not supported on /products/'
-                            + req.params.productId + '/comments');
-                    })
-                    .delete((req, res, next) => {
-                        products.findById(req.params.productId)
-    
-                productRouter.route('/:productId/comments/:commentId')
-                    .get((req, res, next) => {
-                        Product.findById(req.params.productId)
-    
-                    .post((req, res, next) => {
-                        res.statusCode = 403;
-                        res.end('POST operation not supported on /products/' + req.params.productId
-                            + '/comments/' + req.params.commentId);
-                    })
-                    .put((req, res, next) => {
-                        Product.findById(req.params.productId)
-                            .then((product) => {
-    
-                    .delete((req, res, next) => {
-                        Product.findById(req.params.productId)
-    
-                module.exports = ProductRouter;
-
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-
-  ### Schema example 
-
-                const mongoose = require('mongoose');
-                const Schema = mongoose.Schema;
-                require('mongoose-currency').loadType(mongoose);
-                /* const Currency = mongoose.Types.Currency; */
-
-
-                var commentSchema = new Schema({
-                    rating: {
-                        type: Number,
-                        min: 1,
-                        max: 5,
-                        required: true
-                    },
-                    comment: {
-                        type: String,
-                        required: true
-                    },
-                    author: {
-                        type: String,
-                        required: true
-                    },
-                }, {
-                        timestamps: true
-                    });
-    
-                const productSchema = new Schema({
-                    name: {
-                        type: String,
-                        required: true,
-                        unique: true
-                    },
-                    description: {
-                        type: String,
-                        required: true
-                    },
-                    image: {
-                        type: String,
-                        required: true
-                    },
-                    category: {
-                        type: String,
-                        required: true
-                    },
-                    label: {
-                        type: String,
-                        default: ''
-                    },
-                    featured: {
-                        type: Boolean,
-                        default: false
-                    },
-                    comments: [commentSchema]
-                }, {
-                        timestamps: true
-                    });
-
-
-                var Products = mongoose.model('product', productSchema);
-    
-                module.exports = Products;
-
-
-
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
 &nbsp;
 &nbsp;
 &nbsp;
@@ -612,10 +501,159 @@ onenote: https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/ME
     Appropriate animation has been added to stagger the rendering of the leaders in the AboutComponent. - done
 
 
+#### Part 5: Login registration and authentication.
+
+    Connecting the login system to the backend, allowing users to login and register.
+    Based on the user being admin or not, the user will either be redirected to home or an admin panel.
+    
+    *****
+    *****
+    *****
+
 &nbsp;
 &nbsp;
 &nbsp;
 &nbsp;
+
+
+
+## React Native 
+
+The Native app is a mini version of the above React Frontend. 
+
+The Native app will also be using the API and Backend created.
+
+The app also includes table reservation, with integration with the users calendar.
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
+#### Notes: 
+
+https://onedrive.live.com/view.aspx?resid=897203C158E872F%2184124&id=documents&wd=target%28MERN%20stack%29
+onenote:https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/MERN%20stack/
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
+
+#### Part 1 : Navigators and Components. - done
+
+    The Contact Us page is showing the address of the restaurant in the card format as shown above. - done
+    
+       The history information about the restaurant is displayed in a card format as shown above using a functional component named History(). - done
+       
+       The corporate leadership information is shown in the About Us page in the format as shown above. The leader information is renedered inside a Card. - done
+    
+       The AboutComponent is a included using the Stack Navigator and in the Drawer Navigator. - done
+       The ContactComponent is a included using the Stack Navigator and in the Drawer Navigator. - done
+
+ 
+
+
+#### Part 2 : UI elements and Redux - done
+
+      Add an Action named ADD_COMMENT to the ActionTypes.js. - done
+      
+      Add two action creators named postComment() and addComment(). The postComment() creator will receive the dishId, rating, author and comment as the four parameters. - done
+      
+      Update the comments reducer function to handle the new ADD_COMMENT action and add the comment to the list of comments. The handling of the action should also ensure that appropriate ID will be added to the comment.- done
+
+
+      The modal containing the form is correctly added to the Dishdetail component- done
+      The form is correctly configured with the rating, author and comment fields.- done
+      An Icon is added to the RenderDish Card that will trigger the showing of the modal.- done
+    
+      The ADD_COMMENT action is correctly added- done
+      The postComment() action creator is correctly added- done
+      The addComment() action creator is correctly added and will be dispatched by postComment() after a 2 sec delay- done
+      The comment reducer is updated to handle the ADD_COMMENT action- done
+      
+      EXTRA: __________________________________________________________________
+      
+      The favorites redux integration now includes a toggle functionality.- done
+     
+      The POST_COMMENT now also allows us to correctly call the LOADING_COMMENTS and show the data dynamically on add.- done
+
+
+  
+
+#### Part 3: Animations, gestures and redux persist. - done
+
+
+     The reservation form zooms in when the user navigates to the reservation view - done
+
+
+    An alert containing the information from the reservation form is shown when the user submits the filled reservation form. - done
+    If the user clicks on Cancel, then the form is cleared. - done
+    If the user clicks on OK, then the form is cleared. - done
+
+
+    When the user does a left to right gesture on the Dish details card in the Dishdetail component, toggle the comment form modal. - done
+
+      
+
+#### Part 4:  Calendar event API, Image Picker API Reservation Functionality with users calendar.- done
+
+   In this task will make use of the Expo SDK ImagePicker API to enable application to fetch an image from the photo library.
+
+       Update LoginComponent.js to set up a function named getImageFromGallery() that fetches the image from the photo library on the device using the ImagePicker API support. Details of setting up the source to be the Photo Library can be found in the API documentation.- done
+       Add a new button named Gallery that when clicked will initiate the process to enable the user to select a picture from the photo library using the ImagePicker API.- done
+       Once the image is picked, it must be processed through the ImageManipulator to obtain a resized PNG version of the image as we did in the exercise.- done
+
+   
+
+
+In this task I will insert a new Calendar event into the default calendar on the mobile device for the table reservation.  will use the Calendar API from Expo SDK for this.  will implement this in the ReservationComponent.js file.
+
+       When the user submits the reservation form,  will obtain the details of the reservation in the handleReservation() function.- done
+       Implement a new function named obtainCalendarPermission() that will ask for permission to access the calendar on the device. The corresponding permission is Permission.CALENDAR.
+       Implement another function named addReservationToCalendar() that receives the date information as a parameter. This function is invoked from the handleReservation() function.- done
+    
+      should use the createEventAsync() function from the Calendar API to insert the event into the default calendar (Calendar.DEFAULT). This function takes a title, the start and end time, timezone and location as the parameters.
+       Use 'Con Fusion Table Reservation' as the title of the inserted event- done
+    
+       To specify the start Date and end Date,  can convert the Date ISO string into a Date object by using new Date(Date.parse(date)). Furthermore, the Date.parse() gives  the date value in milliseconds.  can set up the end time by adding 2 hours (2*60*60*1000) to the milliseconds and use it to generate the Date object corresponding to the end time of the event.- done
+    
+       For time zone use 'Asia/Hong_Kong', and the location as '121, Clear Water Bay Road, Clear Water Bay, Kowloon, Hong Kong'
+- done
+
+       The LoginComponent.js is updated to implement the getImageFromGallery() function that uses the ImagePicker API to enable the fetching of the image from the photo library.
+    - done
+    
+       The LoginComponent.js file is updated to include a button named Gallery that will initiate the procedure to enable the user to select a picture from the photo gallery.
+- done
+
+       The image selected by the user is processed using the ImageManipulator to generate a PNG image
+- done
+
+       The ReservationComponent.js file is modified to implement the obtainCalendarPermission() function that obtains permission to access the calendar
+    - done
+       The ReservationComponent.js file is modified to implement the addReservationToCalendar() function that inserts the event into the default calendar using the Calendar API.- done
+    
+       The details of the event are correctly inserted setting the title, start and end time and the location correctly.
+- done
+
+
+
+#### Part 5: Login registration and authentication.
+
+    Connecting the login system to the backend, allowing users to login and register.
+    Based on the user being admin or not, the user will either be redirected to home or an admin panel.
+    
+    *****
+    *****
+    *****
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
 
 
 ## Backend: 
@@ -634,7 +672,7 @@ https://onedrive.live.com/view.aspx?resid=897203C158E872F%2184124&id=documents&w
 &nbsp;
 &nbsp;
 
-   #### Express and Routing
+   #### Backend authentication Express, Mongo and Routing
 
    #####  Part 1 :
 
@@ -744,133 +782,6 @@ https://onedrive.live.com/view.aspx?resid=897203C158E872F%2184124&id=documents&w
   &nbsp;
   &nbsp;
 
-## React Native 
-
-The Native app is a mini version of the above React Frontend. 
-
-The Native app will also be using the API and Backend created.
-
-The app also includes table reservation, with integration with the users calendar.
-
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-
-#### Notes: 
-
-https://onedrive.live.com/view.aspx?resid=897203C158E872F%2184124&id=documents&wd=target%28MERN%20stack%29
-onenote:https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/MERN%20stack/
-
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-
-
-#### Part 1 : Navigators and Components. - done
-
-    The Contact Us page is showing the address of the restaurant in the card format as shown above. - done
-    
-       The history information about the restaurant is displayed in a card format as shown above using a functional component named History(). - done
-       
-       The corporate leadership information is shown in the About Us page in the format as shown above. The leader information is renedered inside a Card. - done
-    
-       The AboutComponent is a included using the Stack Navigator and in the Drawer Navigator. - done
-       The ContactComponent is a included using the Stack Navigator and in the Drawer Navigator. - done
-
- 
-
-
-#### Part 2 : UI elements and Redux - done
-
-      Add an Action named ADD_COMMENT to the ActionTypes.js. - done
-      
-      Add two action creators named postComment() and addComment(). The postComment() creator will receive the dishId, rating, author and comment as the four parameters. - done
-      
-      Update the comments reducer function to handle the new ADD_COMMENT action and add the comment to the list of comments. The handling of the action should also ensure that appropriate ID will be added to the comment.- done
-
-
-      The modal containing the form is correctly added to the Dishdetail component- done
-      The form is correctly configured with the rating, author and comment fields.- done
-      An Icon is added to the RenderDish Card that will trigger the showing of the modal.- done
-    
-      The ADD_COMMENT action is correctly added- done
-      The postComment() action creator is correctly added- done
-      The addComment() action creator is correctly added and will be dispatched by postComment() after a 2 sec delay- done
-      The comment reducer is updated to handle the ADD_COMMENT action- done
-      
-      EXTRA: __________________________________________________________________
-      
-      The favorites redux integration now includes a toggle functionality.- done
-     
-      The POST_COMMENT now also allows us to correctly call the LOADING_COMMENTS and show the data dynamically on add.- done
-
-
-  
-
-#### Part 3: Animations, gestures and redux persist. - done
-
-
-     The reservation form zooms in when the user navigates to the reservation view - done
-
-
-    An alert containing the information from the reservation form is shown when the user submits the filled reservation form. - done
-    If the user clicks on Cancel, then the form is cleared. - done
-    If the user clicks on OK, then the form is cleared. - done
-
-
-    When the user does a left to right gesture on the Dish details card in the Dishdetail component, toggle the comment form modal. - done
-
-      
-
-#### Part 4:  Calendar event API, Image Picker API Reservation Functionality with users calendar.- done
-
-   In this task will make use of the Expo SDK ImagePicker API to enable application to fetch an image from the photo library.
-
-       Update LoginComponent.js to set up a function named getImageFromGallery() that fetches the image from the photo library on the device using the ImagePicker API support. Details of setting up the source to be the Photo Library can be found in the API documentation.- done
-       Add a new button named Gallery that when clicked will initiate the process to enable the user to select a picture from the photo library using the ImagePicker API.- done
-       Once the image is picked, it must be processed through the ImageManipulator to obtain a resized PNG version of the image as we did in the exercise.- done
-
-   
-
-
-In this task I will insert a new Calendar event into the default calendar on the mobile device for the table reservation.  will use the Calendar API from Expo SDK for this.  will implement this in the ReservationComponent.js file.
-
-       When the user submits the reservation form,  will obtain the details of the reservation in the handleReservation() function.- done
-       Implement a new function named obtainCalendarPermission() that will ask for permission to access the calendar on the device. The corresponding permission is Permission.CALENDAR.
-       Implement another function named addReservationToCalendar() that receives the date information as a parameter. This function is invoked from the handleReservation() function.- done
-    
-      should use the createEventAsync() function from the Calendar API to insert the event into the default calendar (Calendar.DEFAULT). This function takes a title, the start and end time, timezone and location as the parameters.
-       Use 'Con Fusion Table Reservation' as the title of the inserted event- done
-    
-       To specify the start Date and end Date,  can convert the Date ISO string into a Date object by using new Date(Date.parse(date)). Furthermore, the Date.parse() gives  the date value in milliseconds.  can set up the end time by adding 2 hours (2*60*60*1000) to the milliseconds and use it to generate the Date object corresponding to the end time of the event.- done
-    
-       For time zone use 'Asia/Hong_Kong', and the location as '121, Clear Water Bay Road, Clear Water Bay, Kowloon, Hong Kong'
-- done
-
-       The LoginComponent.js is updated to implement the getImageFromGallery() function that uses the ImagePicker API to enable the fetching of the image from the photo library.
-    - done
-       The LoginComponent.js file is updated to include a button named Gallery that will initiate the procedure to enable the user to select a picture from the photo gallery.
-- done
-
-       The image selected by the user is processed using the ImageManipulator to generate a PNG image
-- done
-
-       The ReservationComponent.js file is modified to implement the obtainCalendarPermission() function that obtains permission to access the calendar
-    - done
-       The ReservationComponent.js file is modified to implement the addReservationToCalendar() function that inserts the event into the default calendar using the Calendar API.- done
-    
-       The details of the event are correctly inserted setting the title, start and end time and the location correctly.
-- done
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
 
 # Binding everything together
 
@@ -907,13 +818,6 @@ ______________________________________________________________
         https://www.freecodecamp.org/news/css-in-javascript-the-future-of-component-based-styling-70b161a79a32/
     
         https://link.medium.com/39iEdodYg1
-
-
-
-
-#### Backend Integration.
-
-       Backend provides the data for both website and app
 
 
 

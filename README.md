@@ -77,13 +77,18 @@
 The task was to build a site entirely with react-strap.
 With react,redux,routing and more.
 
+
+![](https://media.giphy.com/media/Ih6ae8hcrvblPyXLqW/giphy.gif)
+
+![](https://media.giphy.com/media/XBj88HVKetLT0jWuZa/giphy.gif)
+
 ![](https://media.giphy.com/media/dsidmSLVQxn6bDV2Sw/giphy.gif)
 
 ![](https://media.giphy.com/media/Y4KAviMbeyQcTu0EVT/giphy.gif)
 
 ![](https://media.giphy.com/media/cLY3Lw11yJH16zMscd/giphy.gif)
 
-![](https://media.giphy.com/media/VhQInqJUQCQWMYfqD6/giphy.gif)
+![](https://media.giphy.com/media/j3JZrptEGxdvaD7dTv/giphy.gif)
 
 
 ##### Expo App online testing link

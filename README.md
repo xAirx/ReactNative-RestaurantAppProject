@@ -58,8 +58,6 @@
 
 ### App - A work in progress
 
- ## Current Features of the Website, app and backend.
- 
 ![](https://media.giphy.com/media/XbyRPGlLGjzwd48wly/giphy.gif)
 ![](https://media.giphy.com/media/WpHzcqwVw77m2NYoPq/giphy.gif)
 ![](https://media.giphy.com/media/XfbhnNHt2MzIlUTHWr/giphy.gif)
@@ -72,7 +70,7 @@
 
 
 
-### Website 
+### Website  - A work in progress
 
 The task was to build a site entirely with react-strap.
 With react,redux,routing and more.

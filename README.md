@@ -827,7 +827,7 @@ https://onedrive.live.com/view.aspx?resid=897203C158E872F%2184124&id=documents&w
   &nbsp;
 
 
-# Binding everything together
+# BONUS
 
 ## Roadmap Learning && "The future updates for the Fullstack Portfolio Project"
 

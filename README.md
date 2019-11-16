@@ -138,7 +138,7 @@ Expected List of Features & Architecture
     const leaderRouter = require('./routes/leaderRouter')
 
     Login functionality, with registration, JWT, communicating with the backend express API. 
-
+    Oauth, facebook login etc.
     
     Check if a verified ordinary user also has Admin privileges
     
@@ -424,7 +424,8 @@ Expected List of Features & Architecture
 
  ## API description: 
 
-
+    To be written:
+    
 &nbsp;
 &nbsp;
 &nbsp;
@@ -538,6 +539,7 @@ onenote: https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/ME
     
     Enable users to Delete one or all of their favorite dishes from their favorites list on the server.
 
+    Enable Oauth and facebook login
 
 &nbsp;
 &nbsp;
@@ -690,7 +692,8 @@ onenote:https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/MER
      Enable users to retrieve the list of their favorite dishes from the server
     
     Enable users to Delete one or all of their favorite dishes from their favorites list on the server.
-
+    
+    Enable Oauth and facebook login
 
 &nbsp;
 &nbsp;

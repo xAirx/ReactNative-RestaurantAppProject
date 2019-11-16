@@ -45,70 +45,6 @@
 &nbsp;
 &nbsp;
 
-# Project overview
-
-## A quick overview.
-
-#### Frontend (App and Website)
-
-        The project consists of an app and a website depicting a restaurant.
-
-        Redux managing data from the API distributing it across the app.
-        
-        The data consists of leaders, dishes, and promotions, this data makes up the content on the webpage and app.
-        
-        Users can register and login   
-        
-        The registration functionality is extended in the app which includes integration with the devices camera and camera roll.
-        
-        Users are able to favorite and comment on dishes.
-        
-        Users are able to see their favorites and also delete them.
-
-     
-        The app includes a table reservation system that also communicates with redux and native elements on the devices, such as calendar and notification 
-        
-
-
-#### Backend:
-
-    Login functionality, with registration, JWT, communicating with the backend express API. 
-
-    
-    Check if a verified ordinary user also has Admin privileges
-    
-    
-    ////////// Admin panel assignment //////////////////////////////////////////////////////
-    
-    
-    Redirect from login to admin panel 
-    
-    Allow only an Admin to perform POST, PUT and DELETE operations
-    
-    Allow an Admin to be able to GET all the registered users' information from the database
-    
-    Allow admin to upload files, such as images when creating new dishes.
-    
-    Allow admin to flag dishes as promoted or not.
-    
-    Allow admin to flag leaders as promoted
-    
-    
-    ///////////////////////////////////////////////////////////////////////////////////////////////
-    
-    
-    ////////// Simple user "operations" //////////////
-    
-    Allow a registered user to submit comments, update a submitted comment and delete a submitted comment. 
-    
-    The user should be restricted to perform such operations only on his/her own comments. No user or even the Admin can edit or delete the comments submitted by other users.
-    
-    Allowed users to select a dish as their favorite, and add it to the list of favorites that are saved on the server.
-    
-    Allowed users to retrieve the list of their favorite dishes from the server
-    
-    Delete one or all of their favorite dishes from their favorites list on the server.
-
 
 
 &nbsp;
@@ -168,17 +104,87 @@ With react,redux,routing and more.
 
 Expected List of Features & Architecture
 
+## A quick TLDR overview.
+
+#### Frontend (App and Website)
+
+        The project consists of an app and a website depicting a restaurant.
+
+        Redux managing data from the API distributing it across the app.
+        
+        The data consists of leaders, dishes, and promotions, this data makes up the content on the webpage and app.
+        
+        Users can register and login   
+        
+        The registration functionality is extended in the app which includes integration with the devices camera and camera roll.
+        
+        Users are able to favorite and comment on dishes.
+        
+        Users are able to see their favorites and also delete them.
+     
+        The app includes a table reservation system that also communicates with redux and native elements on the devices, such as calendar and notification 
+        
+        
+
+#### Backend:
+
+
+    Routing
+    
+    const indexRouter = require('./routes/index');
+    const usersRouter = require('./routes/users');
+    const dishesRouter = require('./routes/dishRouter')
+    const promoRouter = require('./routes/promoRouter')
+    const leaderRouter = require('./routes/leaderRouter')
+
+    Login functionality, with registration, JWT, communicating with the backend express API. 
+
+    
+    Check if a verified ordinary user also has Admin privileges
+    
+    
+    ////////// Admin panel assignment //////////////////////////////////////////////////////
+   
+    
+    Allow only an Admin to perform POST, PUT and DELETE operations
+    
+    Allow an Admin to be able to GET all the registered users' information from the database
+    
+    
+    Redirect from login to admin panel 
+    
+    Allow admin to upload files, such as images when creating new dishes.
+    
+    Allow admin to flag dishes as promoted or not.
+    
+    Allow admin to flag leaders as promoted
+    
+    
+  
+    ///////////////////////////////////////////////////////////////////////////////////////////////
+    
+    
+    ////////// Simple user "operations" //////////////
+    
+    Allow a registered user to submit comments, update a submitted comment and delete a submitted comment. 
+    
+    The user should be restricted to perform such operations only on his/her own comments. No user or even the Admin can edit or delete the comments submitted by other users.
+    
+    Allowed users to select a dish as their favorite, and add it to the list of favorites that are saved on the server.
+    
+    Allowed users to retrieve the list of their favorite dishes from the server
+    
+    Delete one or all of their favorite dishes from their favorites list on the server.
+
+
+
 &nbsp;
 &nbsp;
 &nbsp;
 &nbsp;
 
-## Stacklist:
 
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
+# Project overview
 
   ### Website made in React.js
   
@@ -232,7 +238,7 @@ Expected List of Features & Architecture
          
          Redux For Client server communication with fetch.
          
-         Feedback through the feedback form by creating a new feedback service that accepts the form data and uses Restangular to record their feedback on the server.
+         Feedback through the feedback form by creating a new feedback service that accepts the form data.
 
 &nbsp;
 &nbsp;
@@ -293,6 +299,7 @@ Expected List of Features & Architecture
          Form handling &  Redux integration for form handling 
          
          Redux integration to create a "Loading Component" using the activity indicator component
+         
          Trigger showing of message when data is fetched from server.
     
          Redux integration to "Star products" and rate them
@@ -508,9 +515,29 @@ onenote: https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/ME
     Connecting the login system to the backend, allowing users to login and register.
     Based on the user being admin or not, the user will either be redirected to home or an admin panel.
     
-    *****
-    *****
-    *****
+     /////////// ADMIN Operations ////////////
+     
+     Redirect from login to admin panel 
+    
+    Enable admin to upload files, such as images when creating new dishes.
+    
+    Enable admin to flag dishes as promoted or not.
+    
+    Enable admin to flag leaders as promoted
+    
+    
+    ////////// Simple user "operations" //////////////
+    
+    Enable a registered user to submit comments, update a submitted comment and delete a submitted comment. 
+    
+    The user should be restricted to perform such operations only on his/her own comments. No user or even the Admin can edit or delete the comments submitted by other users.
+    
+    Enable users to select a dish as their favorite, and add it to the list of favorites that are saved on the server.
+    
+     Enable users to retrieve the list of their favorite dishes from the server
+    
+    Enable users to Delete one or all of their favorite dishes from their favorites list on the server.
+
 
 &nbsp;
 &nbsp;
@@ -641,9 +668,29 @@ onenote:https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/MER
     Connecting the login system to the backend, allowing users to login and register.
     Based on the user being admin or not, the user will either be redirected to home or an admin panel.
     
-    *****
-    *****
-    *****
+     /////////// ADMIN Operations ////////////
+     
+     Redirect from login to admin panel 
+    
+    Enable admin to upload files, such as images when creating new dishes.
+    
+    Enable admin to flag dishes as promoted or not.
+    
+    Enable admin to flag leaders as promoted
+    
+    
+    ////////// Simple user "operations" //////////////
+    
+    Enable a registered user to submit comments, update a submitted comment and delete a submitted comment. 
+    
+    The user should be restricted to perform such operations only on his/her own comments. No user or even the Admin can edit or delete the comments submitted by other users.
+    
+    Enable users to select a dish as their favorite, and add it to the list of favorites that are saved on the server.
+    
+     Enable users to retrieve the list of their favorite dishes from the server
+    
+    Enable users to Delete one or all of their favorite dishes from their favorites list on the server.
+
 
 &nbsp;
 &nbsp;

@@ -74,7 +74,7 @@
 
 ### Website - A work in progress - Visual and Design overhaul is next step.
 
-![](https://media.giphy.com/media/cNetAu2ihEFjhhCVcn/giphy.gif)
+![](http://www.giphy.com/gifs/mBXKqLv8eubB4bFfN7)
 
 
 ##### Expo App online testing link

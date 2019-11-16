@@ -47,7 +47,9 @@
 
 # Project overview
 
-## A quick overview. 
+## A quick overview.
+
+#### Frontend (App and Website)
 
         The project consists of an app and a website depicting a restaurant.
 
@@ -68,7 +70,7 @@
         
 
 
-## The backend adds following functionality:
+#### Backend adds following functionality:
 
     Login functionality, with registration, JWT, communicating with the backend express API. 
 

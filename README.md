@@ -77,7 +77,7 @@
 The task was to build a site entirely with react-strap.
 With react,redux,routing and more.
 
-![](https://giphy.com/gifs/dsidmSLVQxn6bDV2Sw/html5)
+![](https://media.giphy.com/media/dsidmSLVQxn6bDV2Sw/giphy.gif)
 
 
 

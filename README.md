@@ -47,6 +47,22 @@
 
 # Project overview
 
+A quick overview. 
+
+The project consists of an app and a website depicting a restaurant.
+
+Redux integration managing, favorites, adding and deleting items (in this case dishes since its a restaurant app/website.
+
+Redux managing data from the API distributing it across the app.
+
+Login functionality, with registration, JWT, communicating with the backend express API. 
+
+The registration functionality is extended in the app which includes integration with the devices camera and camera roll.
+
+The app includes a table reservation system that also communicates with redux and native elements on the devices, such as calendar and notification 
+
+
+
 &nbsp;
 &nbsp;
 &nbsp;
@@ -152,10 +168,7 @@ Expected List of Features & Architecture
 
    #### Features:
 
-    Website made to support any type of business.
-    
-         Integrated font awesome "fonts and buttons"
-        
+   
          Form handling &  Redux integration for form handling 
          
          *********** Redux integration to create a "Loading Component" using the activity indicator component

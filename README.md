@@ -70,7 +70,7 @@
         
 
 
-#### Backend adds following functionality:
+#### Backend:
 
     Login functionality, with registration, JWT, communicating with the backend express API. 
 

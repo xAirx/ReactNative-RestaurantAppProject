@@ -10,30 +10,44 @@
     The notes below is the project requirements for the final project as part of the "Fullstack Certification"
     
     The project will combine all three courses:
-    
-    
-    
+
+
+​    
+​    
+
             https://github.com/xAirx/Certifications
-            
-            
-    
+
+
+​            
+​    
+
             Front-End Web Development with React 
-            
-            
+
+
+​            
+
                           https://github.com/xAirx/Coursera-UniversityofHK-React
-            
-            
-            
+
+
+​            
+​            
+
             Server-side Development with NodeJS, Express and MongoDB
-            
-            
+
+
+​            
+
                          https://github.com/xAirx/Coursera-UniversyofHK-ServerSideNode
-            
-           
-           
+
+
+​           
+​           
+
            Multiplatform Mobile App Development with React Native      
-           
-            
+
+
+​            
+
                         https://github.com/xAirx/Coursera-UniversityofHK-ReactNative
 
 
@@ -61,7 +75,7 @@
 #### 
 
         The project consists of an app and a website depicting a restaurant.
-
+    
         Redux managing data from the API distributing it across the app.
         
         The data consists of leaders, dishes, and promotions, this data makes up the content on the webpage and app.
@@ -75,11 +89,13 @@
         Users are able to see their favorites and also delete them.
      
         The app includes a table reservation system that also communicates with redux and native elements on the devices, such as calendar and notification 
-        
-        
+
+
+​        
+
         Login functionality, with registration, JWT, communicating with the backend express API. 
         Oauth, facebook login etc.
-
+    
         Check if a verified ordinary user also has Admin privileges
     
         User and Admin panel.
@@ -89,13 +105,13 @@
         Via Userpanel able to update a submitted comment and delete a submitted comment.
         
         Admin allowed / able to be able to GET all the registered users' information from the database
-
+    
         Admin allowed / able to upload files, such as images when creating new dishes.
-
+    
         Admin allowed / able to flag dishes as featured or not.
-
+    
         Admin allowed / able to flag leaders as featured for the frontpage
-           
+
 
 
 ## Imagery
@@ -162,7 +178,7 @@ Expected List of Features & Architecture
 # Project overview
 
   ### Website made in React.js
-  
+
 &nbsp;
 &nbsp;
 &nbsp;
@@ -197,7 +213,7 @@ Expected List of Features & Architecture
 
    #### Features:
 
-   
+
          Form handling &  Redux integration for form handling 
          
          *********** Redux integration to create a "Loading Component" using the activity indicator component
@@ -320,20 +336,23 @@ Expected List of Features & Architecture
     Bodyparser
     Morgan
     Express Router
-
+    
        Login functionality for frontend
        
         https://levelup.gitconnected.com/using-jwt-in-your-react-redux-app-for-authorization-d31be51a50d2
         https://medium.com/@faizanv/authentication-for-your-react-and-express-application-w-json-web-tokens-923515826e0
         https://www.sitepoint.com/tutorial-build-a-react-js-application-with-user-login-and-authentication/
         https://scotch.io/tutorials/react-native-app-with-authentication-and-user-management-in-15-minutes
-        
-    
+
+
+​    
+
     Describe the use of Node for server-side development
     Create a Node application
     Demonstrate the use of Node modules in developing a Node application
     Develop a simple REST API server using the Express framework
-   
+    
+
 
     Demonstrate an understanding of data persistence using a database
     Design persistent data storage based on MongoDB, a NoSQL database
@@ -348,6 +367,7 @@ Expected List of Features & Architecture
     Design the Express server to handle CORS
     Develop user authentication based on OAuth protocol
     Demonstrate the various Backend as a Service approaches
+    
 
 &nbsp;
 &nbsp;
@@ -373,11 +393,14 @@ Expected List of Features & Architecture
      Oauth and user authentication in conjunction
      
      Backend as a service.
+    
 
 
-     
+​     
+
      Extra: 
     
+
 
      Authentication based on being an admin or not.
      
@@ -388,6 +411,7 @@ Expected List of Features & Architecture
      Support for a user to manage their own comments, delete functionality.
      
      API supporting various objects of which contains members of the “company” 
+    
 
 
 &nbsp;
@@ -401,6 +425,7 @@ Expected List of Features & Architecture
 
     To be written:
     
+
 &nbsp;
 &nbsp;
 &nbsp;
@@ -414,6 +439,7 @@ Expected List of Features & Architecture
 &nbsp;
 
  ## React website (Frontend)
+
 &nbsp;
 &nbsp;
 &nbsp;
@@ -432,119 +458,139 @@ onenote: https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/ME
    
 
 
+
   #### Part 1 & 2 :
 
-   ~~Setting up the project &. Creating components needed - done
+   Setting up the project &. Creating components needed - done
       
-   ~~Created a new DishdetailComponent and added it to React application. - done
+   Created a new DishdetailComponent and added it to React application. - done
     
-   ~~Updated the view of the DishdetailComponent to display the details of the selected dish using an reactstrap card component. - done
+   Updated the view of the DishdetailComponent to display the details of the selected dish using an reactstrap card component. - done
     
-   ~~Updated the view of the DishdetailComponent to display the list of comments about the dish using the Bootstrap unstyled list component. - done
+   Updated the view of the DishdetailComponent to display the list of comments about the dish using the Bootstrap unstyled list component. - done
     
-   ~~Integrated the AboutComponent given above into the single page application. - done
+   Integrated the AboutComponent given above into the single page application. - done
     
-   ~~Added a new functional component named <RenderLeader> through the RenderLeader() function to AboutComponent.js that    renders the details of a given leader using the reactstrap <Media> component. - done
+   Added a new functional component named <RenderLeader> through the RenderLeader() function to AboutComponent.js that    renders the details of a given leader using the reactstrap <Media> component. - done
       
-  ~~Construct and render the list of leaders in the About Us page using the <RenderLeader> 
-  
-  ~~component implemented above. - done 
+  Construct and render the list of leaders in the About Us page using the <RenderLeader
+
+  component implemented above. - done 
 
 #### Part 3:
 
-   ~~Configure The React application to make use of Redux   - done
+   Configure The React application to make use of Redux   - done
        
-   ~~Provide a form to enable users to submit their comments   - done
+   Provide a form to enable users to submit their comments   - done
       
-   ~~Validate the information entered by the users in the form   - done
+   Validate the information entered by the users in the form   - done
     
-   ~~Set up the form as a local form using the react-redux-form    - done
+   Set up the form as a local form using the react-redux-form    - done
 
-     
+​     
 
  #### Part 4 : 
 
-   ~~Introduced new action types and action creators to support the fetching of the leaders information from the server and update the Redux store. - done
+   Introduced new action types and action creators to support the fetching of the leaders information from the server and update the Redux store. - done
     
-   ~~Updated the Home and the About component to render the information about the leaders using the downloaded data from the server - done
+   Updated the Home and the About component to render the information about the leaders using the downloaded data from the server - done
     
-   ~~Add simple animations to the About component where the leaders information is displayed. - done
+   Add simple animations to the About component where the leaders information is displayed. - done
     
-   ~~Enabled the users to submit feedback through the feedback form by creating a new feedback service that accepts the form data and uses Restangular to record their feedback on the server. - done
+   Enabled the users to submit feedback through the feedback form by creating a new feedback service that accepts the form data and uses Restangular to record their feedback on the server. - done
 
- ~~Appropriate action types and action creators have been added. - done
-  
-  ~~The Home component is correctly using the leader data, and handling any errors that might arise. - done
-  
-  ~~The About component is correctly using the leader data, and handling any errors that might arise. - done
+ Appropriate action types and action creators have been added. - done
 
-  ~~A new postFeedback() action creator is correctly implemented to post the feedback data to the server. - done
-  
-  ~~The Contact component has been correctly updated to use postFeedback() to post the form data to the server. - done
+  The Home component is correctly using the leader data, and handling any errors that might arise. - done
 
-  ~~Appropriate animation has been added to stagger the rendering of the leaders in the AboutComponent. - done
+  The About component is correctly using the leader data, and handling any errors that might arise. - done
+
+  A new postFeedback() action creator is correctly implemented to post the feedback data to the server. - done
+
+  The Contact component has been correctly updated to use postFeedback() to post the form data to the server. - done
+
+  Appropriate animation has been added to stagger the rendering of the leaders in the AboutComponent. - done
 
 
 #### Part 5: Login registration and authentication.
 
          ******* Admin Panel is setup *******
-         
-   ~~ Admin Panel Frontend structure - done
-         
 
-   ~~Admin  / able to be able to GET all the registered users' information from the database -done
+​    Admin Panel Frontend structure - done
+​         
 
-   ~~Admin  / able to upload files, such as images when creating new dishes. -done
+   Admin  / able to be able to GET all the registered users' information from the database -done
 
-   ~~Admin  / ableadmin to flag dishes as promoted or not. -done
+   Admin  / able to upload files, such as images when creating new dishes. -done
 
-   ~~Admin  / able admin to flag leaders as promoted -done
+   Admin  / ableadmin to flag dishes as promoted or not. -done
+
+   Admin  / able admin to flag leaders as promoted -done
          
         
         
+
          Todo: 
-         
-               
+    
+
+
+​               
+
          //////////// REGISTRATION SYSTEM ///////////
     
          /////////////Buttons, checkboxes, not connected to handlefunctions  // post operations yet.//////////
-         
+    
 
-     
+
+​     
+
         //////////////////// Security ///////////////////////
         
         Redirect from login to admin panel if user is not authorized for the admin route, redirect back.
         
         Need to add Redux integration with backend here:
-
+    
         Admin allowed / able to perform POST, PUT and DELETE operations
      
         /Admin route will give redirect 403, if you are not logged in as admin 
-        
-        
-        
+    
+
+
+​        
+​        
+
         ///////////////// ADMIN panel ////////////////////
         
         Admin logic to unCHECK when a dish is already featured.
          
         Admin recieves popup alert before deletion is completed. "Warning" 
-        
-        
-        /////////////////// Comments /////////////////////// 
-        
-        
-        Allowed users to select a dish as their favorite, and add it to the list of favorites that are saved on the server.
+    
 
+
+​        
+
+        /////////////////// Comments /////////////////////// 
+    
+
+
+​        
+
+        Allowed users to select a dish as their favorite, and add it to the list of favorites that are saved on the server.
+    
         Delete one or all of their favorite dishes from their favorites list on the server.
         
         Admins can mod comments, admin moderation comment button will only appear if "user"
         is logged in as admin. - logic needed
-        
+    
+
 
         Allow a registered user to submit comments,  - need redux post implementation
-        
-        
-        
+    
+
+
+​        
+​        
+
         //////////// Start building User Panel / Favorites / My Comments Panel /////////////// 
         
         Via Userpanel able to update profilepicture, description etc.
@@ -554,12 +600,14 @@ onenote: https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/ME
         The user should be restricted to perform such operations only on his/her own comments. 
         
         Allowed users to select a dish as their favorite, and add it to the list of favorites that are saved on the server.
-
+    
         Allowed users to retrieve the list of their favorite dishes from the server
-
+    
         Delete one or all of their favorite dishes from their favorites list on the server.
-        
-        
+    
+
+
+​        
 
 &nbsp;
 &nbsp;
@@ -594,106 +642,106 @@ onenote:https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/MER
 
 #### Part 1 : Navigators and Components. - done
 
-  ~~The Contact Us page is showing the address of the restaurant in the card format as shown above. - done
+  The Contact Us page is showing the address of the restaurant in the card format as shown above. - done
     
-   ~~The history information about the restaurant is displayed in a card format as shown above using a functional component named History(). - done
+   The history information about the restaurant is displayed in a card format as shown above using a functional component named History(). - done
        
-   ~~The corporate leadership information is shown in the About Us page in the format as shown above. The leader information is renedered inside a Card. - done
+   The corporate leadership information is shown in the About Us page in the format as shown above. The leader information is renedered inside a Card. - done
     
-   ~~The AboutComponent is a included using the Stack Navigator and in the Drawer Navigator. - done
-   
-   ~~The ContactComponent is a included using the Stack Navigator and in the Drawer Navigator. - done
+   The AboutComponent is a included using the Stack Navigator and in the Drawer Navigator. - done
+
+   The ContactComponent is a included using the Stack Navigator and in the Drawer Navigator. - done
 
  
 
 
 #### Part 2 : UI elements and Redux - done
 
-   ~~Add an Action named ADD_COMMENT to the ActionTypes.js. - done
+   Add an Action named ADD_COMMENT to the ActionTypes.js. - done
       
-   ~~Add two action creators named postComment() and addComment(). The postComment() creator will receive the dishId, rating, author and comment as the four parameters. - done
+   Add two action creators named postComment() and addComment(). The postComment() creator will receive the dishId, rating, author and comment as the four parameters. - done
       
-  ~~Update the comments reducer function to handle the new ADD_COMMENT action and add the comment to the list of comments. The handling of the action should also ensure that appropriate ID will be added to the comment.- done
+  Update the comments reducer function to handle the new ADD_COMMENT action and add the comment to the list of comments. The handling of the action should also ensure that appropriate ID will be added to the comment.- done
 
 
- ~~The modal containing the form is correctly added to the Dishdetail component- done
- 
- ~~The form is correctly configured with the rating, author and comment fields.- done
- 
- ~~An Icon is added to the RenderDish Card that will trigger the showing of the modal.- done
+ The modal containing the form is correctly added to the Dishdetail component- done
+
+ The form is correctly configured with the rating, author and comment fields.- done
+
+ An Icon is added to the RenderDish Card that will trigger the showing of the modal.- done
     
-  ~~The ADD_COMMENT action is correctly added- done
-  
-  ~~The postComment() action creator is correctly added- done
-  
-  ~~The addComment() action creator is correctly added and will be dispatched by postComment() after a 2 sec delay- done
-  
-  ~~The comment reducer is updated to handle the ADD_COMMENT action- done
+  The ADD_COMMENT action is correctly added- done
+
+  The postComment() action creator is correctly added- done
+
+  The addComment() action creator is correctly added and will be dispatched by postComment() after a 2 sec delay- done
+
+  The comment reducer is updated to handle the ADD_COMMENT action- done
       
-  ~~EXTRA: __________________________________________________________________
+  EXTRA: __________________________________________________________________
       
-  ~~The favorites redux integration now includes a toggle functionality.- done
+  The favorites redux integration now includes a toggle functionality.- done
      
-   ~~The POST_COMMENT now also allows us to correctly call the LOADING_COMMENTS and show the data dynamically on add.- done
+   The POST_COMMENT now also allows us to correctly call the LOADING_COMMENTS and show the data dynamically on add.- done
 
 
-  
+
 
 #### Part 3: Animations, gestures and redux persist. - done
 
 
- ~~The reservation form zooms in when the user navigates to the reservation view - done ~~
+ The reservation form zooms in when the user navigates to the reservation view - done 
 
 
-  ~~An alert containing the information from the reservation form is shown when the user submits the filled reservation form. - done 
+  An alert containing the information from the reservation form is shown when the user submits the filled reservation form. - done 
       If the user clicks on Cancel, then the form is cleared. - done 
       If the user clicks on OK, then the form is cleared. - done 
 
 
- ~~When the user does a left to right gesture on the Dish details card in the Dishdetail component, toggle the comment form modal. - done
+ When the user does a left to right gesture on the Dish details card in the Dishdetail component, toggle the comment form modal. - done
 
-      
+​      
 
 #### Part 4:  Calendar event API, Image Picker API Reservation Functionality with users calendar.- done
 
-~~In this task will make use of the Expo SDK ImagePicker API to enable application to fetch an image from the photo library.
+In this task will make use of the Expo SDK ImagePicker API to enable application to fetch an image from the photo library.
 
-  ~~Update LoginComponent.js to set up a function named getImageFromGallery() that fetches the image from the photo library on the device using the ImagePicker API support.
- 
+  Update LoginComponent.js to set up a function named getImageFromGallery() that fetches the image from the photo library on the device using the ImagePicker API support.
+
+
+ Details of setting up the source to be the Photo Library can be found in the API documentation.- done
+
+ Add a new button named Gallery that when clicked will initiate the process to enable the user to select a picture from the photo library using the ImagePicker API.- done
+
+  Once the image is picked, it must be processed through the ImageManipulator to obtain a resized PNG version of the image as we did in the exercise.- done
+
+In this task I will insert a new Calendar event into the default calendar on the mobile device for the table reservation.  will use the Calendar API from Expo SDK for this.  will implement this in the ReservationComponent.js file.
+
+When the user submits the reservation form,  will obtain the details of the reservation in the handleReservation() function.- done
+
+  Implement a new function named obtainCalendarPermission() that will ask for permission to access the calendar on the device. The corresponding permission is Permission.CALENDAR.
+
+ Implement another function named addReservationToCalendar() that receives the date information as a parameter. This function is invoked from the handleReservation() function.- done
+    
+ should use the createEventAsync() function from the Calendar API to insert the event into the default calendar (Calendar.DEFAULT). This function takes a title, the start and end time, timezone and location as the parameters.
+
+Use 'Con Fusion Table Reservation' as the title of the inserted event- done
+    
+To specify the start Date and end Date,  can convert the Date ISO string into a Date object by using new Date(Date.parse(date)). Furthermore, the Date.parse() gives  the date value in milliseconds.  can set up the end time by adding 2 hours (2*60*60*1000) to the milliseconds and use it to generate the Date object corresponding to the end time of the event.- done
+    
+ For time zone use 'Asia/Hong_Kong', and the location as '121, Clear Water Bay Road, Clear Water Bay, Kowloon, Hong Kong' - done
+
+ The LoginComponent.js is updated to implement the getImageFromGallery() function that uses the ImagePicker API to enable the fetching of the image from the photo library. - done
+    
+The LoginComponent.js file is updated to include a button named Gallery that will initiate the procedure to enable the user to select a picture from the photo gallery. - done
+
+ The image selected by the user is processed using the ImageManipulator to generate a PNG image - done
+
+The ReservationComponent.js file is modified to implement the obtainCalendarPermission() function that obtains permission to access the calendar - done
        
- ~~Details of setting up the source to be the Photo Library can be found in the API documentation.- done~~
-
- ~~Add a new button named Gallery that when clicked will initiate the process to enable the user to select a picture from the photo library using the ImagePicker API.- done
-  
-  ~~Once the image is picked, it must be processed through the ImageManipulator to obtain a resized PNG version of the image as we did in the exercise.- done
-
-~~In this task I will insert a new Calendar event into the default calendar on the mobile device for the table reservation.  will use the Calendar API from Expo SDK for this.  will implement this in the ReservationComponent.js file.
-
-~~When the user submits the reservation form,  will obtain the details of the reservation in the handleReservation() function.- done
-  
-  ~~Implement a new function named obtainCalendarPermission() that will ask for permission to access the calendar on the device. The corresponding permission is Permission.CALENDAR.
- 
- ~~Implement another function named addReservationToCalendar() that receives the date information as a parameter. This function is invoked from the handleReservation() function.- done
+ The ReservationComponent.js file is modified to implement the addReservationToCalendar() function that inserts the event into the default calendar using the Calendar API.- done
     
- ~~should use the createEventAsync() function from the Calendar API to insert the event into the default calendar (Calendar.DEFAULT). This function takes a title, the start and end time, timezone and location as the parameters.
-
-~~Use 'Con Fusion Table Reservation' as the title of the inserted event- done
-    
-~~To specify the start Date and end Date,  can convert the Date ISO string into a Date object by using new Date(Date.parse(date)). Furthermore, the Date.parse() gives  the date value in milliseconds.  can set up the end time by adding 2 hours (2*60*60*1000) to the milliseconds and use it to generate the Date object corresponding to the end time of the event.- done
-    
- ~~For time zone use 'Asia/Hong_Kong', and the location as '121, Clear Water Bay Road, Clear Water Bay, Kowloon, Hong Kong' - done
-
- ~~The LoginComponent.js is updated to implement the getImageFromGallery() function that uses the ImagePicker API to enable the fetching of the image from the photo library. - done
-    
-~~The LoginComponent.js file is updated to include a button named Gallery that will initiate the procedure to enable the user to select a picture from the photo gallery. - done
-
- ~~The image selected by the user is processed using the ImageManipulator to generate a PNG image - done
-
-~~The ReservationComponent.js file is modified to implement the obtainCalendarPermission() function that obtains permission to access the calendar - done
-       
- ~~The ReservationComponent.js file is modified to implement the addReservationToCalendar() function that inserts the event into the default calendar using the Calendar API.- done
-    
-~~The details of the event are correctly inserted setting the title, start and end time and the location correctly. - done
+The details of the event are correctly inserted setting the title, start and end time and the location correctly. - done
 
 
 
@@ -705,7 +753,10 @@ onenote:https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/MER
     
     The user should be restricted to perform such operations only on his/her own comments. No user or even the Admin can edit or delete the comments submitted by other users.
     
-    
+
+
+​    
+
     ///////////// Favorites ///////////// -- redux and post logic needed
     
     Enable users to select a dish as their favorite, and add it to the list of favorites that are saved on the server.
@@ -716,8 +767,11 @@ onenote:https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/MER
     
     Enable Oauth and facebook login
     
-    
-    
+
+
+​    
+​    
+
      //////////// Start building User Panel / Favorites / My Comments Panel /////////////// 
         
         Via Userpanel able to update profilepicture, description etc.
@@ -727,11 +781,11 @@ onenote:https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/MER
         The user should be restricted to perform such operations only on his/her own comments. 
         
         Allowed users to select a dish as their favorite, and add it to the list of favorites that are saved on the server.
-
+    
         Allowed users to retrieve the list of their favorite dishes from the server
-
+    
         Delete one or all of their favorite dishes from their favorites list on the server.
-        
+
 
 &nbsp;
 &nbsp;
@@ -760,59 +814,62 @@ https://onedrive.live.com/view.aspx?resid=897203C158E872F%2184124&id=documents&w
 
    #####  Part 1 :
 
-  ~~* Created a Node module using Express router to support the routes for the products REST API. - done
-  ~~* Created a Node module using Express router to support the routes for the promotions REST API. -done 
-  ~~* Created a Node module using Express router to support the routes for the leaders REST API. -done 
+  * Created a Node module using Express router to support the routes for the products REST API. - done
+  * Created a Node module using Express router to support the routes for the promotions REST API. -done 
+  * Created a Node module using Express router to support the routes for the leaders REST API. -done 
     
+
     Objective 1 
+
+ * The REST API supports GET, PUT, POST and DELETE operations on /products/:dishId end point. -done 
     
- ~~* The REST API supports GET, PUT, POST and DELETE operations on /products/:dishId end point. -done 
-    
+
     Objective 2 
-    
-  ~~* The new Node module, promoRouter is implemented and used to support the /promotions end point. -done 
-  
-  ~~The REST API supports GET, PUT, POST and DELETE operations on /promotions and GET, PUT, POST and DELETE operations on /promotions/:promoId end points. -done 
+
+  * The new Node module, promoRouter is implemented and used to support the /promotions end point. -done 
+
+  The REST API supports GET, PUT, POST and DELETE operations on /promotions and GET, PUT, POST and DELETE operations on /promotions/:promoId end points. -done 
 
 
     Objective 3 
-    
-  ~~* The new Node module, leaderRouter is implemented and used to support the /leaders end point. -done 
-  
-  ~~The REST API supports GET, PUT, POST and DELETE operations on /leadership and GET, PUT, POST and DELETE operations on /leaders/:leaderId end points. -done
+
+  * The new Node module, leaderRouter is implemented and used to support the /leaders end point. -done 
+
+  The REST API supports GET, PUT, POST and DELETE operations on /leadership and GET, PUT, POST and DELETE operations on /leaders/:leaderId end points. -done
 
 
 
    ###### Part 2 : 
 
- ~~Architecture and REST API and endpoints. - done
+ Architecture and REST API and endpoints. - done
     
+
     Objectives:
-    
- ~~* Designing the overall architecture of application, from the front-end to the back-end.  apportioned the responsibilities to the front-end and back-end.  - done
-    
- ~~* Design an appropriate REST API that should be supported by server-side. A good design would enable ease of implementation of both the front-end and the back-end and facilitate seamless communication.  - done
-    
- ~~* Decide on the database schemas and the structure of the data, depending upon the database technology to implement the persistence of server-side data  - done
-    
- ~~* Design the business logic to be implemented on the server-side to support the needs of the front-end.  - done
 
-~~* Implemented the Promotions schema and model - done
+ * Designing the overall architecture of application, from the front-end to the back-end.  apportioned the responsibilities to the front-end and back-end.  - done
+
+ * Design an appropriate REST API that should be supported by server-side. A good design would enable ease of implementation of both the front-end and the back-end and facilitate seamless communication.  - done
+
+ * Decide on the database schemas and the structure of the data, depending upon the database technology to implement the persistence of server-side data  - done
+
+ * Design the business logic to be implemented on the server-side to support the needs of the front-end.  - done
+
+* Implemented the Promotions schema and model - done
     
-~~* Implement a REST API to support the /promotions endpoint, and the /promotions/:promoId endpoint enabling the interaction with the MongoDB database  - done
+* Implement a REST API to support the /promotions endpoint, and the /promotions/:promoId endpoint enabling the interaction with the MongoDB database  - done
     
-~~* Implemented the Leaders schema and model  - done
+* Implemented the Leaders schema and model  - done
     
-~~* Implement a REST API to support the /leaders endpoint, and the /leaders/:leaderId endpoint enabling the interaction with the MongoDB database - done
+* Implement a REST API to support the /leaders endpoint, and the /leaders/:leaderId endpoint enabling the interaction with the MongoDB database - done
 
 
-~~Task 1 - done
+Task 1 - done
     * The Promotions schema and model correctly supports all the fields as per the example document given above - done
     * The label field is set to an empty string by default - done
     * The price schema is be supported with a new SchemaType called Currency. - done
     * The REST API endpoints /promotions and /promotions/:promoId are implemented to interact with the MongoDB database - done
     
-~~Task 2 - done
+Task 2 - done
     * The Leaders schema and model correctly supports all the fields as per the example document given above. - done
     * The REST API endpoints /leaders and /leaders/:leaderId are implemented to interact with the MongoDB database - done
 
@@ -873,6 +930,7 @@ https://onedrive.live.com/view.aspx?resid=897203C158E872F%2184124&id=documents&w
 ## Roadmap Learning && "The future updates for the Fullstack Portfolio Project"
 
 ______________________________________________________________
+
 &nbsp;
 &nbsp;
 &nbsp;
@@ -955,17 +1013,21 @@ ______________________________________________________________
       Read book 
     
       https://www.fullstackreact.com/
+    
 
 
          ## Ekstra Tutorials.... 
     
            https://react.rocks/tag/FullStack
+    
 
 
            https://graphql.org/@
+    
 
 
            https://hackernoon.com/building-a-dashboard-with-react-graphql-de4203eee6c9
+    
 
 
            https://medium.com/@nabendu82/build-a-complete-app-with-react-and-graphql-1-f8aff5f1ecc1
@@ -981,6 +1043,7 @@ ______________________________________________________________
            https://levelup.gitconnected.com/the-rise-of-the-nrg-stack-node-js-react-and-graphql-6dfba468ba8a
     
            https://medium.com/reactbrasil/build-a-chat-with-graphql-react-and-new-stuff-75ee4ffd2f2e
+    
 
  &nbsp;
   &nbsp;
@@ -1027,5 +1090,3 @@ ______________________________________
         https://github.com/peter-evans/swagger-github-pages
         
         https://github.com/swagger-api/swagger-ui
-  
-

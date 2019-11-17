@@ -53,6 +53,73 @@
 &nbsp;
 
 
+
+## A quick TLDR overview.
+
+  ##### This is described in depth in the architecture section / development notes section below.
+
+#### 
+
+        The project consists of an app and a website depicting a restaurant.
+
+        Redux managing data from the API distributing it across the app.
+        
+        The data consists of leaders, dishes, and promotions, this data makes up the content on the webpage and app.
+        
+        Users can register and login   
+        
+        The registration functionality is extended in the app which includes integration with the devices camera and camera roll.
+        
+        Users are able to favorite and comment on dishes.
+        
+        Users are able to see their favorites and also delete them.
+     
+        The app includes a table reservation system that also communicates with redux and native elements on the devices, such as calendar and notification 
+        
+        
+
+    Login functionality, with registration, JWT, communicating with the backend express API. 
+    Oauth, facebook login etc.
+    
+    Check if a verified ordinary user also has Admin privileges
+    
+    
+    
+    Frontend integration and communicating with the  Backend to make this happen.
+    
+    ////////// Admin panel assignment //////////////////////////////////////////////////////
+   
+    
+    Allow on backend and enable on frontend:
+
+
+    Redirect from login to admin panel 
+     
+    Admin allowed / able to perform POST, PUT and DELETE operations
+    
+    Admin allowed / able to be able to GET all the registered users' information from the database
+    
+    Admin allowed / able to upload files, such as images when creating new dishes.
+    
+    Admin allowed / ableadmin to flag dishes as promoted or not.
+    
+    Admin allowed / able admin to flag leaders as promoted
+    
+  
+    ////////// Simple user "operations" /////////////////////////////////////////////////////
+    
+    Allow a registered user to submit comments, update a submitted comment and delete a submitted comment. 
+    
+    The user should be restricted to perform such operations only on his/her own comments. No user or even the Admin can edit or delete the comments submitted by other users.
+    
+    Allowed users to select a dish as their favorite, and add it to the list of favorites that are saved on the server.
+    
+    Allowed users to retrieve the list of their favorite dishes from the server
+    
+    Delete one or all of their favorite dishes from their favorites list on the server.
+
+
+
 ## Imagery
 
 

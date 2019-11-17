@@ -137,9 +137,9 @@ With react,redux,routing and more.
 
 ![](https://media.giphy.com/media/iehQ45MNpKN56Z4At1/giphy.gif)
 
-![](https://media.giphy.com/media/ZBKvUlJGTGhT1F6AwA/giphy.gif)
+![](https://media.giphy.com/media/LSztJ8OQsStYF68MMO/giphy.gif)
 
-![](https://media.giphy.com/media/cJSvuurVMWiru9WxGS/giphy.gif)
+![](https://media.giphy.com/media/Kbw00vnObgvD59McBF/giphy.gif)
 
 ![](https://media.giphy.com/media/cLY3Lw11yJH16zMscd/giphy.gif)
 

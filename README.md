@@ -104,6 +104,11 @@
         Admin allowed / ableadmin to flag dishes as promoted or not.
 
         Admin allowed / able admin to flag leaders as promoted
+        
+        /Admin route will give redirect 403, if you are not logged in as admin 
+        
+        Admins can mod comments, admin moderation comment button will only appear if "user"
+        is logged in as admin.
 
 
         ////////// Simple user "operations" /////////////////////////////////////////////////////
@@ -117,7 +122,6 @@
         Allowed users to retrieve the list of their favorite dishes from the server
 
         Delete one or all of their favorite dishes from their favorites list on the server.
-
 
 
 ## Imagery

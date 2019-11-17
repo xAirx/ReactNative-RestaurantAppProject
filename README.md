@@ -96,6 +96,8 @@
         Redirect from login to admin panel 
 
         Admin allowed / able to perform POST, PUT and DELETE operations
+        
+        Admin recieves popup alert before deletion is completed. "Warning"
 
         Admin allowed / able to be able to GET all the registered users' information from the database
 

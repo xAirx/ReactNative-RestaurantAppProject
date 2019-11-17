@@ -93,7 +93,7 @@
         Allow on backend and enable on frontend:
 
 
-        Redirect from login to admin panel 
+        Redirect from login to admin panel if user is not authorized for the admin route, redirect back.
 
         Admin allowed / able to perform POST, PUT and DELETE operations
         

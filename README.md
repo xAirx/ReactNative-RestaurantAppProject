@@ -669,20 +669,6 @@ onenote:https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/MER
 
 #### Part 5: Login registration and authentication.
 
-    Connecting the login system to the backend, allowing users to login and register.
-    Based on the user being admin or not, the user will either be redirected to home or an admin panel.
-    
-     /////////// ADMIN Operations ////////////
-     
-     Redirect from login to admin panel 
-    
-    Enable admin to upload files, such as images when creating new dishes.
-    
-    Enable admin to flag dishes as promoted or not.
-    
-    Enable admin to flag leaders as promoted
-    
-    
     ////////// Simple user "operations" //////////////
     
     Enable a registered user to submit comments, update a submitted comment and delete a submitted comment. 

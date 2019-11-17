@@ -434,7 +434,7 @@ onenote: https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/ME
 
   #### Part 1 & 2 :
 
-      Setting up the project &. Creating components needed - done
+     <del>  Setting up the project &. Creating components needed - done
       
       Created a new DishdetailComponent and added it to React application. - done
     
@@ -446,7 +446,7 @@ onenote: https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/ME
     
       Added a new functional component named <RenderLeader> through the RenderLeader() function to AboutComponent.js that    renders the details of a given leader using the reactstrap <Media> component. - done
       
-    Construct and render the list of leaders in the About Us page using the <RenderLeader> component implemented above. - done
+    Construct and render the list of leaders in the About Us page using the <RenderLeader> component implemented above. - done </del> 
 
 
 #### Part 3:
@@ -639,26 +639,26 @@ onenote:https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/MER
 #### Part 3: Animations, gestures and redux persist. - done
 
 
-    ~~ The reservation form zooms in when the user navigates to the reservation view - done ~~
+        The reservation form zooms in when the user navigates to the reservation view - done ~~
 
 
-    ~~An alert containing the information from the reservation form is shown when the user submits the filled reservation form. - done ~~
-      ~~ If the user clicks on Cancel, then the form is cleared. - done ~~
-      ~~ If the user clicks on OK, then the form is cleared. - done ~~
+        An alert containing the information from the reservation form is shown when the user submits the filled reservation form. - done 
+      If the user clicks on Cancel, then the form is cleared. - done 
+      If the user clicks on OK, then the form is cleared. - done 
 
 
-    ~~  When the user does a left to right gesture on the Dish details card in the Dishdetail component, toggle the comment form modal. - done~~
+     When the user does a left to right gesture on the Dish details card in the Dishdetail component, toggle the comment form modal. - done
 
       
 
 #### Part 4:  Calendar event API, Image Picker API Reservation Functionality with users calendar.- done
 
-     ~~In this task will make use of the Expo SDK ImagePicker API to enable application to fetch an image from the photo library.~~
+     In this task will make use of the Expo SDK ImagePicker API to enable application to fetch an image from the photo library.
 
-       ~~Update LoginComponent.js to set up a function named getImageFromGallery() that fetches the image from the photo library on the device using the ImagePicker API support.~~
+       Update LoginComponent.js to set up a function named getImageFromGallery() that fetches the image from the photo library on the device using the ImagePicker API support.
  
        
-     ~~Details of setting up the source to be the Photo Library can be found in the API documentation.- done~~
+     Details of setting up the source to be the Photo Library can be found in the API documentation.- done~~
 
        Add a new button named Gallery that when clicked will initiate the process to enable the user to select a picture from the photo library using the ImagePicker API.- done
        Once the image is picked, it must be processed through the ImageManipulator to obtain a resized PNG version of the image as we did in the exercise.- done

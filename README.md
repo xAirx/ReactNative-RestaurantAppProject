@@ -77,7 +77,6 @@
         The app includes a table reservation system that also communicates with redux and native elements on the devices, such as calendar and notification 
         
         
-
         Login functionality, with registration, JWT, communicating with the backend express API. 
         Oauth, facebook login etc.
 
@@ -85,13 +84,12 @@
 
 
 
+
         Frontend integration and communicating with the  Backend to make this happen.
 
         ////////// Admin panel assignment //////////////////////////////////////////////////////
 
-
         Allow on backend and enable on frontend:
-
 
         Redirect from login to admin panel if user is not authorized for the admin route, redirect back.
 
@@ -111,6 +109,7 @@
         
         Admins can mod comments, admin moderation comment button will only appear if "user"
         is logged in as admin.
+
 
 
         ////////// Simple user "operations" /////////////////////////////////////////////////////

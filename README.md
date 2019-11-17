@@ -81,48 +81,21 @@
         Oauth, facebook login etc.
 
         Check if a verified ordinary user also has Admin privileges
-
-
-
-
-        Frontend integration and communicating with the  Backend to make this happen.
-
-        /////// Admin panel assignment for website changes reflected in app too!///////////////////////////
-
-        Allow on backend and enable on frontend:
-
-        Redirect from login to admin panel if user is not authorized for the admin route, redirect back.
-
-        Admin allowed / able to perform POST, PUT and DELETE operations
+    
+        User and Admin panel.
         
-        Admin recieves popup alert before deletion is completed. "Warning"
-
+        Via Userpanel able to update profilepicture, description etc.
+        
+        Via Userpanel able to update a submitted comment and delete a submitted comment.
+        
         Admin allowed / able to be able to GET all the registered users' information from the database
 
         Admin allowed / able to upload files, such as images when creating new dishes.
 
-        Admin allowed / ableadmin to flag dishes as promoted or not.
+        Admin allowed / able to flag dishes as featured or not.
 
-        Admin allowed / able admin to flag leaders as promoted
-        
-        /Admin route will give redirect 403, if you are not logged in as admin 
-        
-        Admins can mod comments, admin moderation comment button will only appear if "user"
-        is logged in as admin.
-
-
-
-        ////////// Simple user "operations" /////////////////////////////////////////////////////
-
-        Allow a registered user to submit comments, update a submitted comment and delete a submitted comment. 
-
-        The user should be restricted to perform such operations only on his/her own comments. No user or even the Admin can edit or delete the comments submitted by other users.
-
-        Allowed users to select a dish as their favorite, and add it to the list of favorites that are saved on the server.
-
-        Allowed users to retrieve the list of their favorite dishes from the server
-
-        Delete one or all of their favorite dishes from their favorites list on the server.
+        Admin allowed / able to flag leaders as featured for the frontpage
+           
 
 
 ## Imagery
@@ -515,33 +488,81 @@ onenote: https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/ME
 
 #### Part 5: Login registration and authentication.
 
-    Connecting the login system to the backend, allowing users to login and register.
-    Based on the user being admin or not, the user will either be redirected to home or an admin panel.
-    
-     /////////// ADMIN Operations ////////////
-     
-     Redirect from login to admin panel 
-    
-    Enable admin to upload files, such as images when creating new dishes.
-    
-    Enable admin to flag dishes as promoted or not.
-    
-    Enable admin to flag leaders as promoted
-    
-    
-    ////////// Simple user "operations" //////////////
-    
-    Enable a registered user to submit comments, update a submitted comment and delete a submitted comment. 
-    
-    The user should be restricted to perform such operations only on his/her own comments. No user or even the Admin can edit or delete the comments submitted by other users.
-    
-    Enable users to select a dish as their favorite, and add it to the list of favorites that are saved on the server.
-    
-     Enable users to retrieve the list of their favorite dishes from the server
-    
-    Enable users to Delete one or all of their favorite dishes from their favorites list on the server.
 
-    Enable Oauth and facebook login
+         
+         ******* Admin Panel is setup *******
+         
+        Frontend structure - done
+         
+
+        Admin  / able to be able to GET all the registered users' information from the database -done
+
+        Admin  / able to upload files, such as images when creating new dishes. -done
+
+        Admin  / ableadmin to flag dishes as promoted or not. -done
+
+        Admin  / able admin to flag leaders as promoted -done
+         
+        
+        
+         Todo: 
+         
+               
+         //////////// REGISTRATION SYSTEM ///////////
+    
+         /////////////Buttons, checkboxes, not connected to handlefunctions  // post operations yet.//////////
+         
+
+     
+        //////////////////// Security ///////////////////////
+        
+        Redirect from login to admin panel if user is not authorized for the admin route, redirect back.
+        
+        Need to add Redux integration with backend here:
+
+        Admin allowed / able to perform POST, PUT and DELETE operations
+     
+        /Admin route will give redirect 403, if you are not logged in as admin 
+        
+        
+        
+        ///////////////// ADMIN panel ////////////////////
+        
+        Admin logic to unCHECK when a dish is already featured.
+         
+        Admin recieves popup alert before deletion is completed. "Warning" 
+        
+        
+        /////////////////// Comments /////////////////////// 
+        
+        
+        Allowed users to select a dish as their favorite, and add it to the list of favorites that are saved on the server.
+
+        Delete one or all of their favorite dishes from their favorites list on the server.
+        
+        Admins can mod comments, admin moderation comment button will only appear if "user"
+        is logged in as admin. - logic needed
+        
+
+        Allow a registered user to submit comments,  - need redux post implementation
+        
+        
+        
+        //////////// Start building User Panel / Favorites / My Comments Panel /////////////// 
+        
+        Via Userpanel able to update profilepicture, description etc.
+        
+        Via Userpanel able to update a submitted comment and delete a submitted comment.
+        
+        The user should be restricted to perform such operations only on his/her own comments. 
+        
+        Allowed users to select a dish as their favorite, and add it to the list of favorites that are saved on the server.
+
+        Allowed users to retrieve the list of their favorite dishes from the server
+
+        Delete one or all of their favorite dishes from their favorites list on the server.
+        
+        
 
 &nbsp;
 &nbsp;
@@ -618,23 +639,27 @@ onenote:https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/MER
 #### Part 3: Animations, gestures and redux persist. - done
 
 
-     The reservation form zooms in when the user navigates to the reservation view - done
+    ~~ The reservation form zooms in when the user navigates to the reservation view - done ~~
 
 
-    An alert containing the information from the reservation form is shown when the user submits the filled reservation form. - done
-    If the user clicks on Cancel, then the form is cleared. - done
-    If the user clicks on OK, then the form is cleared. - done
+    ~~An alert containing the information from the reservation form is shown when the user submits the filled reservation form. - done ~~
+      ~~ If the user clicks on Cancel, then the form is cleared. - done ~~
+      ~~ If the user clicks on OK, then the form is cleared. - done ~~
 
 
-    When the user does a left to right gesture on the Dish details card in the Dishdetail component, toggle the comment form modal. - done
+    ~~  When the user does a left to right gesture on the Dish details card in the Dishdetail component, toggle the comment form modal. - done~~
 
       
 
 #### Part 4:  Calendar event API, Image Picker API Reservation Functionality with users calendar.- done
 
-   In this task will make use of the Expo SDK ImagePicker API to enable application to fetch an image from the photo library.
+     ~~In this task will make use of the Expo SDK ImagePicker API to enable application to fetch an image from the photo library.~~
 
-       Update LoginComponent.js to set up a function named getImageFromGallery() that fetches the image from the photo library on the device using the ImagePicker API support. Details of setting up the source to be the Photo Library can be found in the API documentation.- done
+       ~~Update LoginComponent.js to set up a function named getImageFromGallery() that fetches the image from the photo library on the device using the ImagePicker API support.~~
+ 
+       
+     ~~Details of setting up the source to be the Photo Library can be found in the API documentation.- done~~
+
        Add a new button named Gallery that when clicked will initiate the process to enable the user to select a picture from the photo library using the ImagePicker API.- done
        Once the image is picked, it must be processed through the ImageManipulator to obtain a resized PNG version of the image as we did in the exercise.- done
 
@@ -675,13 +700,33 @@ onenote:https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/MER
     
     The user should be restricted to perform such operations only on his/her own comments. No user or even the Admin can edit or delete the comments submitted by other users.
     
+    
+    ///////////// Favorites ///////////// -- redux and post logic needed
+    
     Enable users to select a dish as their favorite, and add it to the list of favorites that are saved on the server.
     
-     Enable users to retrieve the list of their favorite dishes from the server
+    Enable users to retrieve the list of their favorite dishes from the server 
     
     Enable users to Delete one or all of their favorite dishes from their favorites list on the server.
     
     Enable Oauth and facebook login
+    
+    
+    
+     //////////// Start building User Panel / Favorites / My Comments Panel /////////////// 
+        
+        Via Userpanel able to update profilepicture, description etc.
+        
+        Via Userpanel able to update a submitted comment and delete a submitted comment.
+        
+        The user should be restricted to perform such operations only on his/her own comments. 
+        
+        Allowed users to select a dish as their favorite, and add it to the list of favorites that are saved on the server.
+
+        Allowed users to retrieve the list of their favorite dishes from the server
+
+        Delete one or all of their favorite dishes from their favorites list on the server.
+        
 
 &nbsp;
 &nbsp;

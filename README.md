@@ -524,12 +524,14 @@ onenote: https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/ME
         //////////////////// Security ///////////////////////
         
         Redirect from login to admin panel if user is not authorized for the admin route, redirect back.
+        https://tylermcginnis.com/react-router-protected-routes-authentication/
         
         Need to add Redux integration with backend here:
     
         Admin allowed / able to perform POST, PUT and DELETE operations
      
         /Admin route will give redirect 403, if you are not logged in as admin 
+        https://tylermcginnis.com/react-router-protected-routes-authentication/
     
       
 
@@ -550,8 +552,9 @@ onenote: https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/ME
         Delete one or all of their favorite dishes from their favorites list on the server.
         
         Admins can mod comments, admin moderation comment button will only appear if "user"
-        is logged in as admin. - logic needed
-    
+        is logged in as admin. 
+        
+        https://medium.com/dailyjs/managing-user-permissions-in-your-react-app-a93a94ff9b40
 
 
         Allow a registered user to submit comments,  - need redux post implementation

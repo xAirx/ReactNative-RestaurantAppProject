@@ -56,7 +56,7 @@
 
         The project consists of an app and a website depicting a restaurant.
     
-        Redux managing data from the API distributing it across the app.
+        Redux managing fetched data from the backend API & distributing it across the app.
         
         The data consists of leaders, dishes, and promotions, this data makes up the content on the webpage and app.
         
@@ -75,12 +75,12 @@
 
 
        //////////// Login functionality, with registration, JWT, communicating with the backend express API.//////////// 
+       
         Oauth, facebook login etc.
     
         Users can register and login - communicating with the backend express API.
         
-       
-        
+      
    
         //////////User and Admin panel.///////////
         
@@ -88,13 +88,13 @@
         
         Via Userpanel able to update a submitted comment and delete a submitted comment.
         
-        Admin allowed / able to be able to GET all the registered users' information from the database
+        ONLY Admin allowed to GET all the registered users' information from the database
     
-        Admin allowed / able to upload files, such as images when creating new dishes.
+        ONLY Admin allowed / able to upload files, such as images when creating new dishes.
     
-        Admin allowed / able to flag dishes as featured or not.
+        ONLY Admin allowed / able to flag dishes as featured or not.
     
-        Admin allowed / able to flag leaders as featured for the frontpage
+        ONLY  Admin allowed / able to flag leaders as featured for the frontpage
 
 
 
@@ -375,18 +375,19 @@ Expected List of Features & Architecture
      
      Oauth and user authentication in conjunction
      
-     Backend as a service.
      
 
      Extra: 
     
-
+      ######## ADMIN panel and Users Panel.  #########
 
      Authentication based on being an admin or not.
      
-     Admin based management, being able to see a user list, and the entire API.
+     Admin based management, being able to see a user list
      
      Comment and form support for the users to interact with the content.
+     
+     Favorite functionality for users
      
      Support for a user to manage their own comments, delete functionality.
      
@@ -586,21 +587,18 @@ onenote: https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/ME
 
       Admin Panel Frontend structure - done
 
+       Admin  / able to be able to GET all the registered users' information from the database - FRONTEND done
 
-       Admin  / able to be able to GET all the registered users' information from the database -done
+       Admin  / able to upload files, such as images when creating new dishes. - FRONTEND done
 
-       Admin  / able to upload files, such as images when creating new dishes. -done
+       Admin  / ableadmin to flag dishes as promoted or not. - FRONTEND done
 
-       Admin  / ableadmin to flag dishes as promoted or not. -done
-
-       Admin  / able admin to flag leaders as promoted -done
+       Admin  / able admin to flag leaders as promoted - FRONTEND done
          
-        
         
 
          Todo: 
-    
-
+  
 
               
 
@@ -623,6 +621,11 @@ onenote: https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/ME
      
         /Admin route will give redirect 403, if you are not logged in as admin 
         https://tylermcginnis.com/react-router-protected-routes-authentication/
+        
+        
+        #### BACKEND STUFF #####
+        
+        Make sure that when user is created with registration HASH the password in the mongodb.
     
       
 

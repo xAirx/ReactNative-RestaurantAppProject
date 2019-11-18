@@ -53,31 +53,36 @@
 
 #### 
 
+
         The project consists of an app and a website depicting a restaurant.
     
         Redux managing data from the API distributing it across the app.
         
         The data consists of leaders, dishes, and promotions, this data makes up the content on the webpage and app.
         
-        Users can register and login   
-        
-        The registration functionality is extended in the app which includes integration with the devices camera and camera roll.
-        
         Users are able to favorite and comment on dishes.
         
         Users are able to see their favorites and also delete them.
+        
+        
      
-        The app includes a table reservation system that also communicates with redux and native elements on the devices, such as calendar and notification 
+       ////////// All functionality is mirrored in the app version, made for IOS and Android ///////////
+       
+       The registration functionality is extended in the APP which includes integration with the devices camera and camera roll.
+       
+       The APP includes a table reservation system that also communicates with redux and native elements on the devices, such as calendar and notification 
 
 
-      
 
-        Login functionality, with registration, JWT, communicating with the backend express API. 
+       //////////// Login functionality, with registration, JWT, communicating with the backend express API.//////////// 
         Oauth, facebook login etc.
     
-        Check if a verified ordinary user also has Admin privileges
-    
-        User and Admin panel.
+        Users can register and login - communicating with the backend express API.
+        
+       
+        
+   
+        //////////User and Admin panel.///////////
         
         Via Userpanel able to update profilepicture, description etc.
         
@@ -324,7 +329,6 @@ Expected List of Features & Architecture
         https://scotch.io/tutorials/react-native-app-with-authentication-and-user-management-in-15-minutes
 
 
-​    
 
     Describe the use of Node for server-side development
     Create a Node application
@@ -399,7 +403,94 @@ Expected List of Features & Architecture
 
  ## API description: 
 
-    To be written:
+    Example for registration:
+    
+
+            const bodyParser = require('body-parser');
+            var User = require('../models/user');
+
+            router.use(bodyParser.json());
+
+            router.post('/signup', (req, res, next) => {
+              User.findOne({ username: req.body.username })
+                .then((user) => {
+                  if (user != null) {
+                    var err = new Error('User ' + req.body.username + ' already exists!');
+                    err.status = 403;
+                    next(err);
+                  }
+                  else {
+                    return User.create({
+                      username: req.body.username,
+                      password: req.body.password
+                    });
+                  }
+                })
+                .then((user) => {
+                  res.statusCode = 200;
+                  res.setHeader('Content-Type', 'application/json');
+                  res.json({ status: 'Registration Successful!', user: user });
+                }, (err) => next(err))
+                .catch((err) => next(err));
+            });
+
+            router.post('/login', (req, res, next) => {
+
+              if (!req.session.user) {
+                var authHeader = req.headers.authorization;
+
+                if (!authHeader) {
+                  var err = new Error('You are not authenticated!');
+                  res.setHeader('WWW-Authenticate', 'Basic');
+                  err.status = 401;
+                  return next(err);
+                }
+
+                var auth = new Buffer.from(authHeader.split(' ')[1], 'base64').toString().split(':');
+                var username = auth[0];
+                var password = auth[1];
+
+                User.findOne({ username: username })
+                  .then((user) => {
+                    if (user === null) {
+                      var err = new Error('User ' + username + ' does not exist!');
+                      err.status = 403;
+                      return next(err);
+                    }
+                    else if (user.password !== password) {
+                      var err = new Error('Your password is incorrect!');
+                      err.status = 403;
+                      return next(err);
+                    }
+                    else if (user.username === username && user.password === password) {
+                      req.session.user = 'authenticated';
+                      res.statusCode = 200;
+                      res.setHeader('Content-Type', 'text/plain');
+                      res.end('You are authenticated!')
+                    }
+                  })
+                  .catch((err) => next(err));
+              }
+              else {
+                res.statusCode = 200;
+                res.setHeader('Content-Type', 'text/plain');
+                res.end('You are already authenticated!');
+              }
+            })
+
+            router.get('/logout', (req, res) => {
+              if (req.session) {
+                req.session.destroy();
+                res.clearCookie('session-id');
+                res.redirect('/');
+              }
+              else {
+                var err = new Error('You are not logged in!');
+                err.status = 403;
+                next(err);
+              }
+            });
+
     
 
 &nbsp;

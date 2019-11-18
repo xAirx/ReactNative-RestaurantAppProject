@@ -601,34 +601,25 @@ onenote: https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/ME
         
 
          Todo: 
-  
-
+         
+        
+            
+            https://blog.bitsrc.io/build-a-login-auth-app-with-mern-stack-part-2-frontend-6eac4e38ee82
               
 
-         //////////// REGISTRATION SYSTEM ///////////
+         //////////// LOGIN AND REGISTRATION SYSTEM ///////////
     
-         /////////////Buttons, checkboxes, not connected to handlefunctions  // post operations yet.//////////
+            Use axios to make HTTPRequests within certain action
+            set and delete the Authorization header for our axios requests depending on whether a user is logged in or not 
+            Buttons, checkboxes, not connected to handlefunctions  // post operations yet.//////////
     
-
-
-
 
         //////////////////// Security ///////////////////////
         
         Redirect from login to admin panel if user is not authorized for the admin route, redirect back.
         https://tylermcginnis.com/react-router-protected-routes-authentication/
         
-        Need to add Redux integration with backend here:
     
-        Admin allowed / able to perform POST, PUT and DELETE operations
-     
-        /Admin route will give redirect 403, if you are not logged in as admin 
-        https://tylermcginnis.com/react-router-protected-routes-authentication/
-        
-        
-        #### BACKEND STUFF #####
-        
-        Make sure that when user is created with registration HASH the password in the mongodb. - PASSPORT(Mongoose) Handles   this.
     
       
 
@@ -664,7 +655,7 @@ onenote: https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/ME
         
         Via Userpanel able to update a submitted comment and delete a submitted comment.
         
-        The user should be restricted to perform such operations only on his/her own comments. 
+        "The user is restricted to perform such operations only on his/her own comments."
         
         Allowed users to select a dish as their favorite, and add it to the list of favorites that are saved on the server.
     
@@ -958,7 +949,17 @@ https://onedrive.live.com/view.aspx?resid=897203C158E872F%2184124&id=documents&w
    ##### Part 4 : 
 
     Backend as a service
-
+    
+            
+        #### BACKEND STUFF #####
+        
+        Make sure that when user is created with registration HASH the password in the mongodb. - PASSPORT(Mongoose) Handles   this.
+    
+        Admin allowed / able to perform POST, PUT and DELETE operations
+     
+        /Admin route will give redirect 403, if you are not logged in as admin 
+        https://tylermcginnis.com/react-router-protected-routes-authentication/
+        
 
     * Allowed users to select a dish as their favorite, and add it to the list of favorites that are saved on the server.
     * Allowed users to retrieve the list of their favorite products from the server

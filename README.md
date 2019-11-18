@@ -320,6 +320,7 @@ Expected List of Features & Architecture
     Bodyparser
     Morgan
     Express Router
+    Passport with JWT (Mongoose)
     
        Login functionality for frontend
        
@@ -625,7 +626,7 @@ onenote: https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/ME
         
         #### BACKEND STUFF #####
         
-        Make sure that when user is created with registration HASH the password in the mongodb.
+        Make sure that when user is created with registration HASH the password in the mongodb. - PASSPORT(Mongoose) Handles   this.
     
       
 

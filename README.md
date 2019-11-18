@@ -377,7 +377,9 @@ Expected List of Features & Architecture
      Oauth and user authentication in conjunction
      
      
-
+    
+     https://jonathanmh.com/express-passport-json-web-token-jwt-authentication-beginners/
+    
      Extra: 
     
       ######## ADMIN panel and Users Panel.  #########

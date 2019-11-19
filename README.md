@@ -100,6 +100,27 @@
 
 ## Imagery
 
+### App - A work in progress
+
+![](https://media.giphy.com/media/XbyRPGlLGjzwd48wly/giphy.gif)
+![](https://media.giphy.com/media/WpHzcqwVw77m2NYoPq/giphy.gif)
+![](https://media.giphy.com/media/XfbhnNHt2MzIlUTHWr/giphy.gif)
+![](https://media.giphy.com/media/f3qB4hqzum66Q6kQWi/giphy.gif)
+![](https://media.giphy.com/media/Pkj7flg6CVX5ce8DFe/giphy.gif)
+![](https://media.giphy.com/media/lmqAV0ZTpJ1ORgwxMU/giphy.gif)
+![](https://media.giphy.com/media/SvFVHDHMnRG1tz2oba/giphy.gif)
+![](https://media.giphy.com/media/JrwyIDPuRZY7f3lSXu/giphy.gif)
+![](https://media.giphy.com/media/Rihl7EsnvgbntDO0Oh/giphy.gif)
+
+
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
 
 ### Website  - A work in progress
 
@@ -117,28 +138,6 @@ With react,redux,routing and more.
 ![](https://media.giphy.com/media/cLY3Lw11yJH16zMscd/giphy.gif)
 
 ![](https://media.giphy.com/media/j3JZrptEGxdvaD7dTv/giphy.gif)
-
-
-
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-
-### App - A work in progress
-
-![](https://media.giphy.com/media/XbyRPGlLGjzwd48wly/giphy.gif)
-![](https://media.giphy.com/media/WpHzcqwVw77m2NYoPq/giphy.gif)
-![](https://media.giphy.com/media/XfbhnNHt2MzIlUTHWr/giphy.gif)
-![](https://media.giphy.com/media/f3qB4hqzum66Q6kQWi/giphy.gif)
-![](https://media.giphy.com/media/Pkj7flg6CVX5ce8DFe/giphy.gif)
-![](https://media.giphy.com/media/lmqAV0ZTpJ1ORgwxMU/giphy.gif)
-![](https://media.giphy.com/media/SvFVHDHMnRG1tz2oba/giphy.gif)
-![](https://media.giphy.com/media/JrwyIDPuRZY7f3lSXu/giphy.gif)
-![](https://media.giphy.com/media/Rihl7EsnvgbntDO0Oh/giphy.gif)
-
 
 
 &nbsp;

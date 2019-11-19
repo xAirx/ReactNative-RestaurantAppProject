@@ -584,7 +584,7 @@ onenote: https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/ME
       Appropriate animation has been added to stagger the rendering of the leaders in the AboutComponent. - done
 
 
-#### Part 5: Login registration and authentication.
+#### Part 5: Login registration and authentication.  - ON HOLD
 
              ******* Admin Panel is setup *******
 
@@ -607,14 +607,20 @@ onenote: https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/ME
             https://blog.bitsrc.io/build-a-login-auth-app-with-mern-stack-part-2-frontend-6eac4e38ee82
               
 
-         //////////// LOGIN AND REGISTRATION SYSTEM ///////////
+         //////////// LOGIN AND REGISTRATION SYSTEM /////////// - In Progress
     
-            Use axios to make HTTPRequests within certain action
-            set and delete the Authorization header for our axios requests depending on whether a user is logged in or not 
-            Buttons, checkboxes, not connected to handlefunctions  // post operations yet.//////////
+            Use axios to make HTTPRequests within certain action - In Progress
+            
+            set and delete the Authorization header for our axios requests depending on whether a user is logged in or not - In Progress 
+            
+            Buttons, checkboxes, not connected to handlefunctions  // post operations yet.////////// - In Progress
+            
+            Redux Auth actions, login, register,logout, reducers and passing props.  - In Progress
     
 
-        //////////////////// Security ///////////////////////
+
+
+        //////////////////// Security /////////////////////// - ON HOLD 
         
         Redirect from login to admin panel if user is not authorized for the admin route, redirect back.
         https://tylermcginnis.com/react-router-protected-routes-authentication/
@@ -623,7 +629,7 @@ onenote: https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/ME
     
       
 
-        ///////////////// ADMIN panel ////////////////////
+        ///////////////// ADMIN panel ////////////////////   - ON HOLD 
         
         Admin logic to unCHECK when a dish is already featured.
          
@@ -631,9 +637,8 @@ onenote: https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/ME
     
      
 
-        /////////////////// Comments /////////////////////// 
-    
-     
+        /////////////////// Comments ///////////////////////   - ON HOLD 
+ 
 
         Allowed users to select a dish as their favorite, and add it to the list of favorites that are saved on the server.
     
@@ -649,7 +654,7 @@ onenote: https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/ME
     
     
 
-        //////////// Start building User Panel / Favorites / My Comments Panel /////////////// 
+        //////////// Start building User Panel / Favorites / My Comments Panel ///////////////   - ON HOLD 
         
         Via Userpanel able to update profilepicture, description etc.
         
@@ -799,24 +804,10 @@ onenote:https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/MER
 
 
 
-#### Part 5: Login registration and authentication.
+#### Part 5: Login registration and authentication. - ON HOLD
 
-    ////////// Simple user "operations" //////////////
     
-    Enable a registered user to submit comments, update a submitted comment and delete a submitted comment. 
-    
-    The user should be restricted to perform such operations only on his/her own comments. No user or even the Admin can edit or delete the comments submitted by other users.
-    
-
-    ///////////// Favorites ///////////// -- redux and post logic needed
-    
-    Enable users to select a dish as their favorite, and add it to the list of favorites that are saved on the server.
-    
-    Enable users to retrieve the list of their favorite dishes from the server 
-    
-    Enable users to Delete one or all of their favorite dishes from their favorites list on the server.
-    
-    Enable Oauth and facebook login
+    Enable Oauth and facebook login 
     
 
 

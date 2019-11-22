@@ -320,6 +320,8 @@ Expected List of Features & Architecture
     Morgan
     Express Router
     Passport with JWT (Mongoose)
+    Configure the Multer module to enable file uploading
+    Set up your Express server to use Multer to upload files to a designated folder
     
        Login functionality for frontend
        

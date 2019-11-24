@@ -73,28 +73,43 @@
        The APP includes a table reservation system that also communicates with redux and native elements on the devices, such as calendar and notification 
 
 
+        /////////////////////////////////// Below is OUTSIDE the scope of the courses ////////////////////////////////
 
        //////////// Login functionality, with registration, JWT, communicating with the backend express API.//////////// 
        
-        Oauth, facebook login etc.
+        Oauth, facebook login etc. - integrated on backend. -> Frontend started ****  Work in progress
     
-        Users can register and login - communicating with the backend express API.
+        Users can register and login - integrated on backend -> Frontend started ****  Work in progress
         
       
+     
    
         //////////User and Admin panel.///////////
         
-        Via Userpanel able to update profilepicture, description etc.
+        Via Userpanel able to update profilepicture, description etc.  
+        
+              - integrated on backend. -> Frontend started ****  Work in progress
         
         Via Userpanel able to update a submitted comment and delete a submitted comment.
         
-        ONLY Admin allowed to GET all the registered users' information from the database
+             - integrated on backend. -> Frontend started ****  Work in progress
+        
+        
+        Admin can  GET all the registered users' information from the database and see it in the adminpanel
+        
+            - integrated on backend. -> Frontend started ****  Work in progress
     
-        ONLY Admin allowed / able to upload files, such as images when creating new dishes.
+        Admin allowed / able to upload files, such as images when creating new dishes. and see it in the adminpanel
+        
+          - integrated on backend. -> Frontend started ****  Work in progress
     
-        ONLY Admin allowed / able to flag dishes as featured or not.
+        Admin allowed see and flag dishes as featured or not. and see it in the adminpanel
+        
+             - integrated on backend. -> Frontend started ****  Work in progress
     
-        ONLY  Admin allowed / able to flag leaders as featured for the frontpage
+        Admin can see and flag leaders as featured for the frontpage and see it in the adminpanel
+        
+              - integrated on backend. -> Frontend started ****  Work in progress
 
 
 
@@ -309,6 +324,7 @@ Expected List of Features & Architecture
 &nbsp;       
 
   ## Backend and API + Authentication.
+  
 
    ### Goals:
 
@@ -320,7 +336,9 @@ Expected List of Features & Architecture
     Morgan
     Express Router
     Passport with JWT (Mongoose)
-    Configure the Multer module to enable file uploading
+    OAUTH - FACEBOOK ETC.
+    CORS - WHITELISTING ETC.
+    FILEUPLOADING - configure the Multer module to enable file uploading
     Set up your Express server to use Multer to upload files to a designated folder
     
        Login functionality for frontend
@@ -407,6 +425,15 @@ Expected List of Features & Architecture
 
 
  ## API description: 
+
+    GET , PUT , POST , DELETE implemented on the various routes where needed, authentication is done via authenticate.js
+
+	http://localhost:3000/dishes/:dishId
+    http://localhost:3000/promotions 
+    http://localhost:3000/promotions/:promoId
+    http://localhost:3000/leaders
+    http://localhost:3000/leaders/:leaderId
+    http://localhost:3000/leaders/:leaderId
 
     Example for registration:
     

@@ -442,8 +442,17 @@ Expected List of Features & Architecture
     http://localhost:3000/leaders
     http://localhost:3000/leaders/:leaderId
     http://localhost:3000/leaders/:leaderId
-
-    Example for registration:
+	
+	
+        • POST, PUT and DELETE operations on /dishes and /dishes/:dishId
+	• DELETE operation on /dishes/:dishId/comments
+	• POST, PUT and DELETE operations on /promotions and /promotions/:promoId
+       
+        POST, PUT and DELETE operations on /leaders and /leaders/:leaderId
+  
+  
+  
+     Example for registration:
     
 
             const bodyParser = require('body-parser');

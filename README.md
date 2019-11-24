@@ -73,8 +73,14 @@
        The APP includes a table reservation system that also communicates with redux and native elements on the devices, such as calendar and notification 
 
 
-        /////////////////////////////////// Below is OUTSIDE the scope of the courses ////////////////////////////////
 
+
+        /////////////////////////////////// Below is OUTSIDE the scope of the courses ////////////////////////////////
+	
+	
+	For more info about this go to the react section and check out part 5. 
+
+       
        //////////// Login functionality, with registration, JWT, communicating with the backend express API.//////////// 
        
         Oauth, facebook login etc. - integrated on backend. -> Frontend started ****  Work in progress
@@ -425,10 +431,12 @@ Expected List of Features & Architecture
 
 
  ## API description: 
+ 
+    EXAMPLE api overview.
 
     GET , PUT , POST , DELETE implemented on the various routes where needed, authentication is done via authenticate.js
 
-	http://localhost:3000/dishes/:dishId
+    http://localhost:3000/dishes/:dishId
     http://localhost:3000/promotions 
     http://localhost:3000/promotions/:promoId
     http://localhost:3000/leaders

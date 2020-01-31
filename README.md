@@ -5,7 +5,7 @@
 &nbsp;
 &nbsp;
 
-### Project created as part of the honors programme at the hong kong universty of science and technology.
+### Project created as part of the honors programme at the hong kong university of science and technology.
 
     The notes below is the project requirements for the final project as part of the "Fullstack Certification"
     

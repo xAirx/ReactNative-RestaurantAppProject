@@ -1,5 +1,33 @@
 # My Portfolio FullStack Project 
 
+
+# Additional studies before resuming:
+            __________________________________________________________________
+            
+            React + Front end Libraries Certification
+            
+            https://github.com/workshopper/learnyoureact
+            
+            https://github.com/asbjornenge/thinking-in-react
+            
+            
+            __________________________________________________________________
+
+            https://www.linkedin.com/learning/paths/become-a-react-developer
+            
+            https://www.linkedin.com/learning/paths/improve-your-react-skills
+            
+            + Freecodecamp  - Front end Libraries Certification
+            
+            
+            __________________________________________________________________
+            
+            MERN
+            __________________________________________________________________
+
+            https://www.linkedin.com/learning/paths/become-a-mern-stack-javascript-developer
+
+
 &nbsp;
 &nbsp;
 &nbsp;

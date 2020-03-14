@@ -6,6 +6,70 @@
 &nbsp;
 &nbsp;
 
+
+
+
+## Imagery
+
+### App - A work in progress
+
+![](https://media.giphy.com/media/XbyRPGlLGjzwd48wly/giphy.gif)
+![](https://media.giphy.com/media/WpHzcqwVw77m2NYoPq/giphy.gif)
+![](https://media.giphy.com/media/XfbhnNHt2MzIlUTHWr/giphy.gif)
+![](https://media.giphy.com/media/f3qB4hqzum66Q6kQWi/giphy.gif)
+![](https://media.giphy.com/media/Pkj7flg6CVX5ce8DFe/giphy.gif)
+![](https://media.giphy.com/media/lmqAV0ZTpJ1ORgwxMU/giphy.gif)
+![](https://media.giphy.com/media/SvFVHDHMnRG1tz2oba/giphy.gif)
+![](https://media.giphy.com/media/JrwyIDPuRZY7f3lSXu/giphy.gif)
+![](https://media.giphy.com/media/Rihl7EsnvgbntDO0Oh/giphy.gif)
+
+
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
+
+### Website  - A work in progress
+
+The task was to build a site entirely with react-strap.
+With react,redux,routing and more.
+
+![](https://media.giphy.com/media/d5xPDBmDGvhuWiO6nY/giphy.gif)
+
+![](https://media.giphy.com/media/iehQ45MNpKN56Z4At1/giphy.gif)
+
+![](https://media.giphy.com/media/Jq87f8wLGyDp4GREvn/giphy.gif)
+
+![](https://media.giphy.com/media/jUnnEOWLHlkjdjI2EP/giphy.gif)
+
+![](https://media.giphy.com/media/cLY3Lw11yJH16zMscd/giphy.gif)
+
+![](https://media.giphy.com/media/j3JZrptEGxdvaD7dTv/giphy.gif)
+
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
+
+# Architecture (subject to change): 
+
+Expected List of Features & Architecture
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
+
+
 ### Project created as part of the honors programme at the hong kong university of science and technology.
 
     The notes below is the project requirements for the final project as part of the "Fullstack Certification"
@@ -117,67 +181,7 @@
         Admin can see and flag leaders as featured for the frontpage and see it in the adminpanel
         
               - integrated on backend. -> Frontend started ****  Work in progress
-
-
-
-## Imagery
-
-### App - A work in progress
-
-![](https://media.giphy.com/media/XbyRPGlLGjzwd48wly/giphy.gif)
-![](https://media.giphy.com/media/WpHzcqwVw77m2NYoPq/giphy.gif)
-![](https://media.giphy.com/media/XfbhnNHt2MzIlUTHWr/giphy.gif)
-![](https://media.giphy.com/media/f3qB4hqzum66Q6kQWi/giphy.gif)
-![](https://media.giphy.com/media/Pkj7flg6CVX5ce8DFe/giphy.gif)
-![](https://media.giphy.com/media/lmqAV0ZTpJ1ORgwxMU/giphy.gif)
-![](https://media.giphy.com/media/SvFVHDHMnRG1tz2oba/giphy.gif)
-![](https://media.giphy.com/media/JrwyIDPuRZY7f3lSXu/giphy.gif)
-![](https://media.giphy.com/media/Rihl7EsnvgbntDO0Oh/giphy.gif)
-
-
-
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-
-
-### Website  - A work in progress
-
-The task was to build a site entirely with react-strap.
-With react,redux,routing and more.
-
-![](https://media.giphy.com/media/d5xPDBmDGvhuWiO6nY/giphy.gif)
-
-![](https://media.giphy.com/media/iehQ45MNpKN56Z4At1/giphy.gif)
-
-![](https://media.giphy.com/media/Jq87f8wLGyDp4GREvn/giphy.gif)
-
-![](https://media.giphy.com/media/jUnnEOWLHlkjdjI2EP/giphy.gif)
-
-![](https://media.giphy.com/media/cLY3Lw11yJH16zMscd/giphy.gif)
-
-![](https://media.giphy.com/media/j3JZrptEGxdvaD7dTv/giphy.gif)
-
-
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-
-
-# Architecture (subject to change): 
-
-Expected List of Features & Architecture
-
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
+	      
 
 
 # Project overview

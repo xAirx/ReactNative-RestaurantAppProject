@@ -834,4 +834,170 @@ https://onedrive.live.com/view.aspx?resid=897203C158E872F%2184124&id=documents&w
 &nbsp;
 &nbsp;
 
+ ## React website (Frontend)
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
+#### Notes: 
+
+
+
+onenote: https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/MERN%20stack/
+                
+
+     Frontend built in React.js, supporting react router based on Redux.
+     Introduced new action types and action creators to support the fetching of the information from the server and update the Redux store.
+
+  
+
+
+  #### Part 1 & 2 :
+
+       Setting up the project &. Creating components needed - done
+
+       Created a new DishdetailComponent and added it to React application. - done
+
+       Updated the view of the DishdetailComponent to display the details of the selected dish using an reactstrap card component. - done
+
+       Updated the view of the DishdetailComponent to display the list of comments about the dish using the Bootstrap unstyled list component. - done
+
+       Integrated the AboutComponent given above into the single page application. - done
+
+       Added a new functional component named <RenderLeader> through the RenderLeader() function to AboutComponent.js that    renders the details of a given leader using the reactstrap <Media> component. - done
+
+      Construct and render the list of leaders in the About Us page using the <RenderLeader
+
+      component implemented above. - done 
+      
+      
+
+#### Part 3:
+
+       Configure The React application to make use of Redux   - done
+
+       Provide a form to enable users to submit their comments   - done
+
+       Validate the information entered by the users in the form   - done
+
+       Set up the form as a local form using the react-redux-form    - done
+
+
+
+ #### Part 4 : 
+
+       Introduced new action types and action creators to support the fetching of the leaders information from the server and update the Redux store. - done
+
+       Updated the Home and the About component to render the information about the leaders using the downloaded data from the server - done
+
+       Add simple animations to the About component where the leaders information is displayed. - done
+
+       Enabled the users to submit feedback through the feedback form by creating a new feedback service that accepts the form data and uses Restangular to record their feedback on the server. - done
+
+     Appropriate action types and action creators have been added. - done
+
+      The Home component is correctly using the leader data, and handling any errors that might arise. - done
+
+      The About component is correctly using the leader data, and handling any errors that might arise. - done
+
+      A new postFeedback() action creator is correctly implemented to post the feedback data to the server. - done
+
+      The Contact component has been correctly updated to use postFeedback() to post the form data to the server. - done
+
+      Appropriate animation has been added to stagger the rendering of the leaders in the AboutComponent. - done
+
+
+#### Part 5: Login registration and authentication.  - ON HOLD
+
+             ******* Admin Panel is setup *******
+
+      Admin Panel Frontend structure - done
+
+       Admin  / able to be able to GET all the registered users' information from the database - FRONTEND done
+
+       Admin  / able to upload files, such as images when creating new dishes. - FRONTEND done
+
+       Admin  / ableadmin to flag dishes as promoted or not. - FRONTEND done
+
+       Admin  / able admin to flag leaders as promoted - FRONTEND done
+         
+        
+
+         Todo: 
+         
+        
+            
+            https://blog.bitsrc.io/build-a-login-auth-app-with-mern-stack-part-2-frontend-6eac4e38ee82
+              
+
+         //////////// LOGIN AND REGISTRATION SYSTEM /////////// - In Progress
+    
+            Use axios to make HTTPRequests within certain action - In Progress
+            
+            set and delete the Authorization header for our axios requests depending on whether a user is logged in or not - In Progress 
+            
+            Buttons, checkboxes, not connected to handlefunctions  // post operations yet.////////// - In Progress
+            
+            Redux Auth actions, login, register,logout, reducers and passing props.  - In Progress
+    
+
+
+
+        //////////////////// Security /////////////////////// - ON HOLD 
+        
+        Redirect from login to admin panel if user is not authorized for the admin route, redirect back.
+        https://tylermcginnis.com/react-router-protected-routes-authentication/
+        
+    
+    
+      
+
+        ///////////////// ADMIN panel ////////////////////   - ON HOLD 
+        
+        Admin logic to unCHECK when a dish is already featured.
+         
+        Admin recieves popup alert before deletion is completed. "Warning" 
+    
+     
+
+        /////////////////// Comments ///////////////////////   - ON HOLD 
+ 
+
+        Allowed users to select a dish as their favorite, and add it to the list of favorites that are saved on the server.
+    
+        Delete one or all of their favorite dishes from their favorites list on the server.
+        
+        Admins can mod comments, admin moderation comment button will only appear if "user"
+        is logged in as admin. 
+        
+        https://medium.com/dailyjs/managing-user-permissions-in-your-react-app-a93a94ff9b40
+
+
+        Allow a registered user to submit comments,  - need redux post implementation
+    
+    
+
+        //////////// Start building User Panel / Favorites / My Comments Panel ///////////////   - ON HOLD 
+        
+        Via Userpanel able to update profilepicture, description etc.
+        
+        Via Userpanel able to update a submitted comment and delete a submitted comment.
+        
+        "The user is restricted to perform such operations only on his/her own comments."
+        
+        Allowed users to select a dish as their favorite, and add it to the list of favorites that are saved on the server.
+    
+        Allowed users to retrieve the list of their favorite dishes from the server
+    
+        Delete one or all of their favorite dishes from their favorites list on the server.
+    
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
+
 

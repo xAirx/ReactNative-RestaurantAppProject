@@ -1,5 +1,7 @@
 # My React Native "FullStack" Project 
 
+- Backend :  https://github.com/xAirx/Backend-for-React-Native-project
+         
 
 &nbsp;
 &nbsp;
@@ -71,47 +73,6 @@ Expected List of Features & Architecture
 &nbsp;
 &nbsp;
 
-
-
-### Project created as part of the honors programme at the hong kong university of science and technology.
-
-    The notes below is the project requirements for the final project as part of the "Fullstack Certification"
-    
-    The project will combine all three courses:
-
-            https://github.com/xAirx/Certifications
-
-            Front-End Web Development with React 
-
-                          https://github.com/xAirx/Coursera-UniversityofHK-React
-
-     
-            Server-side Development with NodeJS, Express and MongoDB
-
- 
-                         https://github.com/xAirx/Coursera-UniversyofHK-ServerSideNode
-         
-
-           Multiplatform Mobile App Development with React Native      
-         
-
-                        https://github.com/xAirx/Coursera-UniversityofHK-ReactNative
-
-
-
-------
-
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-
-
-
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
 
 
 

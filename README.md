@@ -170,9 +170,7 @@ Expected List of Features & Architecture
 &nbsp;
 &nbsp;
 
-
-  
-       //////////// Login functionality, with registration, JWT, communicating with the backend express API.//////////// 
+	 ---------Login functionality, with registration, JWT, communicating with the backend express API ----------
        
         Oauth, facebook login etc. 
 	-  Not started on backend
@@ -181,10 +179,9 @@ Expected List of Features & Architecture
         Users can register and login 
 	- integrated on backend 
 	-> Frontend started ****  Work in progress
-              
      
    
-        //////////User and Admin panel.///////////
+        --------User panel Setup ----------
         
         Via Userpanel able to update profilepicture, description etc.  
         - integrated on backend. 
@@ -195,6 +192,12 @@ Expected List of Features & Architecture
 	-> Frontend started ****  Work in progress
         
         
+	
+	 ------------ Admin Panel setup -----------
+
+       Admin Panel Frontend structure - done
+
+       
         Admin can  GET all the registered users' information from the database and see it in the adminpanel
         - integrated on backend. 
 	-> Frontend started ****  Work in progress
@@ -212,115 +215,10 @@ Expected List of Features & Architecture
 	-> Frontend started ****  Work in progress
 	      
              
-	     
-       ******* Admin Panel is setup *******
-
-      Admin Panel Frontend structure - done
-
-       Admin  / able to be able to GET all the registered users' information from the database - FRONTEND done
-
-       Admin  / able to upload files, such as images when creating new dishes. - FRONTEND done
-
-       Admin  / ableadmin to flag dishes as promoted or not. - FRONTEND done
-
-       Admin  / able admin to flag leaders as promoted - FRONTEND done
-         
-       
+	    
 
 &nbsp;
 &nbsp;   
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;   
-
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;   
-
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;   
-
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;   
-
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;   
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;   
-
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;   
-  ### Website made in React.js
-
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-
-  #### Goals: 
-
-      Express the general characteristics of JavaScript frameworks and libraries
-      Create a new project using React
-      Create React components within a React application
-      Express what is meant by full-stack web development
-    
-      Develop a React router based navigation to various views in a React application
-      Develop a single page application using the React router support
-      Give examples of various types of React components
-    
-      Create uncontrolled React forms
-      Create controlled forms and perform form validation
-      Discuss the features of the Flux architecture
-      Explain the Redux approach to implementing a variant of the Flow architecture
-    
-      Create Redux Actions
-      Develop Redux actions using Redux Thunk
-      Develop client-server communication using Fetch
-      Develop Fetch-based communication with a REST API server
-
-
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-
-   #### Features:
-
-
-         Form handling &  Redux integration for form handling 
-         
-         *********** Redux integration to create a "Loading Component" using the activity indicator component
-         Trigger showing of message when data is fetched from server.
-    
-         ***********Redux integration to "Star products" and rate them
-    
-         ***********Redux integration to handle the customers favorite products
-         
-         Redux Thunk middleware 
-         
-         React Animations for animations
-         
-         Redux For Client server communication with fetch.
-         
-         Feedback through the feedback form by creating a new feedback service that accepts the form data.
-
 &nbsp;
 &nbsp;
 &nbsp;
@@ -456,32 +354,104 @@ onenote:https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/MER
 
 
 
-#### Part 5: Login registration and authentication. - ON HOLD
-
-    
-    Enable Oauth and facebook login 
-    
-
-
-     //////////// Start building User Panel / Favorites / My Comments Panel /////////////// 
-        
-        Via Userpanel able to update profilepicture, description etc.
-        
-        Via Userpanel able to update a submitted comment and delete a submitted comment.
-        
-        The user should be restricted to perform such operations only on his/her own comments. 
-        
-        Allowed users to select a dish as their favorite, and add it to the list of favorites that are saved on the server.
-    
-        Allowed users to retrieve the list of their favorite dishes from the server
-    
-        Delete one or all of their favorite dishes from their favorites list on the server.
 
 
 &nbsp;
 &nbsp;
 &nbsp;
 &nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;   
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;   
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;   
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;   
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;   
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;   
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;   
+  ### Website made in React.js
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
+  #### Goals: 
+
+      Express the general characteristics of JavaScript frameworks and libraries
+      Create a new project using React
+      Create React components within a React application
+      Express what is meant by full-stack web development
+    
+      Develop a React router based navigation to various views in a React application
+      Develop a single page application using the React router support
+      Give examples of various types of React components
+    
+      Create uncontrolled React forms
+      Create controlled forms and perform form validation
+      Discuss the features of the Flux architecture
+      Explain the Redux approach to implementing a variant of the Flow architecture
+    
+      Create Redux Actions
+      Develop Redux actions using Redux Thunk
+      Develop client-server communication using Fetch
+      Develop Fetch-based communication with a REST API server
+
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
+   #### Features:
+
+
+         Form handling &  Redux integration for form handling 
+         
+         *********** Redux integration to create a "Loading Component" using the activity indicator component
+         Trigger showing of message when data is fetched from server.
+    
+         ***********Redux integration to "Star products" and rate them
+    
+         ***********Redux integration to handle the customers favorite products
+         
+         Redux Thunk middleware 
+         
+         React Animations for animations
+         
+         Redux For Client server communication with fetch.
+         
+         Feedback through the feedback form by creating a new feedback service that accepts the form data.
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
 
  ## React website (Frontend)
 

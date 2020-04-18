@@ -63,8 +63,105 @@ With react,redux,routing and more.
 &nbsp;
 
 
+# Project overview
 
-# Architecture (subject to change): 
+
+   ## App made in React Native 
+
+    __________________________________
+    
+     A React Native app, supporting the same features working with the same backend and API.
+     
+     The Native app is a mini version of the above React Frontend.
+     
+     The Native app will also be using the API and Backend created.
+     
+     The app also includes table reservation, with integration with the users calendar.
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
+   ### Goals: 
+
+     Summarize the salient features of hybrid mobile application development frameworks
+     Create a React Native application
+     Develop a React Native application using various React Native components and Layouts
+     Build navigation within your application using React Native Navigation support
+     
+     Design the UI for the app using various React Native UI elements
+     Express the Redux approach to implementing a variant of the Flow architecture in React Native
+     Design forms within the application for data entry
+     Employ alerts and Modals to present information to the user
+     
+     Build storage support within the application for persisting Redux state
+     Employ animations to provide enhanced user experience
+     Employ gesture-based interaction within the app
+     Develop a way of alerting users
+     
+     Develop applications to use the native capabilities of the devices
+     Employ the Expo SDK to access native device capabilities
+     Develop applications that use sharing features of mobile devices
+     Develop applications that can do user notifications
+
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;   
+
+   #### Features: (subject to change): 
+  
+
+         React native Navigation & Components.  -done
+     
+         Integrated font awesome "fonts and buttons" -done
+        
+         Form handling &  Redux integration for form handling  -done
+         
+         Redux integration to create a "Loading Component" using the activity indicator component -done
+         
+         Trigger showing of message when data is fetched from server. -done
+     
+         Redux integration to "Star products" and rate them -done
+    
+         Redux integration to handle the customers favorite products -done
+         
+         Secure storage - handling user login etc. -done
+         
+         Local notifications - Notification handling for reserving tables and based on calendar dates and integration with phone calendar -done
+         
+        Social Sharing - Sharing of information to social media sites using the React Native Share API -done
+        
+        Email Integration for contact page. -done
+        
+        Interaction with users camera to obtain images for the user profile  -done
+        
+        NetInfo() and Network info, to check if device is offline or not. -done
+          connectiontype, effectiveconnectiontype -done
+          connectchange even fires when netwwork status changes etc. -done
+          
+        Swipe Option Buttons and Alerts -done
+          
+        Animations -done
+          
+        Gestures -done
+          
+        Persist Redux Store -done
+
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;       
+
+&nbsp;
+&nbsp;
+
+
+
+# Features Development Log (subject to change): 
 
 Expected List of Features & Architecture
 
@@ -74,82 +171,102 @@ Expected List of Features & Architecture
 &nbsp;
 
 
-
-
-## A quick TLDR overview.
-
-  ##### This is described in depth in the architecture section / development notes section below.
-
-#### 
-
-
-        The project consists of an app and a website depicting a restaurant.
-    
-        Redux managing fetched data from the backend API & distributing it across the app.
-        
-        The data consists of leaders, dishes, and promotions, this data makes up the content on the webpage and app.
-        
-        Users are able to favorite and comment on dishes.
-        
-        Users are able to see their favorites and also delete them.
-        
-        
-     
-       ////////// All functionality is mirrored in the app version, made for IOS and Android ///////////
-       
-       The registration functionality is extended in the APP which includes integration with the devices camera and camera roll.
-       
-       The APP includes a table reservation system that also communicates with redux and native elements on the devices, such as calendar and notification 
-
-
-
-
-        /////////////////////////////////// Below is OUTSIDE the scope of the courses ////////////////////////////////
-	
-	
-	For more info about this go to the react section and check out part 5. 
-
-       
+  
        //////////// Login functionality, with registration, JWT, communicating with the backend express API.//////////// 
        
-        Oauth, facebook login etc. - integrated on backend. -> Frontend started ****  Work in progress
+        Oauth, facebook login etc. 
+	-  Not started on backend
+	-> Frontend started ****  Work in progress
     
-        Users can register and login - integrated on backend -> Frontend started ****  Work in progress
-        
-      
+        Users can register and login 
+	- integrated on backend 
+	-> Frontend started ****  Work in progress
+              
      
    
         //////////User and Admin panel.///////////
         
         Via Userpanel able to update profilepicture, description etc.  
-        
-              - integrated on backend. -> Frontend started ****  Work in progress
+        - integrated on backend. 
+	-> Frontend started ****  Work in progress
         
         Via Userpanel able to update a submitted comment and delete a submitted comment.
-        
-             - integrated on backend. -> Frontend started ****  Work in progress
+        - integrated on backend. 
+	-> Frontend started ****  Work in progress
         
         
         Admin can  GET all the registered users' information from the database and see it in the adminpanel
-        
-            - integrated on backend. -> Frontend started ****  Work in progress
+        - integrated on backend. 
+	-> Frontend started ****  Work in progress
     
         Admin allowed / able to upload files, such as images when creating new dishes. and see it in the adminpanel
-        
-          - integrated on backend. -> Frontend started ****  Work in progress
+        - integrated on backend. 
+	-> Frontend started ****  Work in progress
     
         Admin allowed see and flag dishes as featured or not. and see it in the adminpanel
-        
-             - integrated on backend. -> Frontend started ****  Work in progress
+        - integrated on backend. 
+	-> Frontend started ****  Work in progress
     
         Admin can see and flag leaders as featured for the frontpage and see it in the adminpanel
-        
-              - integrated on backend. -> Frontend started ****  Work in progress
+        - integrated on backend. 
+	-> Frontend started ****  Work in progress
 	      
+             
+	     
+       ******* Admin Panel is setup *******
 
+      Admin Panel Frontend structure - done
 
-# Project overview
+       Admin  / able to be able to GET all the registered users' information from the database - FRONTEND done
 
+       Admin  / able to upload files, such as images when creating new dishes. - FRONTEND done
+
+       Admin  / ableadmin to flag dishes as promoted or not. - FRONTEND done
+
+       Admin  / able admin to flag leaders as promoted - FRONTEND done
+         
+       
+
+&nbsp;
+&nbsp;   
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;   
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;   
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;   
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;   
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;   
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;   
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;   
   ### Website made in React.js
 
 &nbsp;
@@ -209,320 +326,7 @@ Expected List of Features & Architecture
 &nbsp;
 &nbsp;
 
-   ## App made in React Native 
-
-    __________________________________
-    
-     A React Native app, supporting the same features working with the same backend and API.
-     
-     The Native app is a mini version of the above React Frontend.
-     
-     The Native app will also be using the API and Backend created.
-     
-     The app also includes table reservation, with integration with the users calendar.
-
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-
-   ### Goals: 
-
-     Summarize the salient features of hybrid mobile application development frameworks
-     Create a React Native application
-     Develop a React Native application using various React Native components and Layouts
-     Build navigation within your application using React Native Navigation support
-     
-     Design the UI for the app using various React Native UI elements
-     Express the Redux approach to implementing a variant of the Flow architecture in React Native
-     Design forms within the application for data entry
-     Employ alerts and Modals to present information to the user
-     
-     Build storage support within the application for persisting Redux state
-     Employ animations to provide enhanced user experience
-     Employ gesture-based interaction within the app
-     Develop a way of alerting users
-     
-     Develop applications to use the native capabilities of the devices
-     Employ the Expo SDK to access native device capabilities
-     Develop applications that use sharing features of mobile devices
-     Develop applications that can do user notifications
-
-
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;   
-
-   #### Features:   
-
-         React native Navigation & Components.
-     
-         Integrated font awesome "fonts and buttons"
-        
-         Form handling &  Redux integration for form handling 
-         
-         Redux integration to create a "Loading Component" using the activity indicator component
-         
-         Trigger showing of message when data is fetched from server.
-    
-         Redux integration to "Star products" and rate them
-    
-         Redux integration to handle the customers favorite products
-         
-         Secure storage - handling user login etc.
-         
-         Local notifications - Notification handling for reserving tables and based on calendar dates and integration with phone calendar.
-         
-        Social Sharing - Sharing of information to social media sites using the React Native Share API
-        
-        Email Integration for contact page.
-        
-        Interaction with users camera to obtain images for the user profile 
-        
-        NetInfo() and Network info, to check if device is offline or not.
-          connectiontype, effectiveconnectiontype
-          connectchange even fires when netwwork status changes etc.
-          
-        Swipe Option Buttons and Alerts
-          
-        Animations
-          
-        Gestures
-          
-        Persist Redux Store
-
-
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;       
-
-  ## Backend and API + Authentication.
-  
-
-   ### Goals:
-
-
-    Mongoose
-    MongoDB
-    Express ( REST API )
-    Bodyparser
-    Morgan
-    Express Router
-    Passport with JWT (Mongoose)
-    OAUTH - FACEBOOK ETC.
-    CORS - WHITELISTING ETC.
-    FILEUPLOADING - configure the Multer module to enable file uploading
-    Set up your Express server to use Multer to upload files to a designated folder
-    
-       Login functionality for frontend
-       
-        https://levelup.gitconnected.com/using-jwt-in-your-react-redux-app-for-authorization-d31be51a50d2
-        https://medium.com/@faizanv/authentication-for-your-react-and-express-application-w-json-web-tokens-923515826e0
-        https://www.sitepoint.com/tutorial-build-a-react-js-application-with-user-login-and-authentication/
-        https://scotch.io/tutorials/react-native-app-with-authentication-and-user-management-in-15-minutes
-
-
-
-    Describe the use of Node for server-side development
-    Create a Node application
-    Demonstrate the use of Node modules in developing a Node application
-    Develop a simple REST API server using the Express framework
-    
-
-
-    Demonstrate an understanding of data persistence using a database
-    Design persistent data storage based on MongoDB, a NoSQL database
-    Develop schemas and models for data storage using Mongoose
-    Combine the REST API and the data persistance layer for a full-fledged server implementation
-    
-    Demonstrate the need for user authentication
-    Evaluate varioius alternative approaches for supporting user authentication
-    Develop a comprehensive user authentication system using Passport
-    
-    Develop a secure server based on the HTTPS protocol
-    Design the Express server to handle CORS
-    Develop user authentication based on OAuth protocol
-    Demonstrate the various Backend as a Service approaches
-    
-
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-
-   #### Features
-
-     REST API with express mongodb and Mongoose
-     
-     User login and authentication
-     
-     Basic Authentication
-     
-     Cookies, Express, Sessions and error handling.
-     
-     Mongoose Population
-     
-     HTTPS and Secure Communication
-     
-     Cross - Origin - Resource sharing
-     
-     Oauth and user authentication in conjunction
-     
-     
-    
-     https://jonathanmh.com/express-passport-json-web-token-jwt-authentication-beginners/
-    
-     Extra: 
-    
-      ######## ADMIN panel and Users Panel.  #########
-
-     Authentication based on being an admin or not.
-     
-     Admin based management, being able to see a user list
-     
-     Comment and form support for the users to interact with the content.
-     
-     Favorite functionality for users
-     
-     Support for a user to manage their own comments, delete functionality.
-     
-     API supporting various objects of which contains members of the “company” 
-    
-
-
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-
-
-
- ## API description: 
- 
-    EXAMPLE api overview.
-
-    GET , PUT , POST , DELETE implemented on the various routes where needed, authentication is done via authenticate.js
-
-    http://localhost:3000/dishes/:dishId
-    http://localhost:3000/promotions 
-    http://localhost:3000/promotions/:promoId
-    http://localhost:3000/leaders
-    http://localhost:3000/leaders/:leaderId
-    http://localhost:3000/leaders/:leaderId
-	
-	
-        • POST, PUT and DELETE operations on /dishes and /dishes/:dishId
-	• DELETE operation on /dishes/:dishId/comments
-	• POST, PUT and DELETE operations on /promotions and /promotions/:promoId
-       
-        POST, PUT and DELETE operations on /leaders and /leaders/:leaderId
-  
-  
-  
-     Example for registration:
-    
-
-            const bodyParser = require('body-parser');
-            var User = require('../models/user');
-
-            router.use(bodyParser.json());
-
-            router.post('/signup', (req, res, next) => {
-              User.findOne({ username: req.body.username })
-                .then((user) => {
-                  if (user != null) {
-                    var err = new Error('User ' + req.body.username + ' already exists!');
-                    err.status = 403;
-                    next(err);
-                  }
-                  else {
-                    return User.create({
-                      username: req.body.username,
-                      password: req.body.password
-                    });
-                  }
-                })
-                .then((user) => {
-                  res.statusCode = 200;
-                  res.setHeader('Content-Type', 'application/json');
-                  res.json({ status: 'Registration Successful!', user: user });
-                }, (err) => next(err))
-                .catch((err) => next(err));
-            });
-
-            router.post('/login', (req, res, next) => {
-
-              if (!req.session.user) {
-                var authHeader = req.headers.authorization;
-
-                if (!authHeader) {
-                  var err = new Error('You are not authenticated!');
-                  res.setHeader('WWW-Authenticate', 'Basic');
-                  err.status = 401;
-                  return next(err);
-                }
-
-                var auth = new Buffer.from(authHeader.split(' ')[1], 'base64').toString().split(':');
-                var username = auth[0];
-                var password = auth[1];
-
-                User.findOne({ username: username })
-                  .then((user) => {
-                    if (user === null) {
-                      var err = new Error('User ' + username + ' does not exist!');
-                      err.status = 403;
-                      return next(err);
-                    }
-                    else if (user.password !== password) {
-                      var err = new Error('Your password is incorrect!');
-                      err.status = 403;
-                      return next(err);
-                    }
-                    else if (user.username === username && user.password === password) {
-                      req.session.user = 'authenticated';
-                      res.statusCode = 200;
-                      res.setHeader('Content-Type', 'text/plain');
-                      res.end('You are authenticated!')
-                    }
-                  })
-                  .catch((err) => next(err));
-              }
-              else {
-                res.statusCode = 200;
-                res.setHeader('Content-Type', 'text/plain');
-                res.end('You are already authenticated!');
-              }
-            })
-
-            router.get('/logout', (req, res) => {
-              if (req.session) {
-                req.session.destroy();
-                res.clearCookie('session-id');
-                res.redirect('/');
-              }
-              else {
-                var err = new Error('You are not logged in!');
-                err.status = 403;
-                next(err);
-              }
-            });
-
-    
-
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-
-# Development Notes  
-
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-
+# Devlog
 
 ## React Native 
 
@@ -754,93 +558,5 @@ onenote: https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/ME
       Appropriate animation has been added to stagger the rendering of the leaders in the AboutComponent. - done
 
 
-#### Part 5: Login registration and authentication.  - ON HOLD
 
-             ******* Admin Panel is setup *******
-
-      Admin Panel Frontend structure - done
-
-       Admin  / able to be able to GET all the registered users' information from the database - FRONTEND done
-
-       Admin  / able to upload files, such as images when creating new dishes. - FRONTEND done
-
-       Admin  / ableadmin to flag dishes as promoted or not. - FRONTEND done
-
-       Admin  / able admin to flag leaders as promoted - FRONTEND done
-         
-        
-
-         Todo: 
-         
-        
-            
-            https://blog.bitsrc.io/build-a-login-auth-app-with-mern-stack-part-2-frontend-6eac4e38ee82
-              
-
-         //////////// LOGIN AND REGISTRATION SYSTEM /////////// - In Progress
-    
-            Use axios to make HTTPRequests within certain action - In Progress
-            
-            set and delete the Authorization header for our axios requests depending on whether a user is logged in or not - In Progress 
-            
-            Buttons, checkboxes, not connected to handlefunctions  // post operations yet.////////// - In Progress
-            
-            Redux Auth actions, login, register,logout, reducers and passing props.  - In Progress
-    
-
-
-
-        //////////////////// Security /////////////////////// - ON HOLD 
-        
-        Redirect from login to admin panel if user is not authorized for the admin route, redirect back.
-        https://tylermcginnis.com/react-router-protected-routes-authentication/
-        
-    
-    
-      
-
-        ///////////////// ADMIN panel ////////////////////   - ON HOLD 
-        
-        Admin logic to unCHECK when a dish is already featured.
-         
-        Admin recieves popup alert before deletion is completed. "Warning" 
-    
-     
-
-        /////////////////// Comments ///////////////////////   - ON HOLD 
- 
-
-        Allowed users to select a dish as their favorite, and add it to the list of favorites that are saved on the server.
-    
-        Delete one or all of their favorite dishes from their favorites list on the server.
-        
-        Admins can mod comments, admin moderation comment button will only appear if "user"
-        is logged in as admin. 
-        
-        https://medium.com/dailyjs/managing-user-permissions-in-your-react-app-a93a94ff9b40
-
-
-        Allow a registered user to submit comments,  - need redux post implementation
-    
-    
-
-        //////////// Start building User Panel / Favorites / My Comments Panel ///////////////   - ON HOLD 
-        
-        Via Userpanel able to update profilepicture, description etc.
-        
-        Via Userpanel able to update a submitted comment and delete a submitted comment.
-        
-        "The user is restricted to perform such operations only on his/her own comments."
-        
-        Allowed users to select a dish as their favorite, and add it to the list of favorites that are saved on the server.
-    
-        Allowed users to retrieve the list of their favorite dishes from the server
-    
-        Delete one or all of their favorite dishes from their favorites list on the server.
-    
-
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
 

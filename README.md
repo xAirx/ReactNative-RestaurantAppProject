@@ -29,36 +29,6 @@
 &nbsp;
 &nbsp;
 &nbsp;
-
-### Website  - A work in progress
-
-The task was to build a site entirely with react-strap.
-With react,redux,routing and more.
-
-![](https://media.giphy.com/media/d5xPDBmDGvhuWiO6nY/giphy.gif)
-
-![](https://media.giphy.com/media/iehQ45MNpKN56Z4At1/giphy.gif)
-
-![](https://media.giphy.com/media/Jq87f8wLGyDp4GREvn/giphy.gif)
-
-![](https://media.giphy.com/media/jUnnEOWLHlkjdjI2EP/giphy.gif)
-
-![](https://media.giphy.com/media/cLY3Lw11yJH16zMscd/giphy.gif)
-
-![](https://media.giphy.com/media/j3JZrptEGxdvaD7dTv/giphy.gif)
-
-
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
 &nbsp;
 &nbsp;
 
@@ -455,6 +425,36 @@ onenote:https://d.docs.live.net/0897203c158e872f/Documents/marcos%20notesbog/MER
 
  ## React website (Frontend)
 
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
+### Website  - A work in progress
+
+The task was to build a site entirely with react-strap.
+With react,redux,routing and more.
+
+![](https://media.giphy.com/media/d5xPDBmDGvhuWiO6nY/giphy.gif)
+
+![](https://media.giphy.com/media/iehQ45MNpKN56Z4At1/giphy.gif)
+
+![](https://media.giphy.com/media/Jq87f8wLGyDp4GREvn/giphy.gif)
+
+![](https://media.giphy.com/media/jUnnEOWLHlkjdjI2EP/giphy.gif)
+
+![](https://media.giphy.com/media/cLY3Lw11yJH16zMscd/giphy.gif)
+
+![](https://media.giphy.com/media/j3JZrptEGxdvaD7dTv/giphy.gif)
+
+
+&nbsp;
+&nbsp;
 &nbsp;
 &nbsp;
 &nbsp;

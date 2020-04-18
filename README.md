@@ -140,12 +140,8 @@ Expected List of Features & Architecture
 &nbsp;
 &nbsp;
 
-	 ---------Login functionality, with registration, JWT, communicating with the backend express API ----------
-       
-        Oauth, facebook login etc. 
-	-  Not started on backend
-	-> Frontend started ****  Work in progress
-    
+	---------Login functionality, with registration, JWT, communicating with the backend express API ----------
+           
         Users can register and login 
 	- integrated on backend 
 	-> Frontend started ****  Work in progress
@@ -154,38 +150,30 @@ Expected List of Features & Architecture
         --------User panel Setup ----------
         
         Via Userpanel able to update profilepicture, description etc.  
-        - integrated on backend. 
 	-> Frontend started ****  Work in progress
         
-        Via Userpanel able to update a submitted comment and delete a submitted comment.
-        - integrated on backend. 
+        Via Userpanel able to update a submitted comment and delete a submitted comment
 	-> Frontend started ****  Work in progress
         
         
-	
-	 ------------ Admin Panel setup -----------
+	------------ Admin Panel setup -----------
 
        Admin Panel Frontend structure - done
-
        
-        Admin can  GET all the registered users' information from the database and see it in the adminpanel
-        - integrated on backend. 
+        Admin  GET all the registered users' information from the database and see it in the adminpanel
 	-> Frontend started ****  Work in progress
     
         Admin allowed / able to upload files, such as images when creating new dishes. and see it in the adminpanel
-        - integrated on backend. 
 	-> Frontend started ****  Work in progress
     
         Admin allowed see and flag dishes as featured or not. and see it in the adminpanel
-        - integrated on backend. 
 	-> Frontend started ****  Work in progress
     
         Admin can see and flag leaders as featured for the frontpage and see it in the adminpanel
-        - integrated on backend. 
 	-> Frontend started ****  Work in progress
 	      
              
-	    
+	See : https://github.com/xAirx/Backend-for-React-Native-project/edit/master/README.md for backend developmen tie in.    
 
 &nbsp;
 &nbsp;   

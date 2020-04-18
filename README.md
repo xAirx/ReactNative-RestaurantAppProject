@@ -135,10 +135,16 @@
 
 Expected List of Features & Architecture
 
+
+
 &nbsp;
 &nbsp;
 &nbsp;
 &nbsp;
+
+## This section is moving from REDUX / LocalStorage functionality above to a real database to store information.
+
+	See : https://github.com/xAirx/Backend-for-React-Native-project/edit/master/README.md for backend developmen tie in.    
 
 	---------Login functionality, with registration, JWT, communicating with the backend express API ----------
            
@@ -173,7 +179,7 @@ Expected List of Features & Architecture
 	-> Frontend started ****  Work in progress
 	      
              
-	See : https://github.com/xAirx/Backend-for-React-Native-project/edit/master/README.md for backend developmen tie in.    
+	
 
 &nbsp;
 &nbsp;   

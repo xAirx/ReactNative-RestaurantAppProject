@@ -146,7 +146,7 @@ Expected List of Features & Architecture
 
 	See : https://github.com/xAirx/Backend-for-React-Native-project/edit/master/README.md for backend developmen tie in.    
 
-	---------Login functionality, with registration, JWT, communicating with the backend express API ----------
+	---------Login functionality, registration ----------
            
         Users can register and login 
 	- integrated on backend 

@@ -43,11 +43,8 @@
     
      A React Native app, supporting the same features working with the same backend and API.
      
-     The Native app is a mini version of the above React Frontend.
-     
-     The Native app will also be using the API and Backend created.
-     
-     The app also includes table reservation, with integration with the users calendar.
+     The App depicts an app for a restaurant, with several features such as user login, table booking, and other native features created and utilized with the EXPO CLI, for example: integration with the users calendar.
+     an API was written in express (mongoose, mongodb). 
 
 &nbsp;
 &nbsp;

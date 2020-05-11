@@ -157,13 +157,7 @@
 &nbsp;
 &nbsp;
 &nbsp;       
-
-&nbsp;
-&nbsp;
-
-
-
-# Features Development Log (subject to change): 
+# Features Development Log (subject to change) : 
 
 Expected List of Features & Architecture
 
@@ -174,23 +168,22 @@ Expected List of Features & Architecture
 &nbsp;
 &nbsp;
 
-## This section is moving from REDUX / LocalStorage functionality above to a real database to store information.
-
-	See : https://github.com/xAirx/Backend-for-React-Native-project/edit/master/README.md for backend developmen tie in.    
 
 	---------Login functionality, registration ----------
            
         Users can register and login 
-	- integrated on backend 
+	-  Backend ****  Work in progress
 	-> Frontend started ****  Work in progress
      
    
         --------User panel Setup ----------
         
         Via Userpanel able to update profilepicture, description etc.  
+	-  Backend ****  Work in progress
 	-> Frontend started ****  Work in progress
         
         Via Userpanel able to update a submitted comment and delete a submitted comment
+	-  Backend ****  Work in progress
 	-> Frontend started ****  Work in progress
         
         
@@ -199,15 +192,19 @@ Expected List of Features & Architecture
        Admin Panel Frontend structure - done
        
         Admin  GET all the registered users' information from the database and see it in the adminpanel
+	-  Backend ****  Work in progress
 	-> Frontend started ****  Work in progress
     
         Admin allowed / able to upload files, such as images when creating new dishes. and see it in the adminpanel
+	-  Backend ****  Work in progress
 	-> Frontend started ****  Work in progress
     
         Admin allowed see and flag dishes as featured or not. and see it in the adminpanel
+	-  Backend ****  Work in progress
 	-> Frontend started ****  Work in progress
     
         Admin can see and flag leaders as featured for the frontpage and see it in the adminpanel
+	-  Backend ****  Work in progress
 	-> Frontend started ****  Work in progress
 	      
              
@@ -218,6 +215,12 @@ Expected List of Features & Architecture
 &nbsp;
 &nbsp;
 &nbsp;
+&nbsp;
+&nbsp;
+
+
+
+
 &nbsp;
 
 # Devlog

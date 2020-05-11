@@ -1,6 +1,7 @@
 # My React Native "FullStack" Project 
 
-- Backend :  https://github.com/xAirx/Backend-for-React-Native-project
+- New backend : https://github.com/xAirx/ReworkedBackendForNativeProject
+- Abandoned old 2019 Backend :  https://github.com/xAirx/Backend-for-React-Native-project
 - Code:      https://github.com/xAirx/ReactNativeRestaurantApp
          
 

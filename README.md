@@ -1,4 +1,4 @@
-# My React Native "FullStack" Project 
+# My React Native Project 
 
 - New backend : https://github.com/xAirx/ReworkedBackendForNativeProject
 - Abandoned old 2019 Backend :  https://github.com/xAirx/Backend-for-React-Native-project

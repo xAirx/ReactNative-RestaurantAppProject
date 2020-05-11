@@ -10,8 +10,6 @@
 &nbsp;
 
 
-
-
 ## Imagery
 
 ### App - A work in progress
@@ -28,7 +26,42 @@
 
 &nbsp;
 &nbsp;
-&nbsp;
+
+ ## Component Testing is backed up by Storybook.js
+   
+   	Small explanation: 
+	
+	https://blog.logrocket.com/react-storybook/
+	
+	
+   
+                    Storybook.js is a tool that helps writing components in isolation, and showcase them interactively in an isolated dev environment. 
+
+	            The idea is to isolate show its behavior in a series of tests. This way we can make sure it works.
+			
+		    Storybook offers different techniques for testing UI components. Components need to undergo tests for a variety of reasons some of which are:
+
+		    Detection of bugs
+		    Tests can be documented to serve as guidelines for other developers who will work on the project
+		    To prevent stuff from breaking during new commits
+		    
+   
+   
+   ## Simple Devops Setup 
+                                      
+
+	Simple Devops Setup. (Roughly)
+
+	 Dev -> pre hook ->  Github -> CI/CD (gitlab) 
+	  ->  Staging Unit-testing // Storybook Js (Component isolation and  Testing)                                                                                                                                   		->  Build stage   (Project build (minifying etc happens here))
+	  ->  Deployed to ***** -> (Live in production) 
+
+	Sentry and Logrocket monitoring 
+	-> Integration with github, bugfixes with case id’s devbranch 
+	-> master
+	-> trigger devops setup above.          
+
+   
 &nbsp;
 &nbsp;
 &nbsp;

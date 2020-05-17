@@ -1,6 +1,10 @@
 # My React Native Project 
 
 - Backend :  https://github.com/xAirx/Backend-for-React-Native-project
+  ## Hosted Project: https://expressproject.herokuapp.com/
+  ### you can register a user or use: username: marcouser password: password for testing purposes - Remember you are not admin
+ 					 try /dishes /favorites /leaders
+  
 - Frontend app Code:      https://github.com/xAirx/ReactNativeRestaurantApp
          
 

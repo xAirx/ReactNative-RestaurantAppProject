@@ -56,6 +56,310 @@
 &nbsp;
 &nbsp;
 
+
+
+# Current Development Log (subject to change) : 
+
+Expected List of Features & Architecture
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
+# React Native FullStack App
+
+
+________________________________________
+
+
+
+# Todo 
+	
+	
+	- Connect to heroku API. BaseURL - done 
+	- Redux pulls data correctly - done
+	 
+
+         - Learn how to seed a leader
+	 - Learn how to add a promos
+	 
+	 - Image handling (Multer /// Filestorage)
+	 
+	 Connecting JWT register + login functionality to frontend
+	 
+	 - Create Refresh Token Functionality - and API endpoint for this purpose.
+	 - Implementing httpcookie to hold the JWT serverside so we can compare for a refresh token.
+	 - Connecting backend to frontend - recieve token in browser as cookie 
+	 -
+	 -
+	 -
+	 -
+	
+
+
+________________________________________
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
+# Backend
+
+________________________________________
+
+
+	 
+## Connecting JWT register + login functionality to frontend  - not started
+	 
+	 - Create Refresh Token Functionality - and API endpoint for this purpose.
+	 - Implementing httpcookie to hold the JWT serverside so we can compare for a refresh token.
+	 - Connecting backend to frontend - recieve token in browser as cookie 
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+## Users Panel:
+
+________________________________________
+
+	  
+### #1 TODO ------> Favorite functionality for users**
+&nbsp;
+&nbsp;   
+&nbsp;
+
+  
+ -implemented - NOT TESTED
+
+	  
+
+### #2 TODO ------> Comment CRUD support for the users to interact with the content.**
+&nbsp;
+&nbsp;   
+&nbsp;
+
+
+#### NOT IMPLEMENTED MIRROR LEADERS ROUTE CODE
+
+ 	LeaderRouter.route('/:leaderId/feedback')
+ 
+ 	TODO ------  Support for a user to manage their own comments, delete functionality. -implemented - NOT TESTED
+
+#### Backend **** Work in progress
+
+#### Frontend started **** Work in progress
+
+&nbsp;
+&nbsp;   
+&nbsp;
+
+  
+
+### #3 Via Userpanel able to update profilepicture, description etc.**  
+	Mirror functionality from registraiton page 
+	  getImageFromCamera = async () => {
+	    console.log('GETIMAGEFORMCAMERATRIGGRED');
+&nbsp;
+&nbsp;   
+&nbsp;
+
+#### Backend **** Work in progress
+
+#### Frontend started **** Work in progress
+
+
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;   
+&nbsp;
+&nbsp;
+&nbsp;   
+&nbsp;
+&nbsp;
+&nbsp;   
+&nbsp;
+# Frontend
+
+________________________________________
+
+&nbsp;
+&nbsp;
+&nbsp;
+
+## Login functionality, registration
+
+________________________________________
+  
+
+### 1# Passport - Users can register and login 
+
+
+
+#### Backend - done
+
+
+
+#### (DESIGN) Frontend work in progress 
+
+&nbsp;
+&nbsp;   
+&nbsp;
+
+
+### #2 Registration image upload 
+
+	Moving functionality from state based to work with multer and store images serverside under user ID.
+
+
+### 3# Adding auth0.  
+
+
+
+#### Backend - Work in progress
+
+#### Frontend work in progress.
+
+
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
+## User panel Setup
+
+________________________________________   
+
+&nbsp;
+&nbsp;   
+&nbsp;
+
+### 1# Via Userpanel be able to see your favorites and delete and see new ones added
+
+	The idea : Remove current favorites menu point and only show inside user panel.
+	
+	Migrate favorites functionality from using localstorage to using the express api and storing information under the 	   user login
+
+
+#### Backend *** needs testing 
+
+#### Frontend *** Work in progress. 
+
+&nbsp;
+&nbsp;   
+&nbsp;
+
+
+
+### 2# Via Userpanel able to update a submitted comment and delete a submitted comment
+
+
+#### Backend **** Work in progress
+
+#### Frontend started **** Work in progress
+
+
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;  
+&nbsp;
+&nbsp;   
+&nbsp;
+&nbsp;
+&nbsp;   
+&nbsp;  
+
+## Admin Panel setup
+
+________________________________________
+
+
+
+### 1# Admin Panel Frontend structure
+
+  
+
+#### Admin GET all the registered users' information from the database and see it in the adminpanel
+
+
+##### Backend done **** Work in progress
+##### Frontend started **** Work in progress
+
+&nbsp;
+&nbsp;   
+&nbsp;
+
+
+### 2# Admin allowed / able to upload files, (MULTER and FS) such as images when creating new dishes. and see it in the adminpanel
+
+
+#### Backend **** Work in progress
+
+
+#### Frontend started **** Work in progress
+
+&nbsp;
+&nbsp;   
+&nbsp;
+
+### 3#  Admin allowed see and flag dishes as featured or not. and see it in the adminpanel**
+
+
+
+#### Backend - done
+
+#### Frontend started **** Work in progress
+
+&nbsp;
+&nbsp;   
+&nbsp;
+
+### 4#  Admin can see and flag leaders as featured for the frontpage and see it in the adminpanel**
+
+
+
+#### Backend - done
+
+#### Frontend started **** Work in progressReact Native FullStack App
+
+&nbsp;
+&nbsp;   
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
+&nbsp;
+&nbsp;   
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
+
  ## Component Testing is backed up by Storybook.js
    
    	Small explanation: 

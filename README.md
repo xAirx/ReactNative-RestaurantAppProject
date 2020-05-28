@@ -76,11 +76,9 @@ ________________________________________
 
 # Todo 
 	
-	
 	- Connect to heroku API. BaseURL - done 
 	- Redux pulls data correctly - done
 	 
-
          - Learn how to seed a leader
 	 - Learn how to add a promos
 	 
@@ -109,7 +107,20 @@ ________________________________________
 
 ________________________________________
 
-
+## #0--------------Fileuploading with multer---------------------------- Under development
+          
+	  Correctly setting up the uploadRouter
+	  
+	  Understanding the concept of heroku file system and using bash to connect
+	  
+	  Understand why we need proper storage - adding cloudinary.
+	  
+	  Understand how to upload a file correctly.
+	 
+	  
+	  
+	  
+	  
 	 
 ## #1 Connecting JWT register + login functionality to frontend  - not started
 	 
@@ -232,9 +243,7 @@ ________________________________________
 
 	Moving functionality from state based to work with multer and store images serverside under user ID.
 
-
-### 3# Adding auth0.  
-
+	### Adding auth0 button etc.
 
 
 #### Backend - Work in progress

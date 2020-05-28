@@ -75,14 +75,11 @@ ________________________________________
 
 
 # Todo 
-	
-	- Connect to heroku API. BaseURL - done 
-	- Redux pulls data correctly - done
-	 
-         - Learn how to seed a leader
-	 - Learn how to add a promos
-	 
+ 
 	 - Image handling (Multer /// Filestorage)
+	 
+		 - Cloudinary integration 
+	 
 	 
 	 Connecting JWT register + login functionality to frontend
 	 

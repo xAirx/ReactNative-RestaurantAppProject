@@ -73,20 +73,14 @@ Expected List of Features & Architecture
 ________________________________________
 
 
-# IN progress 
- 
-	 #1 - Image handling (Multer /// Filestorage)
-	 
-		 - Cloudinary integration 
-	 
-	
-	 
-	 
-	 #2 Connecting JWT register + login functionality to frontend
-	 
-	 - Create Refresh Token Functionality - and API endpoint for this purpose.
-	 - Implementing httpcookie to hold the JWT serverside so we can compare for a refresh token.
-	 - Connecting backend to frontend - recieve token in browser as cookie 
+# IN progress project pipeline and roadmap here:
+
+
+- Backend :  https://github.com/xAirx/Backend-for-React-Native-project
+  
+  
+- Frontend app Code:      https://github.com/xAirx/Frontend-for-React-Native-project
+         
 
 
 

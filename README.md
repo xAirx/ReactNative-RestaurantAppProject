@@ -24,7 +24,7 @@
   
   
   
-- Frontend app Code:      https://github.com/xAirx/ReactNativeRestaurantApp
+- Frontend app Code:      https://github.com/xAirx/Frontend-for-React-Native-project
          
 
 

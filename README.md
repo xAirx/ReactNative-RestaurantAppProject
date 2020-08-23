@@ -1,7 +1,7 @@
 # My React Native Project 
 
 
-
+## IN progress project pipeline and roadmaps here:
 
 
 - Backend :  https://github.com/xAirx/Backend-for-React-Native-project
@@ -58,67 +58,8 @@
 
 
 
-# Current Development Log (subject to change) : 
-
-Expected List of Features & Architecture
-
+# RestaurantApp
 &nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-
-# React Native FullStack App
-
-
-________________________________________
-
-
-# IN progress project pipeline and roadmap here:
-
-
-- Backend :  https://github.com/xAirx/Backend-for-React-Native-project
-  
-  
-- Frontend app Code:      https://github.com/xAirx/Frontend-for-React-Native-project
-         
-
-
-
-________________________________________
-
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-
-
-
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;   
-&nbsp;
-&nbsp;
-&nbsp;   
-&nbsp;
-&nbsp;
-&nbsp;   
-&nbsp;
-
-&nbsp;
-
 &nbsp;
 &nbsp;   
 &nbsp;
